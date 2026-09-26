@@ -1,4 +1,4 @@
 target_drug: Nicotine
 
-corruption_rate: 1
+corruption_rate: 0.2
 number_of_seeds: 1
