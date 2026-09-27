@@ -2,3 +2,22 @@ target_drug: Nicotine
 
 corruption_rate: 0.2
 number_of_seeds: 1
+
+columns:
+  continuous:
+    - Nscore
+    - Escore
+    - Oscore
+    - AScore
+    - Cscore
+    - Impulsive
+    - SS
+
+  categorical:
+    - Age
+    - Gender
+    - Education
+    - Country
+    - Ethnicity
+
+  target: Cannabis
