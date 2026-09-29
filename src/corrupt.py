@@ -31,22 +31,22 @@ avaliable_columns = config["columns"]["continuous"] + config["columns"]["categor
 #     'SS',
 # ]
 
-def random_missing_values(df, corrupt_rate):
+def random_missing_values(df, corruption_rate):
 
     avaliable_cells = df.shape[0] * (df.shape[1] - 1) # availiable cells (without target one)
-    corrupt_cells = round(avaliable_cells * corrupt_rate) #number of cells that has to be corrupted 
+    corrupted_cells = round(avaliable_cells * corruption_rate) #number of cells that has to be corrupted 
 
     corrupted_df = df.copy() # creaet a copy of df to corrupt
     mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_drug]) # create a df to fill with Fase (non empty cells)
     sample_list = [] # creating all possible pairs based on rows and columns
 
-    # get all the possible paris row + column
+    # get all the possible pearis row + column
     for i in df.index:
         for j in avaliable_columns:
             sample_list.append((i, j))
 
-    # simple random sample ne = corrupt_cells
-    random_sample_list = random.sample(sample_list, corrupt_cells)
+    # simple random sample ne = corrupted_cells
+    random_sample_list = random.sample(sample_list, corrupted_cells)
 
     # corrupt cells
     for i in random_sample_list:

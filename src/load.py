@@ -14,21 +14,9 @@ with config_path.open() as config_file:
     config = yaml.safe_load(config_file)
 
 target_drug = config["target_drug"]
+columns = config["columns"]
 
-features = [
-    'Age',
-    'Gender', 
-    'Education', 
-    'Country', 
-    'Ethnicity', 
-    'Nscore',
-    'Escore',
-    'Oscore', 
-    'AScore', 
-    'Cscore', 
-    'Impulsive', 
-    'SS',
-]
+features = columns["continuous"] + columns["categorical"]
 
 # read the dataset
 def load_model_data(file_path: Path): 

@@ -13,12 +13,14 @@ with config_path.open() as config_file:
 
 target_drug = config["target_drug"]
 
-def continuous_recovery(original_df, cleaned_df, mask_df, cols):
+def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
     
-    # create a copu of dfs 
+    # create a copy of dfs 
     original_df = original_df.copy()
     cleaned_df = cleaned_df.copy()
     mask_df = mask_df.copy()
+
+    cols = cols["continuous"]
 
     # data from original and from cleaned df
     true_values = []
@@ -42,7 +44,10 @@ def continuous_recovery(original_df, cleaned_df, mask_df, cols):
     bias = np.mean(residuals)
 
     # calculate variance ratio 
-    variance_ratio = np.var(np.array(imputed_values)) / np.var(np.array(true_values))
+    if len(imputed_values) < 2:
+        variance_ratio = None
+    else:
+        variance_ratio = np.var(np.array(imputed_values)) / np.var(np.array(true_values))
 
     # Wasserstein distance
     wasserstein = wasserstein_distance(imputed_values, true_values)
