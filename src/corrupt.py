@@ -14,21 +14,22 @@ with config_path.open() as config_file:
 
 target_drug = config["target_drug"]
 
+avaliable_columns = config["columns"]["continuous"] + config["columns"]["categorical"]
 
-avaliable_columns = [
-    'Age',
-    'Gender', 
-    'Education', 
-    'Country', 
-    'Ethnicity', 
-    'Nscore',
-    'Escore',
-    'Oscore', 
-    'AScore', 
-    'Cscore', 
-    'Impulsive', 
-    'SS',
-]
+# avaliable_columns = [
+#     'Age',
+#     'Gender', 
+#     'Education', 
+#     'Country', 
+#     'Ethnicity', 
+#     'Nscore',
+#     'Escore',
+#     'Oscore', 
+#     'AScore', 
+#     'Cscore', 
+#     'Impulsive', 
+#     'SS',
+# ]
 
 def random_missing_values(df, corrupt_rate):
 
