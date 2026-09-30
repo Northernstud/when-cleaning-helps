@@ -18,6 +18,7 @@ with config_path.open() as config_file:
 target_drug = config["target_drug"]
 corruption_rate = config["corruption_rate"]
 columns = config["columns"]
+seed = config["seed"]
 drug_consumption = project_dir / f"data/processed/Drug_Consumption_{target_drug}.csv"
 
 def load_corrupt_df():
@@ -25,7 +26,7 @@ def load_corrupt_df():
     df = pd.read_csv(drug_consumption)
 
     # corrupt the df using random_missing_values
-    corrupt_df, mask_df = random_missing_values(df, corruption_rate)
+    corrupt_df, mask_df = random_missing_values(df, corruption_rate, seed)
 
     return corrupt_df, mask_df
 

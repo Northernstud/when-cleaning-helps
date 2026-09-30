@@ -31,7 +31,7 @@ avaliable_columns = config["columns"]["continuous"] + config["columns"]["categor
 #     'SS',
 # ]
 
-def random_missing_values(df, corruption_rate):
+def random_missing_values(df, corruption_rate, seed):
 
     avaliable_cells = df.shape[0] * (df.shape[1] - 1) # availiable cells (without target one)
     corrupted_cells = round(avaliable_cells * corruption_rate) #number of cells that has to be corrupted 
@@ -45,8 +45,10 @@ def random_missing_values(df, corruption_rate):
         for j in avaliable_columns:
             sample_list.append((i, j))
 
+    rng = random.Random(seed)
+
     # simple random sample ne = corrupted_cells
-    random_sample_list = random.sample(sample_list, corrupted_cells)
+    random_sample_list = rng.sample(sample_list, corrupted_cells)
 
     # corrupt cells
     for i in random_sample_list:

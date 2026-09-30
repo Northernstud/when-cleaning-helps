@@ -15,6 +15,7 @@ with config_path.open() as config_file:
 
 corruption_rate = config["corruption_rate"]
 target_drug = config["target_drug"]
+seed = config["seed"]
 
 drug_consumption = project_dir / f"data/processed/Drug_Consumption_{target_drug}.csv"
 
@@ -24,7 +25,7 @@ def load_corrupt_df():
     df = pd.read_csv(drug_consumption)
 
     # corrupt the df using random_missing_values
-    corrupt_df, mask_df = random_missing_values(df, corruption_rate)
+    corrupt_df, mask_df = random_missing_values(df, corruption_rate, seed)
 
     return corrupt_df, mask_df
 
@@ -99,7 +100,7 @@ def test_input_frame():
     original_df_copy = original_df.copy() # copy the original
 
     #run it to corrupt
-    random_missing_values(original_df, corruption_rate)
+    random_missing_values(original_df, corruption_rate, seed)
 
     assert original_df.equals(original_df_copy)
     print("The input frame remained unchanged")
