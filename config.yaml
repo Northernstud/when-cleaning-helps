@@ -19,3 +19,22 @@ columns:
     - Education
     - Country
     - Ethnicity
+
+experiment:
+  seeds:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+
+  corruption_rates:
+    - 0.1
+    - 0.2
+    - 0.3
+
+  strategies:
+    - mean_fill
+
+  corruption_types:
+    - random_missing_values

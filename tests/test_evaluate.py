@@ -1,4 +1,4 @@
-# Here you can find the test of the clean.py
+# Here you can find the test of the evaluate.py
 import pandas as pd
 import numpy as np
 from pathlib import Path

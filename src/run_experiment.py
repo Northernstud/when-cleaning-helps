@@ -1,0 +1,82 @@
+# Here you can find the test of the clean.py
+import pandas as pd
+import numpy as np
+from pathlib import Path
+from src.corrupt import random_missing_values
+from src.clean import mean_fill
+from src.evaluate import evaluate_continuous_recovery
+from scipy.stats import wasserstein_distance
+import yaml 
+
+project_dir = Path(__file__).resolve().parent.parent
+config_path = project_dir / "config.yaml"
+
+
+with config_path.open() as config_file:
+    config = yaml.safe_load(config_file)
+
+target_drug = config["target_drug"]
+columns = config["columns"]
+experiment = config["experiment"]
+seeds = experiment["seeds"]
+corruption_rates = experiment["corruption_rates"]
+strategies = experiment["strategies"]
+corruption_types = experiment["corruption_types"]
+drug_consumption = project_dir / f"data/processed/Drug_Consumption_{target_drug}.csv"
+
+strategies_map = {
+    "mean_fill": mean_fill,
+}
+
+corruption_types_map = {
+    "random_missing_values": random_missing_values,
+}
+
+def run_experiment(df): 
+
+    original_df = df.copy()
+
+    results = []
+
+    for seed in seeds:
+        for corruption_rate in corruption_rates:
+            for strategy in strategies:
+                for corruption_type in corruption_types:
+                    # get the functions from map
+                    clean_func = strategies_map[strategy]
+                    corrupt_func = corruption_types_map[corruption_type]
+
+                    # corrupt the df with certain type
+                    corrupted_df, mask_df = corrupt_func(original_df, corruption_rate, seed)
+
+                    # clean the df with certain strategy
+                    cleaned_df = clean_func(corrupted_df, columns, {})
+
+                    # evaluate the cleaned df
+                    evaluated_metrics = evaluate_continuous_recovery(original_df, cleaned_df, mask_df, columns)
+
+                    # create an dictionary with values
+                    row = {
+                        "seed": seed,
+                        "corruption_rate": corruption_rate,
+                        "strategy": strategy,
+                        "corruption_type": corruption_type,
+                        "rmse": evaluated_metrics["rmse"],
+                        "mae": evaluated_metrics["mae"],
+                        "bias": evaluated_metrics["bias"],
+                        "variance_ratio": evaluated_metrics["variance_ratio"],
+                        "wasserstein": evaluated_metrics["wasserstein"]
+                    }
+
+                    results.append(row)
+
+    # create a result df
+    result_df = pd.DataFrame(results)
+
+    # save it as parquet
+    file_path = project_dir / "results/experiments.parquet"
+    result_df.to_parquet(file_path)
+
+    return result_df
+    
+
