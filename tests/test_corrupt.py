@@ -41,9 +41,9 @@ def test_missing_rate():
 
     df, mask_df = load_corrupt_df()
 
-    avaliable_cells = df.shape[0] * (df.shape[1] - 1) # get all the avaliable cells with the shape of the df
-    actual_corruption_rate = mask_df.sum().sum() / avaliable_cells # numbers of True cells over all the cells
-    expected_corrupt_cells = round(avaliable_cells * corruption_rate) # number of expected corrupted_cells
+    all_cells = df.shape[0] * (df.shape[1]) # get all the avaliable cells with the shape of the df
+    actual_corruption_rate = mask_df.sum().sum() / all_cells # numbers of True cells over all the cells
+    expected_corrupt_cells = round(all_cells * corruption_rate) # number of expected corrupted_cells
     corrupted_cells =  mask_df.sum().sum()
 
 
