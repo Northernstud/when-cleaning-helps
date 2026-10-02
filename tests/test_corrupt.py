@@ -2,7 +2,7 @@
 # import pandas
 import pandas as pd 
 from pathlib import Path
-from src.corrupt import random_missing_values
+from src.corrupt import random_missing_values, mnar_missing_values
 import yaml
 
 # get the paths
@@ -16,6 +16,7 @@ with config_path.open() as config_file:
 corruption_rate = config["corruption_rate"]
 target_drug = config["target_drug"]
 seed = config["seed"]
+columns = config["columns"]
 
 drug_consumption = project_dir / f"data/processed/Drug_Consumption_{target_drug}.csv"
 
@@ -104,4 +105,25 @@ def test_input_frame():
 
     assert original_df.equals(original_df_copy)
     print("The input frame remained unchanged")
+
+def test_mnar_rate():
+    df = pd.read_csv(drug_consumption)
+
+    # corrupt the df using random_missing_values
+    corrupt_df, mask_df = mnar_missing_values(df, corruption_rate, seed)
+
+    eligible_cells = df.shape[0] * len(columns["continuous"]) # get all the avaliable cells with the shape of the df
+    actual_corruption_rate = mask_df.sum().sum() / eligible_cells # numbers of True cells over all the cells
+    expected_corrupt_cells = round(eligible_cells * corruption_rate) # number of expected corrupted_cells
+    corrupted_cells =  mask_df[columns["continuous"]].sum().sum()
+
+
+    # check if the target column contains NaNs
+    if mask_df[target_drug].sum().sum() != 0:
+        assert False, "The target column is corrupted!"
+
+    assert expected_corrupt_cells == corrupted_cells, f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
+
+    print()
+    print(f"Target corruption rate: {corruption_rate} \nActual corruption rate: {actual_corruption_rate}")
 

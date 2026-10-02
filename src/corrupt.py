@@ -4,6 +4,7 @@ import pandas as pd # import pandas
 import random # import random for corrupting 
 from pathlib import Path
 import yaml
+import numpy as np
 
 project_dir = Path(__file__).resolve().parent.parent
 config_path = project_dir / "config.yaml"
@@ -62,6 +63,56 @@ def random_missing_values(df, corruption_rate, seed):
 def mnar_missing_values(df, corruption_rate, seed): 
 
     corrupted_df = df.copy() # creaet a copy of df to corrupt
+
+    eligible_cells = df.shape[0] * len(continuous_columns)
+
+    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_drug]) # create a df to fill with Fase (non empty cells)
+
+    high_usage_sample = []
+    low_usage_sample = []
+
+    # get all the possible pearis row + column
+    for i in df.index:
+        for j in continuous_columns:
+            if corrupted_df.at[i, target_drug] == 1: 
+                high_usage_sample.append((i, j))
+            else:
+                low_usage_sample.append((i, j))
+
+    rng = random.Random(seed)
+
+    high_usage_proportion = corrupted_df[target_drug].sum() / df.shape[0]
+    low_usage_proportion = (df.shape[0] - corrupted_df[target_drug].sum()) / df.shape[0]
+
+    A = np.array([
+        [high_usage_proportion, low_usage_proportion],
+        [1, -3]
+    ])
+
+    b = np.array([corruption_rate, 0])
+
+    solution = np.linalg.solve(A, b)
+
+    expected_corrupt_cells = round(eligible_cells * corruption_rate)
+
+    high_usage_cells = round(solution[0] * len(high_usage_sample))
+    low_usage_cells = expected_corrupt_cells - high_usage_cells
+
+    # simple random sample ne = corrupted_cells
+    random_sample_list_high_usage = rng.sample(high_usage_sample, high_usage_cells)
+    random_sample_list_low_usage = rng.sample(low_usage_sample, low_usage_cells)
+
+    for i in random_sample_list_high_usage:
+        corrupted_df.at[i[0], i[1]] = None
+        mask_df.at[i[0], i[1]] = True
+
+    for i in random_sample_list_low_usage:
+        corrupted_df.at[i[0], i[1]] = None
+        mask_df.at[i[0], i[1]] = True
+
+    return corrupted_df, mask_df
+
+
 
 
 

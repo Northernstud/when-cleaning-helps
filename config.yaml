@@ -1,7 +1,7 @@
 target_drug: Nicotine
 
-corruption_rate: 0.2008
-seed: 42
+corruption_rate: 0.2018
+seed: 499
 
 columns:
   continuous:
