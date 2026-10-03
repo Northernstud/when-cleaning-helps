@@ -2,7 +2,7 @@
 # import pandas
 import pandas as pd 
 from pathlib import Path
-from src.corrupt import random_missing_values, mnar_missing_values, typo_corruption
+from src.corrupt import random_missing_values, mnar_missing_values, typo_corruption, decimal_corruptor
 import yaml
 
 # get the paths
@@ -169,3 +169,24 @@ def test_typo_columns():
     sum_type_country = mask_df[eligible_columns[1]].sum().sum()
 
     assert sum_all_other_columns == 0 and sum_typo_education != 0 and sum_type_country != 0
+
+def test_decimal_corruptor():
+
+    df = pd.read_csv(drug_consumption)
+
+    df, mask_df = decimal_corruptor(df, corruption_rate, seed)
+    
+    all_cells = df.shape[0] * len(columns["continuous"])# get all the avaliable cells with the shape of the df
+    actual_corruption_rate = mask_df.sum().sum() / all_cells # numbers of True cells over all the cells
+    expected_corrupt_cells = round(all_cells * corruption_rate) # number of expected corrupted_cells
+    corrupted_cells =  mask_df.sum().sum()
+
+
+    # check if the target column contains NaNs
+    if mask_df[target_drug].sum().sum() != 0:
+        assert False, "The target column is corrupted!"
+
+    assert corrupted_cells == expected_corrupt_cells, f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
+
+    print()
+    print(f"Target corruption rate: {corruption_rate} \nActual corruption rate: {actual_corruption_rate}")

@@ -138,5 +138,33 @@ def typo_corruption(df, corruption_rate, seed):
 
     return corrupted_df, mask_df
 
+def decimal_corruptor(df, corruption_rate, seed):
+    eligible_columns = df.shape[0] * (len(continuous_columns)) # availiable cells (without target one)
+    corrupted_cells = round(eligible_columns * corruption_rate) #number of cells that has to be corrupted 
 
+    corrupted_df = df.copy() # creaet a copy of df to corrupt
+    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_drug]) # create a df to fill with Fase (non empty cells)
+    sample_list = [] # creating all possible pairs based on rows and columns
+
+    # get all the possible pearis row + column
+    for i in df.index:
+        for j in continuous_columns:
+            if corrupted_df.at[i, j] != 0: 
+                sample_list.append((i, j))
+
+    rng = random.Random(seed)
+
+    # simple random sample ne = corrupted_cells
+    random_sample_list = rng.sample(sample_list, corrupted_cells)
+
+    # corrupt cells
+    for i in random_sample_list:
+        probability = rng.randint(0, 1)
+        if probability == 1:
+            corrupted_df.at[i[0], i[1]] = corrupted_df.at[i[0], i[1]] * 10
+        else: 
+            corrupted_df.at[i[0], i[1]] = corrupted_df.at[i[0], i[1]] / 10
+        mask_df.at[i[0], i[1]] = True
+
+    return corrupted_df, mask_df
 
