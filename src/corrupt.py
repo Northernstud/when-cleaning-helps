@@ -168,3 +168,51 @@ def decimal_corruptor(df, corruption_rate, seed):
 
     return corrupted_df, mask_df
 
+def duplicates_corruptor(df, corruption_rate, seed):
+
+    duplicates_needed = round(df.shape[0] * corruption_rate)
+    sample_list = [] # creating all possible pairs based on rows and columns
+
+    corrupted_df = df.copy()
+
+    for i in corrupted_df.index:
+        sample_list.append(i)
+
+    rng = random.Random(seed)
+
+    random_sample_list = rng.sample(sample_list, duplicates_needed)
+
+    mask_columns = ["new_row_id", "source_row_id", "perturbed_cols"]
+    mask_df = pd.DataFrame(index=range(duplicates_needed), columns=mask_columns)
+
+    row_count = 0
+    for i in random_sample_list: 
+        prob = rng.randint(0, 1)
+
+        if prob == 0:
+            column_name = [rng.choice(continuous_columns)]
+        else: 
+            # choose 2 different continuous columns
+            column_name = rng.sample(continuous_columns, 2)
+
+        new_row_id = len(df) + row_count
+
+        corrupted_df.loc[new_row_id] = corrupted_df.loc[i]
+        corrupted_df.loc[new_row_id, column_name] = corrupted_df.loc[new_row_id, column_name] + 0.00001
+        corrupted_df.loc[new_row_id, "ID"] = new_row_id
+        
+        mask_df.loc[row_count, "new_row_id"] = new_row_id
+        mask_df.loc[row_count, "source_row_id"] = i
+        mask_df.loc[row_count, "perturbed_cols"] = column_name
+
+        row_count += 1
+
+    return corrupted_df, mask_df
+
+    
+
+    
+
+
+
+

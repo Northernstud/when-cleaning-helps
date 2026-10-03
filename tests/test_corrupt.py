@@ -2,7 +2,7 @@
 # import pandas
 import pandas as pd 
 from pathlib import Path
-from src.corrupt import random_missing_values, mnar_missing_values, typo_corruption, decimal_corruptor
+from src.corrupt import random_missing_values, mnar_missing_values, typo_corruption, decimal_corruptor, duplicates_corruptor
 import yaml
 
 # get the paths
@@ -36,6 +36,8 @@ def load_original_df():
     df = pd.read_csv(drug_consumption)
 
     return df
+
+
      
 # test if corruption rate match the actual rate
 def test_missing_rate():
@@ -107,7 +109,7 @@ def test_input_frame():
     print("The input frame remained unchanged")
 
 def test_mnar_rate():
-    df = pd.read_csv(drug_consumption)
+    df = load_original_df()
 
     # corrupt the df using random_missing_values
     corrupt_df, mask_df = mnar_missing_values(df, corruption_rate, seed)
@@ -129,7 +131,7 @@ def test_mnar_rate():
 
 
 def test_typos_rate():
-    df = pd.read_csv(drug_consumption)
+    df = load_original_df()
 
     # corrupt the df using random_missing_values
     corrupt_df, mask_df = typo_corruption(df, corruption_rate, seed)
@@ -153,7 +155,7 @@ def test_typos_rate():
 def test_typo_columns():
 
     # read teh drug_consumption 
-    df = pd.read_csv(drug_consumption)
+    df = load_original_df()
 
     corrupt_df, mask_df = typo_corruption(df, corruption_rate, seed)
     corrupted_columns = []
@@ -172,7 +174,7 @@ def test_typo_columns():
 
 def test_decimal_corruptor():
 
-    df = pd.read_csv(drug_consumption)
+    df = load_original_df()
 
     df, mask_df = decimal_corruptor(df, corruption_rate, seed)
     
@@ -190,3 +192,42 @@ def test_decimal_corruptor():
 
     print()
     print(f"Target corruption rate: {corruption_rate} \nActual corruption rate: {actual_corruption_rate}")
+
+def test_duplicate_row_count():
+
+    df = load_original_df()
+
+    corrupt_df, mask_df = duplicates_corruptor(df, corruption_rate, seed)
+
+    expected_row_count = round(df.shape[0] * corruption_rate)
+    extra_rows = len(corrupt_df) - len(df)
+    actual_row_count = len(mask_df)
+
+    assert expected_row_count == actual_row_count and extra_rows == actual_row_count
+
+# test if the original df was edited
+def test_input_frame_duplicate():
+
+    original_df = load_original_df() # get the original df
+    original_df_copy = original_df.copy() # copy the original
+
+    #run it to corrupt
+    duplicates_corruptor(original_df, corruption_rate, seed)
+
+    assert original_df.equals(original_df_copy)
+    print("The input frame remained unchanged")
+
+def test_duplicate_id():
+
+    original_df = load_original_df() # get the original df
+
+    corrupted_df, mask_df = duplicates_corruptor(original_df, corruption_rate, seed)
+
+    # get the i of the mask df 
+    new_ids = mask_df["new_row_id"]
+
+    # get the id in the original_df
+    original_ids = original_df.index
+
+    assert (~new_ids.isin(original_ids)).all()
+
