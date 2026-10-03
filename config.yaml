@@ -1,7 +1,7 @@
 target_drug: Nicotine
 
 corruption_rate: 0.2018
-seed: 499
+seed: 42
 
 columns:
   continuous:
@@ -38,3 +38,4 @@ experiment:
 
   corruption_types:
     - random_missing_values
+    - mnar_missing_values

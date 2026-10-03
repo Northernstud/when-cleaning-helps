@@ -5,6 +5,7 @@ import random # import random for corrupting
 from pathlib import Path
 import yaml
 import numpy as np
+import string
 
 project_dir = Path(__file__).resolve().parent.parent
 config_path = project_dir / "config.yaml"
@@ -18,21 +19,7 @@ target_drug = config["target_drug"]
 avaliable_columns = config["columns"]["continuous"] + config["columns"]["categorical"]
 continuous_columns = config["columns"]["continuous"]
 
-# avaliable_columns = [
-#     'Age',
-#     'Gender', 
-#     'Education', 
-#     'Country', 
-#     'Ethnicity', 
-#     'Nscore',
-#     'Escore',
-#     'Oscore', 
-#     'AScore', 
-#     'Cscore', 
-#     'Impulsive', 
-#     'SS',
-# ]
-
+# random missing corruptor
 def random_missing_values(df, corruption_rate, seed):
 
     all_cells = df.shape[0] * (df.shape[1]) # availiable cells (without target one)
@@ -113,7 +100,43 @@ def mnar_missing_values(df, corruption_rate, seed):
     return corrupted_df, mask_df
 
 
+def typo_corruption(df, corruption_rate, seed):
 
+    corrupted_df = df.copy() # creaet a copy of df to corrupt
+    eligible_columns = ["Education", "Country"]
+    eligible_cells = corrupted_df.shape[0] * len(eligible_columns)
+    corrupted_cells = round(eligible_cells * corruption_rate)
+
+    mask_df = pd.DataFrame(False, index=df.index, columns=df.columns) # create a df to fill with Fase (non empty cells)
+
+    sample_list = [] # creating all possible pairs based on rows and columns
+    
+    # get all the possible pearis row + column
+    for i in df.index:
+        for j in eligible_columns:
+            sample_list.append((i, j))
+
+    rng = random.Random(seed)
+
+    random_sample_list = rng.sample(sample_list, corrupted_cells)
+
+    for i in random_sample_list:
+        original_word = corrupted_df.at[i[0], i[1]]
+        original_word_array = list(corrupted_df.at[i[0], i[1]])
+        position = rng.randrange(len(original_word))
+        replacement = rng.choice(string.ascii_letters)
+
+        while replacement == original_word_array[position]:
+            replacement = rng.choice(string.ascii_letters)
+
+        original_word_array[position] = replacement
+
+        new_word = "".join(original_word_array)
+
+        corrupted_df.at[i[0], i[1]] = new_word
+        mask_df.at[i[0], i[1]] = True
+
+    return corrupted_df, mask_df
 
 
 

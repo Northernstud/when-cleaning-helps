@@ -2,7 +2,7 @@
 import pandas as pd
 import numpy as np
 from pathlib import Path
-from src.corrupt import random_missing_values
+from src.corrupt import random_missing_values, mnar_missing_values, typo_corruption
 from src.clean import mean_fill
 from src.evaluate import evaluate_continuous_recovery
 from scipy.stats import wasserstein_distance
@@ -30,6 +30,8 @@ strategies_map = {
 
 corruption_types_map = {
     "random_missing_values": random_missing_values,
+    "mnar_missing_values": mnar_missing_values,
+    "typo_corruption": typo_corruption,
 }
 
 def run_experiment(df): 
