@@ -1,6 +1,7 @@
 # Here you can find fucntions that clean the dataset
 import pandas as pd
 from pathlib import Path
+from sklearn.impute import KNNImputer
 import yaml 
 
 project_dir = Path(__file__).resolve().parent.parent
@@ -30,8 +31,24 @@ def mean_fill(df, cols, params):
 
     return clean_df
 
-    
+def do_nothing(df, cols, params):
+    return df.copy()
 
+def knn_impute(df, cols, params):
+
+    cleaned_df = df.copy()
+
+    continuous_columns = cols["continuous"]
+
+    k = params["n_neighbors"]
+
+    imputer = KNNImputer(n_neighbors=k)
+
+    cleaned_df[continuous_columns] = imputer.fit_transform(
+        df[continuous_columns]
+    )
+
+    return cleaned_df
     
 
     

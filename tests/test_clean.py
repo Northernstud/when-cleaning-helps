@@ -1,8 +1,9 @@
 # Here you can find the test of the clean.py
 import pandas as pd
+import numpy as np
 from pathlib import Path
 from src.corrupt import random_missing_values
-from src.clean import mean_fill
+from src.clean import mean_fill, do_nothing, knn_impute
 import yaml 
 
 project_dir = Path(__file__).resolve().parent.parent
@@ -80,7 +81,42 @@ def test_input_frame():
     assert original_df.equals(original_df_copy)
     print("The input frame remained unchanged")
 
+def test_do_nothing_input_frame():
+
+    original_df = load_original_df() # get the original df
+    original_df_copy = original_df.copy() # copy the original
+
+    #run it to corrupt
+    do_nothing(original_df, columns, {})
+
+    assert original_df.equals(original_df_copy)
+    print("The input frame remained unchanged")
 
 
+def test_knn_removes_missing_values():
 
-    
+    original_df = load_original_df() # get the original df
+
+    corrupted_df = original_df.copy()
+
+    corrupted_df.loc[0, "Nscore"] = np.nan
+    corrupted_df.loc[1, "Escore"] = np.nan
+    corrupted_df.loc[2, "Oscore"] = np.nan
+
+    cleaned_df = knn_impute(corrupted_df, columns, {"n_neighbors": 3})
+
+    assert not cleaned_df.isna().any().any()
+
+def test_knn_only_continuous():
+
+    original_df = load_original_df() # get the original df
+    corrupted_df, mask_df = random_missing_values(original_df, corruption_rate, seed)
+
+    cleaned_df = knn_impute(corrupted_df, columns, {"n_neighbors": 3})
+
+    continuous_missings = corrupted_df[columns["continuous"]].isna().sum().sum()
+    total_missing = corrupted_df.isna().sum().sum()
+    missings_after_cleanning = cleaned_df.isna().sum().sum()
+
+
+    assert total_missing - missings_after_cleanning == continuous_missings
