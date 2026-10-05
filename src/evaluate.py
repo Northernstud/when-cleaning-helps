@@ -32,29 +32,22 @@ def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
     cols = cols["continuous"]
 
     # data from original and from cleaned df
-    true_values = []
-    imputed_values = []
 
     recovery_applicable = True
 
     common = mask_df.index.intersection(cleaned_df.index)
+    m = mask_df.loc[common, cols].to_numpy()
 
-    for i in common:
-        for j in cols:
-            if mask_df.at[i, j]:
-                if pd.isna(cleaned_df.at[i, j]):
-                    recovery_applicable = False
-                
-                true_values.append(original_df.at[i, j])
-                imputed_values.append(cleaned_df.at[i, j])
-
-    if not imputed_values:
+    if m.sum() == 0:
         return NOT_APPLICABLE
 
-    if not recovery_applicable:
+    true_values = original_df.loc[common, cols].to_numpy()[m]
+    imputed_values = cleaned_df.loc[common, cols].to_numpy()[m]
+
+    if np.isnan(imputed_values).any():
         return NOT_APPLICABLE
     
-    residuals = np.array(true_values) - np.array(imputed_values)
+    residuals = true_values - imputed_values
 
     # calculate rmse
     rmse = np.sqrt(np.mean(residuals ** 2))
@@ -66,10 +59,10 @@ def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
     bias = np.mean(residuals)
 
     # calculate variance ratio 
-    if len(imputed_values) < 2 or np.var(np.array(true_values)) == 0:
+    if len(imputed_values) < 2 or np.var(true_values) == 0:
         variance_ratio = None
     else:
-        variance_ratio = np.var(np.array(imputed_values)) / np.var(np.array(true_values))
+        variance_ratio = np.var(imputed_values) / np.var(true_values)
 
     # Wasserstein distance
     wasserstein = wasserstein_distance(imputed_values, true_values)
