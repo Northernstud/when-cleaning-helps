@@ -44,14 +44,14 @@ def run_experiment(df):
 
     for seed in seeds:
         for corruption_rate in corruption_rates:
-            for strategy in strategies:
-                for corruption_type in corruption_types:
+            for corruption_type in corruption_types:
+                corrupt_func = corruption_types_map[corruption_type]
+                # corrupt the df with certain type
+                corrupted_df, mask_df = corrupt_func(original_df, corruption_rate, seed)
+                for strategy in strategies:
+                
                     # get the functions from map
                     clean_func = strategies_map[strategy]
-                    corrupt_func = corruption_types_map[corruption_type]
-
-                    # corrupt the df with certain type
-                    corrupted_df, mask_df = corrupt_func(original_df, corruption_rate, seed)
 
                     # clean the df with certain strategy
                     cleaned_df = clean_func(corrupted_df, columns, {"n_neighbors": 3})
