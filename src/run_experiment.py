@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from src.corrupt import random_missing_values, mnar_missing_values, typo_corruption
-from src.clean import mean_fill
+from src.clean import mean_fill, do_nothing, knn_impute
 from src.evaluate import evaluate_continuous_recovery
 from scipy.stats import wasserstein_distance
 import yaml 
@@ -26,6 +26,8 @@ drug_consumption = project_dir / f"data/processed/Drug_Consumption_{target_drug}
 
 strategies_map = {
     "mean_fill": mean_fill,
+    "do_nothing": do_nothing,
+    "knn_impute": knn_impute
 }
 
 corruption_types_map = {
@@ -52,7 +54,7 @@ def run_experiment(df):
                     corrupted_df, mask_df = corrupt_func(original_df, corruption_rate, seed)
 
                     # clean the df with certain strategy
-                    cleaned_df = clean_func(corrupted_df, columns, {})
+                    cleaned_df = clean_func(corrupted_df, columns, {"n_neighbors": 3})
 
                     # evaluate the cleaned df
                     evaluated_metrics = evaluate_continuous_recovery(original_df, cleaned_df, mask_df, columns)
@@ -63,6 +65,7 @@ def run_experiment(df):
                         "corruption_rate": corruption_rate,
                         "strategy": strategy,
                         "corruption_type": corruption_type,
+                        "recovery_applicable": evaluated_metrics["recovery_applicable"],
                         "rmse": evaluated_metrics["rmse"],
                         "mae": evaluated_metrics["mae"],
                         "bias": evaluated_metrics["bias"],

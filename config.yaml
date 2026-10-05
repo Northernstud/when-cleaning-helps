@@ -35,6 +35,8 @@ experiment:
 
   strategies:
     - mean_fill
+    - do_nothing
+    - knn_impute
 
   corruption_types:
     - random_missing_values

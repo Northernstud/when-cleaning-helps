@@ -13,6 +13,15 @@ with config_path.open() as config_file:
 
 target_drug = config["target_drug"]
 
+NOT_APPLICABLE = {
+        "rmse": None,
+        "mae": None,
+        "bias": None,
+        "variance_ratio": None,
+        "wasserstein": None,
+        "recovery_applicable": False
+    }  
+
 def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
     
     # create a copy of dfs 
@@ -26,12 +35,25 @@ def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
     true_values = []
     imputed_values = []
 
-    for i in mask_df.index:
+    recovery_applicable = True
+
+    common = mask_df.index.intersection(cleaned_df.index)
+
+    for i in common:
         for j in cols:
             if mask_df.at[i, j]:
+                if pd.isna(cleaned_df.at[i, j]):
+                    recovery_applicable = False
+                
                 true_values.append(original_df.at[i, j])
                 imputed_values.append(cleaned_df.at[i, j])
 
+    if not imputed_values:
+        return NOT_APPLICABLE
+
+    if not recovery_applicable:
+        return NOT_APPLICABLE
+    
     residuals = np.array(true_values) - np.array(imputed_values)
 
     # calculate rmse
@@ -44,7 +66,7 @@ def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
     bias = np.mean(residuals)
 
     # calculate variance ratio 
-    if len(imputed_values) < 2:
+    if len(imputed_values) < 2 or np.var(np.array(true_values)) == 0:
         variance_ratio = None
     else:
         variance_ratio = np.var(np.array(imputed_values)) / np.var(np.array(true_values))
@@ -57,5 +79,6 @@ def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
         "mae": mae,
         "bias": bias,
         "variance_ratio": variance_ratio,
-        "wasserstein": wasserstein
+        "wasserstein": wasserstein,
+        "recovery_applicable": recovery_applicable
     }
