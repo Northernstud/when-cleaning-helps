@@ -22,6 +22,14 @@ NOT_APPLICABLE = {
         "recovery_applicable": False
     }  
 
+CAT_NOT_APPLICABLE = {
+        "cat_match_rate": None,
+        "cat_unresolved_rate": None,
+        "cat_wrong_label_rate": None,
+        "cat_recovery_applicable": None,
+    }
+
+
 def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
     
     # create a copy of dfs 
@@ -74,4 +82,52 @@ def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
         "variance_ratio": variance_ratio,
         "wasserstein": wasserstein,
         "recovery_applicable": recovery_applicable
+    }
+
+def evaluate_categorical_recovery(original_df, cleaned_df, mask_df, dirty_df, cols):
+     # create a copy of dfs 
+    original_df = original_df.copy()
+    cleaned_df = cleaned_df.copy()
+    mask_df = mask_df.copy()
+
+    cols = ["Education", "Country"]
+
+    common = mask_df.index.intersection(cleaned_df.index)
+    m = mask_df.loc[common, cols].to_numpy()
+
+
+    if m.sum() == 0:
+        return CAT_NOT_APPLICABLE
+
+    
+    true_values = original_df.loc[common, cols].to_numpy()[m]
+    imputed_values = cleaned_df.loc[common, cols].to_numpy()[m]
+    nans = pd.isna(imputed_values).sum()
+
+    total_corrupted = m.sum()
+
+    matches = (true_values == imputed_values).sum()
+    dirty_values = dirty_df.loc[common, cols].to_numpy()[m]
+    non_matches = total_corrupted - matches
+    non_nan = ~pd.isna(imputed_values)
+    untouched = ((imputed_values == dirty_values) & non_nan & (true_values != imputed_values)).sum()
+
+    wrong_label = total_corrupted - matches - nans - untouched
+
+    cat_recovery_applicable = True
+
+
+
+    # match rate
+    cat_match_rate      = float(matches / total_corrupted)
+    cat_nan_rate        = float(nans / total_corrupted)
+    cat_untouched_rate  = float(untouched / total_corrupted)
+    cat_wrong_label_rate = float(wrong_label / total_corrupted)
+
+    return {
+        "cat_match_rate": cat_match_rate,
+        "cat_untouched_rate": cat_untouched_rate,
+        "cat_wrong_label_rate": cat_wrong_label_rate,
+        'cat_nan_rate': cat_nan_rate,
+        "cat_recovery_applicable": cat_recovery_applicable,
     }

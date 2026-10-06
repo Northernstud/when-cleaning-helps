@@ -86,4 +86,7 @@ def fuzzy_match(df, cols, params):
         cleaned_df[col] = cleaned_df[col].replace(col_map)
         mappings[col] = col_map
 
-    return cleaned_df, mappings
+    return cleaned_df
+
+
+
