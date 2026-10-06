@@ -34,9 +34,10 @@ experiment:
     - 0.3
 
   strategies:
-    - mean_fill
     - do_nothing
+    - mean_fill
     - knn_impute
+    - iterative_imputation
 
   corruption_types:
     - random_missing_values
