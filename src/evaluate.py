@@ -12,6 +12,7 @@ with config_path.open() as config_file:
     config = yaml.safe_load(config_file)
 
 target_drug = config["target_drug"]
+corruption_families = config["corruption_families"]
 
 NOT_APPLICABLE = {
         "rmse": None,
@@ -29,6 +30,35 @@ CAT_NOT_APPLICABLE = {
         "cat_recovery_applicable": None,
     }
 
+def evaluate(original_df, dirty_df, cleaned_df, mask, corruption_type, cols):
+    out = empty_metric_template()
+    family = corruption_families[corruption_type]
+    if family == "continuous":
+        out.update(evaluate_continuous_recovery(original_df, cleaned_df, mask, cols))
+    elif family == "categorical":
+        out.update(evaluate_categorical_recovery(original_df, cleaned_df, mask, dirty_df, cols))
+    # elif family == "row":
+    #     out.update(evaluate_detection_quality(mask, cleaned_df))
+    return out
+
+def empty_metric_template():
+    return {
+        "rmse": None,
+        "mae": None,
+        "bias": None,
+        "variance_ratio": None,
+        "wasserstein": None,
+        "recovery_applicable": None,
+        "cat_match_rate": None,
+        "cat_nan_rate": None,
+        "cat_untouched_rate": None,
+        "cat_wrong_label_rate": None,
+        "cat_recovery_applicable": None,
+        "detect_precision": None,
+        "detect_recall": None,
+        "detect_f1": None,
+        "detect_applicable": None,
+    }
 
 def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
     

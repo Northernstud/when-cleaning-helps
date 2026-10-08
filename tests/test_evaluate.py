@@ -51,7 +51,8 @@ def test_evaluate_continuous_recovery_returns_metrics():
         "mae",
         "bias",
         "variance_ratio",
-        "wasserstein"
+        "wasserstein",
+        "recovery_applicable"
     ]
 
     assert set(stats.keys()) == set(metrics), f"The keys do not match the requirements"
@@ -115,7 +116,8 @@ def test_metrics_accuracy():
         "mae": mae,
         "bias": bias,
         "variance_ratio": variance_ratio,
-        "wasserstein": wasserstein
+        "wasserstein": wasserstein,
+        "recovery_applicable": True
     }
 
     evaluated_metrics = evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols)

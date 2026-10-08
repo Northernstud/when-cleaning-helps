@@ -52,6 +52,22 @@ def knn_impute(df, cols, params):
 
     return cleaned_df
 
+def iterative_imputation(df, cols, params):
+
+    cleaned_df = df.copy()
+
+    continuous_columns = cols["continuous"]
+
+    max_iter = params["max_iter"]
+
+    imputer = IterativeImputer(max_iter=max_iter)
+
+    cleaned_df[continuous_columns] = imputer.fit_transform(
+        df[continuous_columns]
+    )
+
+    return cleaned_df
+
 def drop_null_rows(df, cols, params):
 
     cleaned_df = df.copy()
@@ -68,8 +84,14 @@ def fuzzy_match(df, cols, params):
     mappings = {}
 
     for col in categorical_columns:
-        cleaned_df[col] = cleaned_df[col].astype("string").str.strip().str.lower()
-        counts = cleaned_df[col].value_counts()  # most frequent first
+        norm = cleaned_df[col].astype("string").str.strip().str.lower()
+
+        # normalized form -> the original-cased text to write back
+        display = {}
+        for n, orig in zip(norm, cleaned_df[col]):
+            if pd.notna(n) and n not in display:
+                display[n] = orig
+        counts = norm.value_counts()  # most frequent first
 
         canonical = []
         col_map = {}
@@ -79,11 +101,12 @@ def fuzzy_match(df, cols, params):
                                         scorer=scorer, score_cutoff=threshold)
             if result is not None:
                 match, score, _ = result
-                col_map[value] = match               # rare value -> trusted spelling
+                col_map[value] = display[match]               # rare value -> trusted spelling
             else:
-                canonical.append(value)              # new real category
+                canonical.append(value)        # new real category
+                col_map[value] = display[value]       
 
-        cleaned_df[col] = cleaned_df[col].replace(col_map)
+        cleaned_df[col] = norm.map(col_map)
         mappings[col] = col_map
 
     return cleaned_df

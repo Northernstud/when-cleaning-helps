@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from src.corrupt import random_missing_values, mnar_missing_values, typo_corruption
-from src.clean import mean_fill, do_nothing, knn_impute, iterative_imputation
-from src.evaluate import evaluate_continuous_recovery
+from src.clean import mean_fill, do_nothing, knn_impute, iterative_imputation, fuzzy_match
+from src.evaluate import evaluate
 from scipy.stats import wasserstein_distance
 import yaml 
 
@@ -29,6 +29,7 @@ strategies_map = {
     "do_nothing": do_nothing,
     "knn_impute": knn_impute,
     "iterative_imputation": iterative_imputation,
+    "fuzzy_match": fuzzy_match
 }
 
 corruption_types_map = {
@@ -58,20 +59,13 @@ def run_experiment(df):
                     cleaned_df = clean_func(corrupted_df, columns, {"n_neighbors": 3, "max_iter": 10})
 
                     # evaluate the cleaned df
-                    evaluated_metrics = evaluate_continuous_recovery(original_df, cleaned_df, mask_df, columns)
-
-                    # create an dictionary with values
+                    metrics = evaluate(original_df, corrupted_df, cleaned_df, mask_df, corruption_type, columns)
                     row = {
                         "seed": seed,
                         "corruption_rate": corruption_rate,
                         "strategy": strategy,
                         "corruption_type": corruption_type,
-                        "recovery_applicable": evaluated_metrics["recovery_applicable"],
-                        "rmse": evaluated_metrics["rmse"],
-                        "mae": evaluated_metrics["mae"],
-                        "bias": evaluated_metrics["bias"],
-                        "variance_ratio": evaluated_metrics["variance_ratio"],
-                        "wasserstein": evaluated_metrics["wasserstein"]
+                        **metrics,
                     }
 
                     results.append(row)

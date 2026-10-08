@@ -160,7 +160,7 @@ def test_typo_columns():
     corrupt_df, mask_df = typo_corruption(df, corruption_rate, seed)
     corrupted_columns = []
 
-    eligible_columns = ["Education", "Country"]
+    eligible_columns = columns["typo_columns"]
 
     for i in columns["categorical"]:
         if i not in eligible_columns:

@@ -20,6 +20,24 @@ columns:
     - Country
     - Ethnicity
 
+
+  typo_columns:
+    - Education
+    - Country
+
+corruption_families:
+  random_missing_values: continuous
+  mnar_missing_values: continuous
+  typo_corruption: categorical
+
+strategy_params:
+  do_nothing: {}
+  mean_fill: {}
+  knn_impute:
+    n_neighbors: 3
+  iterative_imputation:
+    max_iter: 10
+
 experiment:
   seeds:
     - 1
@@ -33,12 +51,16 @@ experiment:
     - 0.2
     - 0.3
 
+experiment:
+  seeds: [1, 2, 3, 4, 5]
+  corruption_rates: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
   strategies:
     - do_nothing
     - mean_fill
     - knn_impute
     - iterative_imputation
-
+    - fuzzy_match
   corruption_types:
     - random_missing_values
     - mnar_missing_values
+    - typo_corruption

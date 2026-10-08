@@ -18,6 +18,7 @@ target_drug = config["target_drug"]
 
 avaliable_columns = config["columns"]["continuous"] + config["columns"]["categorical"]
 continuous_columns = config["columns"]["continuous"]
+typo_columns = config["columns"]["typo_columns"]
 
 # random missing corruptor
 def random_missing_values(df, corruption_rate, seed):
@@ -103,7 +104,7 @@ def mnar_missing_values(df, corruption_rate, seed):
 def typo_corruption(df, corruption_rate, seed):
 
     corrupted_df = df.copy() # creaet a copy of df to corrupt
-    eligible_columns = ["Education", "Country"]
+    eligible_columns = typo_columns
     eligible_cells = corrupted_df.shape[0] * len(eligible_columns)
     corrupted_cells = round(eligible_cells * corruption_rate)
 
