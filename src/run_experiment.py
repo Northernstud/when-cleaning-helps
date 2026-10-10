@@ -59,7 +59,7 @@ def run_experiment(df):
                     cleaned_df = clean_func(corrupted_df, columns, {"n_neighbors": 3, "max_iter": 10})
 
                     # evaluate the cleaned df
-                    metrics = evaluate(original_df, corrupted_df, cleaned_df, mask_df, corruption_type, columns)
+                    metrics = evaluate(original_df, corrupted_df, cleaned_df, mask_df, corruption_type, columns, target_drug)
                     row = {
                         "seed": seed,
                         "corruption_rate": corruption_rate,
