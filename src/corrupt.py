@@ -14,20 +14,21 @@ config_path = project_dir / "config.yaml"
 with config_path.open() as config_file:
     config = yaml.safe_load(config_file)
 
-target_drug = config["target_drug"]
+target_column = config["target_column"]
 
 avaliable_columns = config["columns"]["continuous"] + config["columns"]["categorical"]
 continuous_columns = config["columns"]["continuous"]
+decimal_columns = config["columns"]["decimal_columns"]
 typo_columns = config["columns"]["typo_columns"]
 
 # random missing corruptor
 def random_missing_values(df, corruption_rate, seed):
 
-    all_cells = df.shape[0] * (df.shape[1]) # availiable cells (without target one)
+    all_cells = df.shape[0] * len(continuous_columns) # availiable cells (without target one)
     corrupted_cells = round(all_cells * corruption_rate) #number of cells that has to be corrupted 
 
     corrupted_df = df.copy() # creaet a copy of df to corrupt
-    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_drug]) # create a df to fill with Fase (non empty cells)
+    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_column]) # create a df to fill with Fase (non empty cells)
     sample_list = [] # creating all possible pairs based on rows and columns
 
     # get all the possible pearis row + column
@@ -54,7 +55,7 @@ def mnar_missing_values(df, corruption_rate, seed):
 
     eligible_cells = df.shape[0] * len(continuous_columns)
 
-    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_drug]) # create a df to fill with Fase (non empty cells)
+    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_column]) # create a df to fill with Fase (non empty cells)
 
     high_usage_sample = []
     low_usage_sample = []
@@ -62,15 +63,15 @@ def mnar_missing_values(df, corruption_rate, seed):
     # get all the possible pearis row + column
     for i in df.index:
         for j in continuous_columns:
-            if corrupted_df.at[i, target_drug] == 1: 
+            if corrupted_df.at[i, target_column] == 1: 
                 high_usage_sample.append((i, j))
             else:
                 low_usage_sample.append((i, j))
 
     rng = random.Random(seed)
 
-    high_usage_proportion = corrupted_df[target_drug].sum() / df.shape[0]
-    low_usage_proportion = (df.shape[0] - corrupted_df[target_drug].sum()) / df.shape[0]
+    high_usage_proportion = corrupted_df[target_column].sum() / df.shape[0]
+    low_usage_proportion = (df.shape[0] - corrupted_df[target_column].sum()) / df.shape[0]
 
     A = np.array([
         [high_usage_proportion, low_usage_proportion],
@@ -140,18 +141,19 @@ def typo_corruption(df, corruption_rate, seed):
     return corrupted_df, mask_df
 
 def decimal_corruptor(df, corruption_rate, seed):
-    eligible_columns = df.shape[0] * (len(continuous_columns)) # availiable cells (without target one)
-    corrupted_cells = round(eligible_columns * corruption_rate) #number of cells that has to be corrupted 
+    eligible_columns = decimal_columns
 
     corrupted_df = df.copy() # creaet a copy of df to corrupt
-    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_drug]) # create a df to fill with Fase (non empty cells)
+    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_column]) # create a df to fill with Fase (non empty cells)
     sample_list = [] # creating all possible pairs based on rows and columns
 
     # get all the possible pearis row + column
     for i in df.index:
-        for j in continuous_columns:
+        for j in eligible_columns:
             if corrupted_df.at[i, j] != 0: 
                 sample_list.append((i, j))
+
+    corrupted_cells = round(len(sample_list) * corruption_rate) #number of cells that has to be corrupted 
 
     rng = random.Random(seed)
 
@@ -196,11 +198,11 @@ def duplicates_corruptor(df, corruption_rate, seed):
             # choose 2 different continuous columns
             column_name = rng.sample(continuous_columns, 2)
 
-        new_row_id = len(df) + row_count
+        new_row_id = df.index.max() + 1 + row_count
 
         corrupted_df.loc[new_row_id] = corrupted_df.loc[i]
         corrupted_df.loc[new_row_id, column_name] = corrupted_df.loc[new_row_id, column_name] + 0.00001
-        corrupted_df.loc[new_row_id, "ID"] = new_row_id
+        corrupted_df.loc[new_row_id, df.index] = new_row_id
         
         mask_df.loc[row_count, "new_row_id"] = new_row_id
         mask_df.loc[row_count, "source_row_id"] = i

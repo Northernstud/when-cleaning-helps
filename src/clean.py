@@ -68,13 +68,8 @@ def iterative_imputation(df, cols, params):
 
     return cleaned_df
 
-def drop_null_rows(df, cols, params):
-
-    cleaned_df = df.copy()
-
-    cleaned_df = cleaned_df.dropna()
-
-    return cleaned_df
+def drop_rows(df, cols, params):
+    return df.dropna().copy()
 
 def fuzzy_match(df, cols, params):
     cleaned_df = df.copy()

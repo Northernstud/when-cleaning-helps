@@ -14,16 +14,16 @@ with config_path.open() as config_file:
     config = yaml.safe_load(config_file)
 
 corruption_rate = config["corruption_rate"]
-target_drug = config["target_drug"]
+target_column = config["target_column"]
 seed = config["seed"]
 columns = config["columns"]
 
-drug_consumption = project_dir / f"data/processed/Drug_Consumption_{target_drug}.csv"
+csv = project_dir / f"data/processed/csv_{target_column}.csv"
 
 # load the corrupted dataframe and its mask
 def load_corrupt_df():
-    # read teh drug_consumption 
-    df = pd.read_csv(drug_consumption)
+    # read teh csv 
+    df = pd.read_csv(csv)
 
     # corrupt the df using random_missing_values
     corrupt_df, mask_df = random_missing_values(df, corruption_rate, seed)
@@ -32,8 +32,8 @@ def load_corrupt_df():
 
 # load the original dataframe
 def load_original_df():
-    # read teh drug_consumption 
-    df = pd.read_csv(drug_consumption)
+    # read teh csv 
+    df = pd.read_csv(csv)
 
     return df
 
@@ -44,14 +44,14 @@ def test_missing_rate():
 
     df, mask_df = load_corrupt_df()
 
-    all_cells = df.shape[0] * (df.shape[1]) # get all the avaliable cells with the shape of the df
+    all_cells = df.shape[0] * len(columns["continuous"]) # get all the avaliable cells with the shape of the df
     actual_corruption_rate = mask_df.sum().sum() / all_cells # numbers of True cells over all the cells
     expected_corrupt_cells = round(all_cells * corruption_rate) # number of expected corrupted_cells
     corrupted_cells =  mask_df.sum().sum()
 
 
     # check if the target column contains NaNs
-    if mask_df[target_drug].sum().sum() != 0:
+    if mask_df[target_column].sum().sum() != 0:
         assert False, "The target column is corrupted!"
 
     assert corrupted_cells == expected_corrupt_cells, f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
@@ -121,7 +121,7 @@ def test_mnar_rate():
 
 
     # check if the target column contains NaNs
-    if mask_df[target_drug].sum().sum() != 0:
+    if mask_df[target_column].sum().sum() != 0:
         assert False, "The target column is corrupted!"
 
     assert expected_corrupt_cells == corrupted_cells, f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
@@ -144,7 +144,7 @@ def test_typos_rate():
 
 
     # check if the target column contains typos
-    if mask_df[target_drug].sum().sum() != 0:
+    if mask_df[target_column].sum().sum() != 0:
         assert False, "The target column is corrupted!"
 
     assert expected_corrupt_cells == corrupted_cells, f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
@@ -154,7 +154,7 @@ def test_typos_rate():
 
 def test_typo_columns():
 
-    # read teh drug_consumption 
+    # read teh csv 
     df = load_original_df()
 
     corrupt_df, mask_df = typo_corruption(df, corruption_rate, seed)
@@ -185,7 +185,7 @@ def test_decimal_corruptor():
 
 
     # check if the target column contains NaNs
-    if mask_df[target_drug].sum().sum() != 0:
+    if mask_df[target_column].sum().sum() != 0:
         assert False, "The target column is corrupted!"
 
     assert corrupted_cells == expected_corrupt_cells, f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"

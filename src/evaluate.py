@@ -11,6 +11,8 @@ from sklearn.model_selection import StratifiedKFold, train_test_split, cross_val
 from sklearn.pipeline import Pipeline
 from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.metrics import roc_auc_score, accuracy_score, f1_score
+from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import StandardScaler
 
 
 project_dir = Path(__file__).resolve().parent.parent
@@ -20,8 +22,9 @@ with config_path.open() as config_file:
     config = yaml.safe_load(config_file)
 
 columns = config["columns"]
-target_drug = config["target_drug"]
+target_column = config["target_column"]
 corruption_families = config["corruption_families"]
+typo_columns = config["columns"]["typo_columns"]
 
 NOT_APPLICABLE = {
         "rmse": None,
@@ -34,21 +37,22 @@ NOT_APPLICABLE = {
 
 CAT_NOT_APPLICABLE = {
         "cat_match_rate": None,
-        "cat_unresolved_rate": None,
+        "cat_untouched_rate": None,
         "cat_wrong_label_rate": None,
         "cat_recovery_applicable": None,
+        "cat_nan_rate": None
     }
 
-def evaluate(original_df, dirty_df, cleaned_df, mask, corruption_type, cols, target_drug):
+def evaluate(train_df, dirty_df, cleaned_df, mask, corruption_type, cols, target_column, holdout_df, model_name, seed):
     out = empty_metric_template()
     family = corruption_families[corruption_type]
     if family == "continuous":
-        out.update(evaluate_continuous_recovery(original_df, cleaned_df, mask, cols))
+        out.update(evaluate_continuous_recovery(train_df, cleaned_df, mask, cols))
     elif family == "categorical":
-        out.update(evaluate_categorical_recovery(original_df, cleaned_df, mask, dirty_df, cols))
+        out.update(evaluate_categorical_recovery(train_df, cleaned_df, mask, dirty_df, cols))
     # elif family == "row":
     #     out.update(evaluate_detection_quality(mask, cleaned_df))
-    out.update(evaluate_downstream_performance(cleaned_df, target_drug))
+    out.update(evaluate_downstream_performance(cleaned_df, holdout_df, target_column, model_name, seed))
     return out
 
 def empty_metric_template():
@@ -69,10 +73,10 @@ def empty_metric_template():
         "detect_f1": None,
         "detect_applicable": None,
         "roc_auc": None,
-        "roc_auc_std": None,
         "accuracy": None,
         "f1": None,
-        "n_rows_used": None,
+        "n_rows_trained": None,
+        "model_failed": False
     }
 
 def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
@@ -135,7 +139,7 @@ def evaluate_categorical_recovery(original_df, cleaned_df, mask_df, dirty_df, co
     cleaned_df = cleaned_df.copy()
     mask_df = mask_df.copy()
 
-    cols = ["Education", "Country"]
+    cols = typo_columns
 
     common = mask_df.index.intersection(cleaned_df.index)
     m = mask_df.loc[common, cols].to_numpy()
@@ -177,17 +181,26 @@ def evaluate_categorical_recovery(original_df, cleaned_df, mask_df, dirty_df, co
         "cat_recovery_applicable": cat_recovery_applicable,
     }
 
+def make_classifier(model_name, seed):
+    if model_name == "hgb":
+        return HistGradientBoostingClassifier(random_state=seed)
+    if model_name == "logreg":
+        return Pipeline([
+            ("scaler", StandardScaler()),
+            ("clf", LogisticRegression(max_iter=1000, random_state=seed)),
+        ])
+    raise ValueError(f"unknown model: {model_name}")
 
-def evaluate_downstream_performance(cleaned_df, target_column): 
+
+def evaluate_downstream_performance(cleaned_df, holdout_df, target_column, model_name, seed): 
 
     # initiate the explanatory and response dfs
-    X = cleaned_df.drop(target_column, axis=1)
-    y = cleaned_df[target_column]
+    X_train = cleaned_df.drop(target_column, axis=1)
+    y_train = cleaned_df[target_column]
 
-    # split the train and test dfs 
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42, stratify=y
-    )
+    X_test = holdout_df.drop(target_column, axis=1)
+    y_test = holdout_df[target_column]
+
 
     # Define the separate categorical pipeline
     categorical_transformer = Pipeline(
@@ -210,58 +223,28 @@ def evaluate_downstream_performance(cleaned_df, target_column):
     model = Pipeline(
         steps=[
             ("preprocessor", transformer),
-            ("classifier", HistGradientBoostingClassifier(
-                random_state=42
-            ))
+            ("classifier", make_classifier(model_name, seed))
         ]
     )
 
-    cv = StratifiedKFold(
-        n_splits=5,
-        shuffle=True,
-        random_state=42
-    )
-
-    # calculate the ROC AUC score
-    auc_scores = cross_val_score(
-        model,
-        X_train,
-        y_train,
-        cv=cv,
-        scoring="roc_auc"
-    )
-
-    clf = model.fit(X_train, y_train)
-
-    y_pred = clf.predict(X_test)
-    y_proba = clf.predict_proba(X_test)
-    # Find the column corresponding to class 1
-    positive_class_index = list(clf.classes_).index(1)
-
-    # Extract probabilities for class 1
-    y_proba_positive = y_proba[:, positive_class_index]
-
-    # calculate roc auc
-    auc_score = roc_auc_score(y_test, y_proba_positive)
-
-    # calculate the ROC AUC stdv 
-    roc_auc_std = np.std(auc_scores, ddof=1)
-
-    # calculate the accuracy score
-    accuracy = accuracy_score(y_test, y_pred)
-
-    # calculate f1 score
-    f1 = f1_score(y_test, y_pred)
-
-    # row used
-    n_rows_used = len(y_test)
+    try:
+        clf = model.fit(X_train, y_train)
+        y_pred = clf.predict(X_test)
+        y_proba = clf.predict_proba(X_test)[:, list(clf.classes_).index(1)]
+    except ValueError as e:
+        print(f"  failed: {model_name} — {e}", flush=True)
+        return {
+            "roc_auc": None,
+            "accuracy": None,
+            "f1": None,
+            "n_rows_trained": len(y_train),
+            "model_failed": True,
+        }
 
     return {
-        "roc_auc": auc_score,
-        "roc_auc_std": roc_auc_std,
-        "accuracy": accuracy,
-        "f1": f1,
-        "n_rows_used": n_rows_used,
+        "roc_auc": roc_auc_score(y_test, y_proba),
+        "accuracy": accuracy_score(y_test, y_pred),
+        "f1": f1_score(y_test, y_pred),
+        "n_rows_trained": len(y_train),
+        "model_failed": False,
     }
-
-

@@ -1,29 +1,75 @@
-target_drug: Nicotine
+target_column: Nicotine
 
 corruption_rate: 0.2018
 seed: 42
 
+target_column: is_canceled
+
 columns:
   continuous:
-    - Nscore
-    - Escore
-    - Oscore
-    - AScore
-    - Cscore
-    - Impulsive
-    - SS
+    - lead_time
+    - adr
+    - stays_in_weekend_nights
+    - stays_in_week_nights
+    - adults
+    - children
+    - total_of_special_requests
+    - booking_changes
+    - arrival_date_week_number
 
   categorical:
-    - Age
-    - Gender
-    - Education
-    - Country
-    - Ethnicity
-
+    - hotel
+    - arrival_date_month
+    - meal
+    - country
+    - market_segment
+    - distribution_channel
+    - reserved_room_type
+    - assigned_room_type
+    - deposit_type
+    - customer_type
+    - agent
 
   typo_columns:
-    - Education
-    - Country
+    - market_segment
+    - customer_type
+    - arrival_date_month
+    - deposit_type
+
+columns:
+  continuous:
+    - lead_time
+    - adr
+    - stays_in_weekend_nights
+    - stays_in_week_nights
+    - adults
+    - children
+    - total_of_special_requests
+    - booking_changes
+    - arrival_date_week_number
+
+  categorical:
+    - hotel
+    - arrival_date_month
+    - meal
+    - country
+    - market_segment
+    - distribution_channel
+    - reserved_room_type
+    - assigned_room_type
+    - deposit_type
+    - customer_type
+    - agent
+
+  decimal_columns:
+    - adr
+    - lead_time
+
+  typo_columns:
+    - market_segment
+    - customer_type
+    - arrival_date_month
+    - deposit_type
 
 corruption_families:
   random_missing_values: continuous
@@ -33,33 +79,27 @@ corruption_families:
 strategy_params:
   do_nothing: {}
   mean_fill: {}
+  fuzzy_match: {}
+  drop_rows: {}
   knn_impute:
     n_neighbors: 3
   iterative_imputation:
     max_iter: 10
 
-experiment:
-  seeds:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-
-  corruption_rates:
-    - 0.1
-    - 0.2
-    - 0.3
 
 experiment:
-  seeds: [1, 2, 3, 4, 5]
+  models:
+      - hgb
+      - logreg
+  seeds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
   corruption_rates: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
   strategies:
     - do_nothing
     - mean_fill
     - knn_impute
-    - iterative_imputation
+    # - iterative_imputation
     - fuzzy_match
+    - drop_rows
   corruption_types:
     - random_missing_values
     - mnar_missing_values

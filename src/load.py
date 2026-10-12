@@ -6,14 +6,14 @@ import yaml
 # get the paths
 project_dir = Path(__file__).resolve().parent.parent
 config_path = project_dir / "config.yaml"
-drug_consumption = project_dir / "data/raw/Drug_Consumption.csv"
+csv = project_dir / "data/raw/hotel_bookings.csv"
 processed_dir = project_dir / "data/processed/"
 
 # load configuration file
 with config_path.open() as config_file:
     config = yaml.safe_load(config_file)
 
-target_drug = config["target_drug"]
+target_column = config["target_column"]
 columns = config["columns"]
 
 features = columns["continuous"] + columns["categorical"]
@@ -24,15 +24,19 @@ def load_model_data(file_path: Path):
     df = pd.read_csv(file_path)
 
     # get the features and target drug
-    df = df[features + [target_drug]].copy()
+    df = df[features + [target_column]].copy()
+    df= df.drop_duplicates()
 
-    # check if the value is CL3 CL4 CL5 CL6 if so True otherwise False then we turn the column type to int so it is 1 and 0
-    positive_classes = ["CL3", "CL4", "CL5", "CL6"]
+    df = df.dropna(subset=["children"])          # only ~4 rows
+    df["country"] = df["country"].fillna("Unknown")
+    df["agent"] = df["agent"].fillna(-1).astype(int).astype(str).replace("-1", "None")
+    df = df[(df["adults"] + df["children"]) > 0]
+    df = df[(df["adr"] >= 0) & (df["adr"] < 1000)]
+    df["children"] = df["children"].astype(int)
 
-    df[target_drug] = df[target_drug].isin(positive_classes).astype(int)
-    
 
+    df.to_csv(processed_dir / f"hotel_bookings_clean.csv", index=False)
     return df
 
 # save the dataset in data/processed/
-load_model_data(drug_consumption).to_csv(processed_dir / f"Drug_Consumption_{target_drug}.csv", index=False)
+load_model_data(csv).to_csv(processed_dir / f"csv_{target_column}.csv", index=False)

@@ -13,16 +13,16 @@ config_path = project_dir / "config.yaml"
 with config_path.open() as config_file:
     config = yaml.safe_load(config_file)
 
-target_drug = config["target_drug"]
+target_column = config["target_column"]
 corruption_rate = config["corruption_rate"]
 columns = config["columns"]
 seed = config["seed"]
-drug_consumption = project_dir / f"data/processed/Drug_Consumption_{target_drug}.csv"
+csv = project_dir / f"data/processed/csv_{target_column}.csv"
 
 # load the corrupted dataframe and its mask
 def load_corrupt_df():
-    # read teh drug_consumption 
-    df = pd.read_csv(drug_consumption)
+    # read teh csv 
+    df = pd.read_csv(csv)
 
     # corrupt the df using random_missing_values
     corrupt_df, mask_df = random_missing_values(df, corruption_rate, seed)
@@ -31,8 +31,8 @@ def load_corrupt_df():
 
 # load the original dataframe
 def load_original_df():
-    # read teh drug_consumption 
-    df = pd.read_csv(drug_consumption)
+    # read teh csv 
+    df = pd.read_csv(csv)
 
     return df
 
@@ -120,3 +120,4 @@ def test_knn_only_continuous():
 
 
     assert total_missing - missings_after_cleanning == continuous_missings
+
