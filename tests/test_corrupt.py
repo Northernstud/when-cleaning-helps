@@ -2,7 +2,7 @@
 # import pandas
 import pandas as pd 
 from pathlib import Path
-from src.corrupt import random_missing_values, mnar_missing_values, typo_corruption, decimal_corruptor, duplicates_corruptor
+from src.corrupt import random_missing_values, label_correlated_missing, typo_corruption, decimal_corruptor, duplicates_corruptor
 import yaml
 
 # get the paths
@@ -34,6 +34,14 @@ def load_corrupt_df():
 def load_original_df():
     # read teh csv 
     df = pd.read_csv(csv)
+
+    return df
+
+# load the original dataframe with continuous columns as float
+# (the corruptors write float values, e.g. x / 10 or x + 0.00001, into int columns)
+def load_float_df():
+    df = load_original_df()
+    df[columns["continuous"]] = df[columns["continuous"]].astype(float)
 
     return df
 
@@ -112,7 +120,7 @@ def test_mnar_rate():
     df = load_original_df()
 
     # corrupt the df using random_missing_values
-    corrupt_df, mask_df = mnar_missing_values(df, corruption_rate, seed)
+    corrupt_df, mask_df = label_correlated_missing(df, corruption_rate, seed)
 
     eligible_cells = df.shape[0] * len(columns["continuous"]) # get all the avaliable cells with the shape of the df
     actual_corruption_rate = mask_df.sum().sum() / eligible_cells # numbers of True cells over all the cells
@@ -136,7 +144,7 @@ def test_typos_rate():
     # corrupt the df using random_missing_values
     corrupt_df, mask_df = typo_corruption(df, corruption_rate, seed)
 
-    eligible_columns = ["Education", "Country"]
+    eligible_columns = columns["typo_columns"]
     eligible_cells = df.shape[0] * len(eligible_columns) # get all the avaliable cells with the shape of the df
     actual_corruption_rate = mask_df.sum().sum() / eligible_cells # numbers of True cells over all the cells
     expected_corrupt_cells = round(eligible_cells * corruption_rate) # number of expected corrupted_cells
@@ -174,11 +182,12 @@ def test_typo_columns():
 
 def test_decimal_corruptor():
 
-    df = load_original_df()
+    df = load_float_df()
+
+    all_cells = (df[columns["decimal_columns"]] != 0).sum().sum() # only non zero cells in the decimal columns can be corrupted
 
     df, mask_df = decimal_corruptor(df, corruption_rate, seed)
-    
-    all_cells = df.shape[0] * len(columns["continuous"])# get all the avaliable cells with the shape of the df
+
     actual_corruption_rate = mask_df.sum().sum() / all_cells # numbers of True cells over all the cells
     expected_corrupt_cells = round(all_cells * corruption_rate) # number of expected corrupted_cells
     corrupted_cells =  mask_df.sum().sum()
@@ -195,7 +204,7 @@ def test_decimal_corruptor():
 
 def test_duplicate_row_count():
 
-    df = load_original_df()
+    df = load_float_df()
 
     corrupt_df, mask_df = duplicates_corruptor(df, corruption_rate, seed)
 
@@ -208,7 +217,7 @@ def test_duplicate_row_count():
 # test if the original df was edited
 def test_input_frame_duplicate():
 
-    original_df = load_original_df() # get the original df
+    original_df = load_float_df() # get the original df
     original_df_copy = original_df.copy() # copy the original
 
     #run it to corrupt
@@ -219,7 +228,7 @@ def test_input_frame_duplicate():
 
 def test_duplicate_id():
 
-    original_df = load_original_df() # get the original df
+    original_df = load_float_df() # get the original df
 
     corrupted_df, mask_df = duplicates_corruptor(original_df, corruption_rate, seed)
 

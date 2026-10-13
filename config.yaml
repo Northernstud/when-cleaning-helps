@@ -73,7 +73,7 @@ columns:
 
 corruption_families:
   random_missing_values: continuous
-  mnar_missing_values: continuous
+  label_correlated_missing: continuous
   typo_corruption: categorical
 
 strategy_params:
@@ -102,5 +102,5 @@ experiment:
     - drop_rows
   corruption_types:
     - random_missing_values
-    - mnar_missing_values
+    - label_correlated_missing
     - typo_corruption

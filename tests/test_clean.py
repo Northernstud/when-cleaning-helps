@@ -99,13 +99,14 @@ def test_knn_removes_missing_values():
 
     corrupted_df = original_df.copy()
 
-    corrupted_df.loc[0, "Nscore"] = np.nan
-    corrupted_df.loc[1, "Escore"] = np.nan
-    corrupted_df.loc[2, "Oscore"] = np.nan
+    corrupted_df.loc[0, "lead_time"] = np.nan
+    corrupted_df.loc[1, "adr"] = np.nan
+    corrupted_df.loc[2, "adults"] = np.nan
 
     cleaned_df = knn_impute(corrupted_df, columns, {"n_neighbors": 3})
 
-    assert not cleaned_df.isna().any().any()
+    # only the continuous columns are imputed (agent has NaNs in the raw data)
+    assert not cleaned_df[columns["continuous"]].isna().any().any()
 
 def test_knn_only_continuous():
 

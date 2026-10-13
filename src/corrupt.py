@@ -49,7 +49,7 @@ def random_missing_values(df, corruption_rate, seed):
     return corrupted_df, mask_df
 
 # mnar corruptor 
-def mnar_missing_values(df, corruption_rate, seed): 
+def label_correlated_missing(df, corruption_rate, seed): 
 
     corrupted_df = df.copy() # creaet a copy of df to corrupt
 

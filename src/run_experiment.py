@@ -3,7 +3,7 @@ import numpy as np
 from pathlib import Path
 
 from sklearn.model_selection import train_test_split
-from src.corrupt import random_missing_values, mnar_missing_values, typo_corruption
+from src.corrupt import random_missing_values, label_correlated_missing, typo_corruption
 from src.clean import mean_fill, do_nothing, knn_impute, iterative_imputation, fuzzy_match, drop_rows
 from src.evaluate import evaluate
 from scipy.stats import wasserstein_distance
@@ -42,7 +42,7 @@ strategies_map = {
 
 corruption_types_map = {
     "random_missing_values": random_missing_values,
-    "mnar_missing_values": mnar_missing_values,
+    "label_correlated_missing": label_correlated_missing,
     "typo_corruption": typo_corruption,
 }
 
