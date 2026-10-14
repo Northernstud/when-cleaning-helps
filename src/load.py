@@ -1,6 +1,7 @@
 # import pandas
-import pandas as pd 
 from pathlib import Path
+
+import pandas as pd
 import yaml
 
 # get the paths
@@ -19,7 +20,7 @@ columns = config["columns"]
 features = columns["continuous"] + columns["categorical"]
 
 # read the dataset
-def load_model_data(file_path: Path): 
+def load_model_data(file_path: Path):
 
     df = pd.read_csv(file_path)
 
@@ -35,7 +36,7 @@ def load_model_data(file_path: Path):
     df["children"] = df["children"].astype(int)
 
 
-    df.to_csv(processed_dir / f"hotel_bookings_clean.csv", index=False)
+    df.to_csv(processed_dir / "hotel_bookings_clean.csv", index=False)
     return df
 
 # save the dataset in data/processed/

@@ -1,11 +1,12 @@
 # Here you can find the functions that corrupt the data set
 
-import pandas as pd # import pandas
-import random # import random for corrupting 
-from pathlib import Path
-import yaml
-import numpy as np
+import random  # import random for corrupting
 import string
+from pathlib import Path
+
+import numpy as np
+import pandas as pd  # import pandas
+import yaml
 
 project_dir = Path(__file__).resolve().parent.parent
 config_path = project_dir / "config.yaml"
@@ -20,20 +21,23 @@ avaliable_columns = config["columns"]["continuous"] + config["columns"]["categor
 continuous_columns = config["columns"]["continuous"]
 decimal_columns = config["columns"]["decimal_columns"]
 typo_columns = config["columns"]["typo_columns"]
+self_masking_strength = config["corruption_params"]["self_masking_missing"]["strength"]
 
 # random missing corruptor
 def random_missing_values(df, corruption_rate, seed):
 
     all_cells = df.shape[0] * len(continuous_columns) # availiable cells (without target one)
-    corrupted_cells = round(all_cells * corruption_rate) #number of cells that has to be corrupted 
+    corrupted_cells = round(all_cells * corruption_rate) #number of cells that has to be corrupted
 
     corrupted_df = df.copy() # creaet a copy of df to corrupt
-    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_column]) # create a df to fill with Fase (non empty cells)
+    # create a df to fill with Fase (non empty cells)
+    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_column])
     sample_list = [] # creating all possible pairs based on rows and columns
 
     # get all the possible pearis row + column
+    # only continuous columns, same cells as label_correlated_missing so the mechanisms are comparable
     for i in df.index:
-        for j in avaliable_columns:
+        for j in continuous_columns:
             sample_list.append((i, j))
 
     rng = random.Random(seed)
@@ -48,14 +52,44 @@ def random_missing_values(df, corruption_rate, seed):
 
     return corrupted_df, mask_df
 
-# mnar corruptor 
-def label_correlated_missing(df, corruption_rate, seed): 
+# self-masking (true mnar) corruptor: the higher the value, the more likely it goes missing
+def self_masking_missing(df, corruption_rate, seed):
+
+    corrupted_df = df.copy() # creaet a copy of df to corrupt
+    # create a df to fill with Fase (non empty cells)
+    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_column])
+
+    rng = np.random.default_rng(seed)
+
+    # number of cells to corrupt in each column
+    corrupted_cells = round(df.shape[0] * corruption_rate)
+
+    for j in continuous_columns:
+        # percentile rank of each value (ties share a rank), always > 0
+        rank = df[j].rank(method="average", pct=True).to_numpy()
+
+        # weight grows with the rank, strength controls how strongly
+        weights = rank ** self_masking_strength
+        weights = weights / weights.sum()
+
+        # weighted sample without replacement
+        rows = rng.choice(df.index.to_numpy(), size=corrupted_cells, replace=False, p=weights)
+
+        corrupted_df.loc[rows, j] = None
+        mask_df.loc[rows, j] = True
+
+    return corrupted_df, mask_df
+
+# label correlated corruptor (mar given the label: missingness depends on the observed target)
+def label_correlated_missing(df, corruption_rate, seed):
 
     corrupted_df = df.copy() # creaet a copy of df to corrupt
 
     eligible_cells = df.shape[0] * len(continuous_columns)
 
-    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_column]) # create a df to fill with Fase (non empty cells)
+    # create a df to fill with Fase (non empty cells)
+
+    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_column])
 
     high_usage_sample = []
     low_usage_sample = []
@@ -63,7 +97,7 @@ def label_correlated_missing(df, corruption_rate, seed):
     # get all the possible pearis row + column
     for i in df.index:
         for j in continuous_columns:
-            if corrupted_df.at[i, target_column] == 1: 
+            if corrupted_df.at[i, target_column] == 1:
                 high_usage_sample.append((i, j))
             else:
                 low_usage_sample.append((i, j))
@@ -112,7 +146,7 @@ def typo_corruption(df, corruption_rate, seed):
     mask_df = pd.DataFrame(False, index=df.index, columns=df.columns) # create a df to fill with Fase (non empty cells)
 
     sample_list = [] # creating all possible pairs based on rows and columns
-    
+
     # get all the possible pearis row + column
     for i in df.index:
         for j in eligible_columns:
@@ -144,16 +178,17 @@ def decimal_corruptor(df, corruption_rate, seed):
     eligible_columns = decimal_columns
 
     corrupted_df = df.copy() # creaet a copy of df to corrupt
-    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_column]) # create a df to fill with Fase (non empty cells)
+    # create a df to fill with Fase (non empty cells)
+    mask_df = pd.DataFrame(False, index=df.index, columns=avaliable_columns+[target_column])
     sample_list = [] # creating all possible pairs based on rows and columns
 
     # get all the possible pearis row + column
     for i in df.index:
         for j in eligible_columns:
-            if corrupted_df.at[i, j] != 0: 
+            if corrupted_df.at[i, j] != 0:
                 sample_list.append((i, j))
 
-    corrupted_cells = round(len(sample_list) * corruption_rate) #number of cells that has to be corrupted 
+    corrupted_cells = round(len(sample_list) * corruption_rate) #number of cells that has to be corrupted
 
     rng = random.Random(seed)
 
@@ -165,7 +200,7 @@ def decimal_corruptor(df, corruption_rate, seed):
         probability = rng.randint(0, 1)
         if probability == 1:
             corrupted_df.at[i[0], i[1]] = corrupted_df.at[i[0], i[1]] * 10
-        else: 
+        else:
             corrupted_df.at[i[0], i[1]] = corrupted_df.at[i[0], i[1]] / 10
         mask_df.at[i[0], i[1]] = True
 
@@ -189,12 +224,12 @@ def duplicates_corruptor(df, corruption_rate, seed):
     mask_df = pd.DataFrame(index=range(duplicates_needed), columns=mask_columns)
 
     row_count = 0
-    for i in random_sample_list: 
+    for i in random_sample_list:
         prob = rng.randint(0, 1)
 
         if prob == 0:
             column_name = [rng.choice(continuous_columns)]
-        else: 
+        else:
             # choose 2 different continuous columns
             column_name = rng.sample(continuous_columns, 2)
 
@@ -202,8 +237,7 @@ def duplicates_corruptor(df, corruption_rate, seed):
 
         corrupted_df.loc[new_row_id] = corrupted_df.loc[i]
         corrupted_df.loc[new_row_id, column_name] = corrupted_df.loc[new_row_id, column_name] + 0.00001
-        corrupted_df.loc[new_row_id, df.index] = new_row_id
-        
+
         mask_df.loc[row_count, "new_row_id"] = new_row_id
         mask_df.loc[row_count, "source_row_id"] = i
         mask_df.loc[row_count, "perturbed_cols"] = column_name
@@ -212,9 +246,9 @@ def duplicates_corruptor(df, corruption_rate, seed):
 
     return corrupted_df, mask_df
 
-    
 
-    
+
+
 
 
 

@@ -1,12 +1,14 @@
 # Here you can find the test of the evaluate.py
-import pandas as pd
-import numpy as np
 from pathlib import Path
-from src.corrupt import random_missing_values
-from src.clean import mean_fill
-from src.evaluate import evaluate_continuous_recovery
+
+import numpy as np
+import pandas as pd
+import yaml
 from scipy.stats import wasserstein_distance
-import yaml 
+
+from src.clean import mean_fill
+from src.corrupt import random_missing_values
+from src.evaluate import evaluate_continuous_recovery
 
 project_dir = Path(__file__).resolve().parent.parent
 config_path = project_dir / "config.yaml"
@@ -19,12 +21,14 @@ target_column = config["target_column"]
 corruption_rate = config["corruption_rate"]
 columns = config["columns"]
 seed = config["seed"]
-csv = project_dir / f"data/processed/csv_{target_column}.csv"
+# small committed sample of the processed data, so the tests also run in CI
+csv = project_dir / "tests/data/hotel_bookings_sample.csv"
+sample_size = 2000 # sample the rows so the tests run fast
 
 
 def load_corrupt_df():
-    # read teh csv 
-    df = pd.read_csv(csv)
+    # read teh csv
+    df = pd.read_csv(csv).sample(n=sample_size, random_state=seed).reset_index(drop=True)
 
     # corrupt the df using random_missing_values
     corrupt_df, mask_df = random_missing_values(df, corruption_rate, seed)
@@ -33,17 +37,17 @@ def load_corrupt_df():
 
 # load the original dataframe
 def load_original_df():
-    # read teh csv 
-    df = pd.read_csv(csv)
+    # read teh csv
+    df = pd.read_csv(csv).sample(n=sample_size, random_state=seed).reset_index(drop=True)
 
     return df
 
 def test_evaluate_continuous_recovery_returns_metrics():
 
     corrupted_df, mask_df = load_corrupt_df()
-    cleaned_df = mean_fill(corrupted_df, columns, {})
+    cleaned_df, _ = mean_fill(corrupted_df, columns, {})
     original_df = load_original_df()
-    
+
 
     stats = evaluate_continuous_recovery(original_df, cleaned_df, mask_df, columns)
 
@@ -56,7 +60,7 @@ def test_evaluate_continuous_recovery_returns_metrics():
         "recovery_applicable"
     ]
 
-    assert set(stats.keys()) == set(metrics), f"The keys do not match the requirements"
+    assert set(stats.keys()) == set(metrics), "The keys do not match the requirements"
 
     print()
     print("All the keys match the required keys")
@@ -93,7 +97,7 @@ def test_metrics_accuracy():
                     imputed_values.append(cleaned_df.at[i, j])
 
     residuals = np.array(true_values) - np.array(imputed_values)
-    
+
     # calculate rmse
     rmse = np.sqrt(np.mean(residuals ** 2))
 
@@ -103,12 +107,12 @@ def test_metrics_accuracy():
     # calculate bias
     bias = np.mean(residuals)
 
-    # calculate variance ratio 
+    # calculate variance ratio
     if len(imputed_values) < 2:
             variance_ratio = None
     else:
         variance_ratio = np.var(np.array(imputed_values)) / np.var(np.array(true_values))
-        
+
     # Wasserstein distance
     wasserstein = wasserstein_distance(imputed_values, true_values)
 
@@ -125,7 +129,7 @@ def test_metrics_accuracy():
 
     assert true_metrics == evaluated_metrics, "Evaluation function does not return accurate metrics"
 
-        
+
 
 
 

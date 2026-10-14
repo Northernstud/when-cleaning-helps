@@ -75,16 +75,20 @@ corruption_families:
   random_missing_values: continuous
   label_correlated_missing: continuous
   typo_corruption: categorical
+  self_masking_missing: continuous
+
+corruption_params:
+  self_masking_missing:
+    strength: 3   # missing weight = percentile_rank ** strength (higher -> high values go missing more)
 
 strategy_params:
   do_nothing: {}
   mean_fill: {}
+  mean_fill_indicator: {}
   fuzzy_match: {}
   drop_rows: {}
   knn_impute:
     n_neighbors: 3
-  iterative_imputation:
-    max_iter: 10
 
 
 experiment:
@@ -96,11 +100,15 @@ experiment:
   strategies:
     - do_nothing
     - mean_fill
+    - mean_fill_indicator
     - knn_impute
-    # - iterative_imputation
     - fuzzy_match
     - drop_rows
   corruption_types:
     - random_missing_values
     - label_correlated_missing
+    - self_masking_missing
     - typo_corruption
+  holdout_conditions:
+    - clean       # train on dirty, deploy on clean
+    - corrupted   # holdout gets the same corruption, cleaned with what was learned on train

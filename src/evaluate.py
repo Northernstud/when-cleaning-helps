@@ -1,19 +1,17 @@
 # Here you can find functions that evaluate cleaning methods
-import pandas as pd 
-import numpy as np 
-import yaml
 from pathlib import Path
-from scipy.stats import wasserstein_distance
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.impute import SimpleImputer
-from sklearn.model_selection import StratifiedKFold, train_test_split, cross_val_score
-from sklearn.pipeline import Pipeline
-from sklearn.ensemble import HistGradientBoostingClassifier
-from sklearn.metrics import roc_auc_score, accuracy_score, f1_score
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import StandardScaler
 
+import numpy as np
+import pandas as pd
+import yaml
+from scipy.stats import wasserstein_distance
+from sklearn.compose import ColumnTransformer
+from sklearn.ensemble import HistGradientBoostingClassifier
+from sklearn.impute import SimpleImputer
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 project_dir = Path(__file__).resolve().parent.parent
 config_path = project_dir / "config.yaml"
@@ -33,7 +31,7 @@ NOT_APPLICABLE = {
         "variance_ratio": None,
         "wasserstein": None,
         "recovery_applicable": False
-    }  
+    }
 
 CAT_NOT_APPLICABLE = {
         "cat_match_rate": None,
@@ -80,8 +78,8 @@ def empty_metric_template():
     }
 
 def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
-    
-    # create a copy of dfs 
+
+    # create a copy of dfs
     original_df = original_df.copy()
     cleaned_df = cleaned_df.copy()
     mask_df = mask_df.copy()
@@ -103,7 +101,7 @@ def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
 
     if np.isnan(imputed_values).any():
         return NOT_APPLICABLE
-    
+
     residuals = true_values - imputed_values
 
     # calculate rmse
@@ -115,7 +113,7 @@ def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
     # calculate bias
     bias = np.mean(residuals)
 
-    # calculate variance ratio 
+    # calculate variance ratio
     if len(imputed_values) < 2 or np.var(true_values) == 0:
         variance_ratio = None
     else:
@@ -134,7 +132,7 @@ def evaluate_continuous_recovery(original_df, cleaned_df, mask_df, cols):
     }
 
 def evaluate_categorical_recovery(original_df, cleaned_df, mask_df, dirty_df, cols):
-     # create a copy of dfs 
+     # create a copy of dfs
     original_df = original_df.copy()
     cleaned_df = cleaned_df.copy()
     mask_df = mask_df.copy()
@@ -148,7 +146,7 @@ def evaluate_categorical_recovery(original_df, cleaned_df, mask_df, dirty_df, co
     if m.sum() == 0:
         return CAT_NOT_APPLICABLE
 
-    
+
     true_values = original_df.loc[common, cols].to_numpy()[m]
     imputed_values = cleaned_df.loc[common, cols].to_numpy()[m]
     nans = pd.isna(imputed_values).sum()
@@ -157,7 +155,6 @@ def evaluate_categorical_recovery(original_df, cleaned_df, mask_df, dirty_df, co
 
     matches = (true_values == imputed_values).sum()
     dirty_values = dirty_df.loc[common, cols].to_numpy()[m]
-    non_matches = total_corrupted - matches
     non_nan = ~pd.isna(imputed_values)
     untouched = ((imputed_values == dirty_values) & non_nan & (true_values != imputed_values)).sum()
 
@@ -192,7 +189,7 @@ def make_classifier(model_name, seed):
     raise ValueError(f"unknown model: {model_name}")
 
 
-def evaluate_downstream_performance(cleaned_df, holdout_df, target_column, model_name, seed): 
+def evaluate_downstream_performance(cleaned_df, holdout_df, target_column, model_name, seed):
 
     # initiate the explanatory and response dfs
     X_train = cleaned_df.drop(target_column, axis=1)

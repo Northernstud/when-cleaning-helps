@@ -1,9 +1,18 @@
 # Here you can find the test of the corruption
 # import pandas
-import pandas as pd 
 from pathlib import Path
-from src.corrupt import random_missing_values, label_correlated_missing, typo_corruption, decimal_corruptor, duplicates_corruptor
+
+import pandas as pd
 import yaml
+
+from src.corrupt import (
+    decimal_corruptor,
+    duplicates_corruptor,
+    label_correlated_missing,
+    random_missing_values,
+    self_masking_missing,
+    typo_corruption,
+)
 
 # get the paths
 project_dir = Path(__file__).resolve().parent.parent
@@ -18,12 +27,14 @@ target_column = config["target_column"]
 seed = config["seed"]
 columns = config["columns"]
 
-csv = project_dir / f"data/processed/csv_{target_column}.csv"
+# small committed sample of the processed data, so the tests also run in CI
+csv = project_dir / "tests/data/hotel_bookings_sample.csv"
+sample_size = 2000 # sample the rows so the tests run fast
 
 # load the corrupted dataframe and its mask
 def load_corrupt_df():
-    # read teh csv 
-    df = pd.read_csv(csv)
+    # read teh csv
+    df = pd.read_csv(csv).sample(n=sample_size, random_state=seed).reset_index(drop=True)
 
     # corrupt the df using random_missing_values
     corrupt_df, mask_df = random_missing_values(df, corruption_rate, seed)
@@ -32,8 +43,8 @@ def load_corrupt_df():
 
 # load the original dataframe
 def load_original_df():
-    # read teh csv 
-    df = pd.read_csv(csv)
+    # read teh csv
+    df = pd.read_csv(csv).sample(n=sample_size, random_state=seed).reset_index(drop=True)
 
     return df
 
@@ -46,7 +57,7 @@ def load_float_df():
     return df
 
 
-     
+
 # test if corruption rate match the actual rate
 def test_missing_rate():
 
@@ -59,10 +70,11 @@ def test_missing_rate():
 
 
     # check if the target column contains NaNs
-    if mask_df[target_column].sum().sum() != 0:
-        assert False, "The target column is corrupted!"
+    assert mask_df[target_column].sum().sum() == 0, "The target column is corrupted!"
 
-    assert corrupted_cells == expected_corrupt_cells, f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
+    assert corrupted_cells == expected_corrupt_cells, (
+        f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
+    )
 
     print()
     print(f"Target corruption rate: {corruption_rate} \nActual corruption rate: {actual_corruption_rate}")
@@ -101,7 +113,7 @@ def test_mask_df():
                     assert corrupted_value == original_value, (
                         f"Cell ({i}, {j}) changed but the mask is False"
                     )
-                    
+
     print("The mask of the dataframe and corrupted dataframe do match")
 
 # test if the original df was edited
@@ -129,10 +141,11 @@ def test_mnar_rate():
 
 
     # check if the target column contains NaNs
-    if mask_df[target_column].sum().sum() != 0:
-        assert False, "The target column is corrupted!"
+    assert mask_df[target_column].sum().sum() == 0, "The target column is corrupted!"
 
-    assert expected_corrupt_cells == corrupted_cells, f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
+    assert expected_corrupt_cells == corrupted_cells, (
+        f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
+    )
 
     print()
     print(f"Target corruption rate: {corruption_rate} \nActual corruption rate: {actual_corruption_rate}")
@@ -152,17 +165,18 @@ def test_typos_rate():
 
 
     # check if the target column contains typos
-    if mask_df[target_column].sum().sum() != 0:
-        assert False, "The target column is corrupted!"
+    assert mask_df[target_column].sum().sum() == 0, "The target column is corrupted!"
 
-    assert expected_corrupt_cells == corrupted_cells, f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
+    assert expected_corrupt_cells == corrupted_cells, (
+        f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
+    )
 
     print()
     print(f"Target corruption rate: {corruption_rate} \nActual corruption rate: {actual_corruption_rate}")
 
 def test_typo_columns():
 
-    # read teh csv 
+    # read teh csv
     df = load_original_df()
 
     corrupt_df, mask_df = typo_corruption(df, corruption_rate, seed)
@@ -184,7 +198,9 @@ def test_decimal_corruptor():
 
     df = load_float_df()
 
-    all_cells = (df[columns["decimal_columns"]] != 0).sum().sum() # only non zero cells in the decimal columns can be corrupted
+    # only non zero cells in the decimal columns can be corrupted
+
+    all_cells = (df[columns["decimal_columns"]] != 0).sum().sum()
 
     df, mask_df = decimal_corruptor(df, corruption_rate, seed)
 
@@ -194,10 +210,11 @@ def test_decimal_corruptor():
 
 
     # check if the target column contains NaNs
-    if mask_df[target_column].sum().sum() != 0:
-        assert False, "The target column is corrupted!"
+    assert mask_df[target_column].sum().sum() == 0, "The target column is corrupted!"
 
-    assert corrupted_cells == expected_corrupt_cells, f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
+    assert corrupted_cells == expected_corrupt_cells, (
+        f"Target corruption rate: {corruption_rate} \n Actual corruption rate: {actual_corruption_rate}"
+    )
 
     print()
     print(f"Target corruption rate: {corruption_rate} \nActual corruption rate: {actual_corruption_rate}")
@@ -232,7 +249,7 @@ def test_duplicate_id():
 
     corrupted_df, mask_df = duplicates_corruptor(original_df, corruption_rate, seed)
 
-    # get the i of the mask df 
+    # get the i of the mask df
     new_ids = mask_df["new_row_id"]
 
     # get the id in the original_df
@@ -240,3 +257,50 @@ def test_duplicate_id():
 
     assert (~new_ids.isin(original_ids)).all()
 
+
+# random missing values should only touch the continuous columns
+def test_missing_only_continuous():
+
+    corrupt_df, mask_df = load_corrupt_df()
+
+    other_columns = [c for c in mask_df.columns if c not in columns["continuous"]]
+
+    assert mask_df[other_columns].sum().sum() == 0, "A non continuous column was corrupted"
+
+def test_self_masking_rate():
+
+    df = load_original_df()
+
+    corrupt_df, mask_df = self_masking_missing(df, corruption_rate, seed)
+
+    # every continuous column loses the same number of cells
+    expected_per_column = round(df.shape[0] * corruption_rate)
+
+    for j in columns["continuous"]:
+        assert mask_df[j].sum() == expected_per_column
+        assert corrupt_df.loc[mask_df[j], j].isna().all()
+
+    other_columns = [c for c in mask_df.columns if c not in columns["continuous"]]
+    assert mask_df[other_columns].sum().sum() == 0, "A non continuous column was corrupted"
+
+# self masking should remove the high values more often than the low ones
+def test_self_masking_hits_high_values():
+
+    df = load_original_df()
+
+    corrupt_df, mask_df = self_masking_missing(df, corruption_rate, seed)
+
+    for j in ["lead_time", "adr"]:
+        missing_mean = df.loc[mask_df[j], j].mean()
+        observed_mean = df.loc[~mask_df[j], j].mean()
+
+        assert missing_mean > observed_mean, f"{j}: missing values are not higher than the observed ones"
+
+def test_self_masking_input_frame():
+
+    original_df = load_original_df() # get the original df
+    original_df_copy = original_df.copy() # copy the original
+
+    self_masking_missing(original_df, corruption_rate, seed)
+
+    assert original_df.equals(original_df_copy)

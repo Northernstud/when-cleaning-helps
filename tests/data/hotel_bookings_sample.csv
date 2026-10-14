@@ -1,0 +1,2001 @@
+lead_time,adr,stays_in_weekend_nights,stays_in_week_nights,adults,children,total_of_special_requests,booking_changes,arrival_date_week_number,hotel,arrival_date_month,meal,country,market_segment,distribution_channel,reserved_room_type,assigned_room_type,deposit_type,customer_type,agent,is_canceled
+28,105.0,0,3,2,0,1,0,38,City Hotel,September,BB,FRA,Direct,Direct,A,A,No Deposit,Transient,14,0
+12,108.0,0,1,1,0,0,0,7,City Hotel,February,BB,AGO,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,108.0,0,2,2,0,0,0,1,City Hotel,January,BB,HRV,Direct,Direct,D,D,No Deposit,Transient,14,0
+13,94.0,0,4,2,0,1,2,21,Resort Hotel,May,BB,IND,Online TA,TA/TO,D,E,No Deposit,Transient,240,0
+220,111.0,2,6,1,0,1,1,27,Resort Hotel,July,HB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+23,72.0,1,1,2,0,0,0,50,Resort Hotel,December,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+210,134.0,2,3,2,0,0,0,32,Resort Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+26,160.0,0,1,2,1,1,0,21,Resort Hotel,May,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,241,0
+182,89.1,3,9,2,0,1,0,32,City Hotel,August,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,42,0
+0,38.0,0,1,1,0,0,0,3,Resort Hotel,January,BB,ESP,Direct,Direct,D,D,No Deposit,Transient-Party,None,0
+33,59.0,1,1,1,0,0,1,5,City Hotel,January,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient-Party,38,0
+112,98.69,0,2,2,0,1,0,19,City Hotel,May,BB,FRA,Direct,Direct,A,A,No Deposit,Transient,None,0
+68,89.0,0,4,2,0,1,0,39,Resort Hotel,September,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+157,78.45,2,5,2,0,1,0,31,City Hotel,July,BB,SWE,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+195,158.7,2,1,3,0,0,1,33,City Hotel,August,BB,USA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+79,62.0,1,1,2,0,1,0,41,City Hotel,October,BB,ESP,Groups,TA/TO,A,D,No Deposit,Transient-Party,1,0
+36,26.0,0,1,2,0,1,0,10,Resort Hotel,March,BB,GBR,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,6,0
+43,96.39,2,4,2,1,2,2,4,City Hotel,January,BB,CHN,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+48,43.5,0,4,2,0,0,0,46,City Hotel,November,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,27,0
+0,119.0,0,1,2,0,0,0,25,City Hotel,June,SC,AGO,Direct,Direct,A,C,No Deposit,Transient,None,0
+61,105.3,1,1,2,0,0,0,30,City Hotel,July,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+15,91.0,0,2,2,0,0,0,9,City Hotel,February,BB,CHE,Direct,Direct,A,A,No Deposit,Transient,14,0
+16,194.0,0,3,3,0,0,0,31,Resort Hotel,July,BB,NOR,Direct,Direct,E,F,No Deposit,Transient,250,0
+203,117.0,2,5,2,0,4,0,15,City Hotel,April,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+4,47.86,2,5,2,0,3,0,47,Resort Hotel,November,BB,FRA,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+137,250.0,2,3,2,0,0,0,30,Resort Hotel,July,Undefined,PRT,Direct,Direct,C,C,No Deposit,Transient,250,1
+14,34.4,0,3,1,0,0,0,4,Resort Hotel,January,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,314,0
+295,110.11,3,6,3,1,0,0,52,Resort Hotel,December,BB,GBR,Online TA,TA/TO,H,H,No Deposit,Transient,240,1
+139,86.92,2,7,2,1,0,0,29,City Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,7,1
+110,94.5,2,1,2,0,0,0,30,City Hotel,July,HB,ITA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,17,1
+19,76.0,2,5,2,0,0,0,3,Resort Hotel,January,HB,FRA,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,8,0
+215,184.54,2,5,2,0,2,2,33,Resort Hotel,August,FB,PRT,Direct,Direct,A,A,No Deposit,Transient-Party,250,0
+29,75.95,1,0,2,0,1,0,2,City Hotel,January,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+41,66.0,2,5,2,0,0,1,11,Resort Hotel,March,Undefined,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,464,0
+192,76.5,2,3,2,0,2,0,32,City Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+15,233.0,2,4,2,0,1,0,30,Resort Hotel,July,Undefined,PRT,Direct,Direct,A,A,No Deposit,Transient,None,1
+62,93.6,0,2,2,0,1,0,3,City Hotel,January,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+3,159.0,0,1,2,0,0,1,21,City Hotel,May,BB,PRT,Corporate,Corporate,E,E,No Deposit,Transient,None,0
+0,107.0,0,1,2,0,1,0,44,City Hotel,October,BB,DZA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+41,158.0,1,2,3,0,0,1,9,City Hotel,February,BB,CHE,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+59,109.0,2,2,2,0,1,0,52,Resort Hotel,December,HB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient-Party,240,0
+53,71.42,0,2,2,0,1,2,4,City Hotel,January,SC,CHN,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+332,77.23,1,3,2,0,2,1,39,City Hotel,September,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+212,72.25,2,3,2,0,1,0,46,City Hotel,November,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,1
+30,65.4,1,5,2,0,0,0,11,Resort Hotel,March,Undefined,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,38,0
+26,157.94,1,1,2,0,0,0,39,City Hotel,September,BB,BRA,Direct,Direct,E,D,No Deposit,Transient,14,0
+168,60.0,0,2,2,0,0,0,37,City Hotel,September,BB,PRT,Groups,TA/TO,A,E,No Deposit,Transient-Party,1,0
+77,74.61,2,3,2,0,1,0,52,City Hotel,December,BB,BRA,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+0,152.0,0,1,2,0,0,0,31,City Hotel,July,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,None,0
+47,50.5,1,4,1,0,0,0,12,Resort Hotel,March,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,91,0
+14,45.0,1,4,2,0,1,1,11,Resort Hotel,March,BB,ESP,Direct,Direct,A,A,No Deposit,Transient,250,0
+6,110.0,1,0,1,0,0,0,11,City Hotel,March,BB,PRT,Corporate,Corporate,E,E,No Deposit,Transient,None,0
+31,75.0,1,2,2,0,0,0,44,City Hotel,October,BB,FRA,Offline TA/TO,TA/TO,D,D,No Deposit,Group,28,0
+95,94.2,1,3,2,1,0,0,11,City Hotel,March,BB,ESP,Direct,Direct,A,A,No Deposit,Transient,14,0
+70,42.0,0,4,2,0,0,0,8,Resort Hotel,February,BB,GBR,Corporate,Corporate,A,A,No Deposit,Transient-Party,None,0
+51,165.2,2,3,2,0,1,1,22,City Hotel,May,BB,USA,Direct,Direct,A,A,No Deposit,Transient,14,0
+30,150.0,1,1,2,0,0,0,13,City Hotel,April,BB,BRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+10,73.66,0,3,2,0,2,0,41,Resort Hotel,October,BB,FRA,Online TA,TA/TO,D,E,No Deposit,Transient,240,0
+77,149.4,0,2,2,0,1,0,38,City Hotel,September,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+145,84.51,0,5,1,0,1,0,35,City Hotel,August,SC,JPN,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+9,56.0,0,2,2,0,0,0,44,Resort Hotel,October,BB,Unknown,Direct,Direct,D,D,No Deposit,Transient,250,0
+67,165.0,2,3,2,0,0,0,32,Resort Hotel,August,HB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,40,0
+252,62.48,2,5,2,0,1,0,37,Resort Hotel,September,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,40,0
+122,153.0,1,2,2,0,0,0,24,City Hotel,June,BB,FIN,Online TA,TA/TO,E,F,No Deposit,Transient,9,0
+142,168.3,0,1,2,2,2,0,35,City Hotel,August,BB,FRA,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+195,137.7,1,1,3,0,0,0,32,City Hotel,August,BB,CHE,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+34,56.0,0,4,2,0,1,0,44,Resort Hotel,October,BB,IRL,Online TA,TA/TO,D,F,No Deposit,Transient,240,0
+0,56.0,0,1,2,0,0,0,45,Resort Hotel,November,BB,ESP,Direct,Direct,D,D,No Deposit,Transient,None,0
+118,118.8,1,4,1,0,1,0,18,City Hotel,May,BB,NOR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+14,53.32,5,10,2,0,1,0,45,Resort Hotel,October,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,241,0
+4,160.0,0,1,2,0,1,0,25,City Hotel,June,SC,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+48,159.3,2,0,2,0,0,0,23,City Hotel,May,BB,KOR,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+28,108.34,2,3,3,0,1,1,35,Resort Hotel,August,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,241,0
+141,56.82,2,5,2,0,0,0,22,Resort Hotel,May,BB,IRL,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,8,0
+7,118.0,0,1,1,0,0,0,31,Resort Hotel,July,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+162,135.0,0,3,2,0,0,0,20,City Hotel,May,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Contract,9,1
+3,92.0,0,1,2,0,1,0,14,Resort Hotel,April,BB,FIN,Online TA,TA/TO,E,E,No Deposit,Transient,241,0
+4,25.0,0,1,1,0,1,0,49,Resort Hotel,December,BB,PRT,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,330,0
+1,48.0,0,1,2,0,0,0,8,Resort Hotel,February,BB,ITA,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+15,204.0,1,4,2,0,1,0,29,Resort Hotel,July,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+29,81.54,2,5,2,0,1,0,6,City Hotel,February,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+2,153.8,0,2,2,1,0,2,48,City Hotel,November,BB,PRT,Offline TA/TO,TA/TO,F,F,No Deposit,Transient,15,0
+27,99.0,0,3,2,0,0,0,18,City Hotel,May,BB,BEL,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,168,0
+1,75.0,0,1,1,0,2,0,22,Resort Hotel,May,BB,PRT,Corporate,Corporate,A,E,No Deposit,Transient,None,0
+4,160.0,0,1,2,0,1,0,26,Resort Hotel,July,BB,PRT,Online TA,TA/TO,A,C,No Deposit,Transient,240,0
+9,33.0,0,1,1,0,0,0,45,Resort Hotel,November,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+102,134.3,1,3,3,0,2,0,12,City Hotel,March,BB,RUS,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+23,78.0,1,1,2,0,1,1,4,Resort Hotel,January,HB,GBR,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+38,69.44,2,3,2,0,0,0,8,City Hotel,February,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,7,1
+1,100.0,0,3,2,0,1,0,48,City Hotel,November,SC,CHN,Online TA,TA/TO,D,E,No Deposit,Transient,9,0
+457,122.4,0,2,2,0,1,1,34,City Hotel,August,HB,DEU,Offline TA/TO,TA/TO,A,C,No Deposit,Transient-Party,6,0
+62,109.68,1,3,2,0,1,1,18,City Hotel,April,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+2,95.0,0,1,2,0,0,0,42,City Hotel,October,BB,BRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,28,0
+219,79.2,1,2,2,0,1,0,11,City Hotel,March,SC,RUS,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,76.0,0,1,2,0,2,0,17,Resort Hotel,April,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+111,221.0,2,5,2,0,1,0,32,Resort Hotel,August,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+188,84.82,2,3,2,2,1,3,35,City Hotel,August,BB,BEL,Online TA,TA/TO,B,B,No Deposit,Transient,9,0
+7,45.0,0,1,1,0,0,0,51,Resort Hotel,December,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+183,108.0,2,0,2,0,1,0,25,City Hotel,June,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,42,0
+16,170.0,2,3,1,0,0,1,39,City Hotel,September,BB,EGY,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,0
+15,0.0,0,1,2,0,2,1,27,City Hotel,July,BB,PRT,Complementary,Direct,A,D,No Deposit,Transient,None,0
+8,116.5,1,3,1,0,0,0,26,City Hotel,June,SC,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,48.0,0,1,2,0,0,0,49,Resort Hotel,November,BB,PRT,Online TA,Direct,A,D,No Deposit,Transient,240,0
+77,87.31,2,5,2,0,0,1,13,City Hotel,March,BB,CHE,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+5,117.67,0,3,2,0,2,0,36,City Hotel,September,BB,MEX,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+22,96.9,1,3,2,0,2,0,47,City Hotel,November,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+199,85.0,1,1,2,0,0,0,19,Resort Hotel,May,HB,DEU,Groups,TA/TO,A,A,No Deposit,Transient,298,0
+62,57.0,2,3,2,0,1,0,4,City Hotel,January,BB,DEU,Offline TA/TO,TA/TO,A,D,No Deposit,Contract,28,0
+47,79.2,0,2,2,0,0,0,10,City Hotel,March,BB,FRA,Direct,Direct,A,A,No Deposit,Transient,14,0
+97,96.3,0,2,2,0,2,0,15,City Hotel,April,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+131,59.5,2,3,2,0,0,0,13,City Hotel,March,BB,AUT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,16,0
+208,75.44,0,4,2,0,0,0,53,City Hotel,December,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,8,1
+79,88.8,2,0,2,0,2,0,46,Resort Hotel,November,HB,POL,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+59,120.0,2,5,2,0,0,0,20,Resort Hotel,May,BB,IRL,Direct,Direct,G,G,No Deposit,Transient-Party,250,0
+37,146.7,2,2,2,1,1,1,27,City Hotel,July,BB,ESP,Online TA,TA/TO,A,D,No Deposit,Transient,8,0
+151,49.0,0,5,1,0,0,4,14,Resort Hotel,April,BB,GBR,Groups,TA/TO,D,D,No Deposit,Transient-Party,None,0
+2,65.0,0,1,1,0,0,0,27,City Hotel,June,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+44,133.0,2,1,3,0,1,1,17,City Hotel,April,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,24,0
+0,158.0,0,1,1,0,0,0,41,City Hotel,October,BB,USA,Direct,Direct,A,A,No Deposit,Transient,14,0
+42,122.34,2,5,2,0,1,0,30,Resort Hotel,July,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,175,0
+6,120.0,0,1,1,0,0,0,23,City Hotel,June,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,157,0
+51,189.0,2,6,2,0,0,0,33,Resort Hotel,August,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+36,130.32,2,0,2,0,0,0,22,City Hotel,May,BB,IND,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,83,0
+215,94.05,0,2,2,0,1,0,26,City Hotel,June,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+79,112.36,2,5,2,0,1,0,31,Resort Hotel,July,HB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient-Party,147,0
+14,118.0,0,3,3,0,1,0,9,City Hotel,February,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+34,65.0,2,1,1,0,0,1,49,City Hotel,November,BB,ITA,Groups,TA/TO,A,D,No Deposit,Transient-Party,None,0
+13,179.5,2,2,3,0,0,0,13,City Hotel,March,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+41,66.0,4,10,2,0,2,0,11,Resort Hotel,March,Undefined,FRA,Offline TA/TO,TA/TO,A,C,No Deposit,Transient,464,0
+0,73.0,0,4,2,0,0,1,46,Resort Hotel,November,BB,CHE,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+52,94.5,0,3,2,0,0,0,16,City Hotel,April,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+8,85.0,0,3,2,0,0,0,19,Resort Hotel,May,BB,PRT,Online TA,TA/TO,A,E,No Deposit,Transient,240,0
+58,137.4,1,2,2,0,0,0,23,City Hotel,June,BB,SWE,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+65,206.34,2,5,3,0,2,0,34,Resort Hotel,August,HB,PRT,Online TA,TA/TO,F,F,No Deposit,Transient,241,0
+13,99.95,0,5,2,0,1,0,43,City Hotel,October,BB,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+169,170.0,0,3,2,0,0,0,23,City Hotel,June,BB,PRT,Offline TA/TO,TA/TO,A,A,Non Refund,Transient,19,1
+48,80.4,1,0,2,0,0,0,18,City Hotel,April,SC,ESP,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,83,0
+37,100.3,0,4,2,0,0,0,10,City Hotel,March,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+110,150.0,0,1,2,0,1,0,23,City Hotel,June,BB,USA,Direct,Direct,D,D,No Deposit,Transient,14,0
+278,110.0,0,4,2,0,2,1,24,City Hotel,June,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+118,122.7,3,6,2,0,1,0,33,Resort Hotel,August,BB,PRT,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,5,0
+131,42.57,2,5,1,0,0,1,52,Resort Hotel,December,HB,IRL,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,314,0
+52,131.4,0,3,3,0,1,0,13,City Hotel,March,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+223,66.0,1,5,2,0,0,1,22,Resort Hotel,May,BB,GBR,Groups,Direct,A,E,No Deposit,Transient-Party,None,0
+5,77.0,1,0,1,0,0,0,49,City Hotel,November,BB,ESP,Corporate,Corporate,A,A,No Deposit,Transient-Party,None,0
+99,79.2,0,2,2,0,2,0,10,City Hotel,March,SC,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+180,49.74,2,5,1,0,0,0,34,City Hotel,August,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+245,80.0,3,7,2,0,1,0,40,Resort Hotel,September,HB,CN,Groups,TA/TO,A,A,No Deposit,Transient-Party,15,0
+35,38.0,0,2,1,0,0,1,9,Resort Hotel,February,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+54,0.0,0,1,2,0,1,0,48,City Hotel,November,BB,PRT,Complementary,Corporate,A,A,No Deposit,Transient,None,1
+189,90.95,2,3,2,0,1,0,31,City Hotel,July,BB,AUT,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+19,109.0,1,0,2,0,1,0,35,City Hotel,August,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+33,79.35,0,2,2,0,1,0,40,City Hotel,October,BB,CHE,Online TA,TA/TO,A,A,No Deposit,Group,7,0
+6,143.0,2,3,2,0,2,0,27,Resort Hotel,June,BB,FRA,Online TA,TA/TO,A,C,No Deposit,Transient,240,0
+13,48.0,0,1,2,0,1,0,48,Resort Hotel,November,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+83,34.65,0,3,2,0,2,0,43,Resort Hotel,October,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,241,0
+1,0.0,0,1,1,0,2,0,15,City Hotel,April,BB,PRT,Complementary,Direct,D,D,No Deposit,Group,None,0
+87,112.01,2,2,0,2,1,0,23,City Hotel,May,BB,PRT,Online TA,TA/TO,B,B,No Deposit,Transient,9,0
+178,103.0,0,2,2,0,1,0,21,Resort Hotel,May,HB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+20,80.0,1,2,2,0,0,0,47,City Hotel,November,BB,ESP,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,85,0
+92,90.0,0,1,2,0,0,0,46,City Hotel,November,BB,THA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,364,0
+33,90.54,1,4,2,0,0,0,17,City Hotel,April,SC,ARE,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+105,84.12,3,6,2,0,1,0,20,Resort Hotel,May,BB,GBR,Online TA,TA/TO,E,E,No Deposit,Transient,241,0
+25,25.0,0,1,1,0,0,0,4,Resort Hotel,January,BB,GBR,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,314,0
+364,60.0,2,5,1,0,0,2,42,Resort Hotel,October,BB,GBR,Groups,Corporate,A,A,No Deposit,Transient-Party,None,0
+97,134.14,2,5,2,0,1,0,53,Resort Hotel,December,HB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+33,191.0,0,1,1,0,0,0,33,Resort Hotel,August,BB,PRT,Groups,Corporate,A,A,No Deposit,Transient-Party,None,0
+305,132.85,2,5,2,0,0,0,31,Resort Hotel,August,HB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,143,0
+30,198.9,1,2,2,0,2,1,19,City Hotel,May,BB,FRA,Online TA,TA/TO,F,F,No Deposit,Transient,9,0
+72,118.8,1,1,2,0,1,0,17,City Hotel,April,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient-Party,9,0
+43,30.6,2,3,2,0,1,0,45,Resort Hotel,November,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,177,0
+0,139.0,0,1,2,0,0,1,20,City Hotel,May,BB,PRT,Direct,Direct,A,E,No Deposit,Transient,None,0
+25,54.0,0,2,2,0,2,0,51,Resort Hotel,December,BB,ESP,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+56,120.0,1,1,1,0,0,1,23,City Hotel,May,BB,BEL,Groups,TA/TO,A,A,No Deposit,Transient-Party,None,0
+107,42.95,2,8,2,0,0,0,19,Resort Hotel,May,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,40,0
+58,75.0,2,1,2,0,1,0,47,City Hotel,November,BB,ESP,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+177,42.23,4,10,1,0,0,0,40,Resort Hotel,September,HB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,243,0
+1,95.0,0,2,1,0,1,0,16,Resort Hotel,April,BB,BEL,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+20,41.4,0,2,2,0,0,0,44,Resort Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,10,0
+139,193.0,2,5,2,0,0,0,28,Resort Hotel,July,HB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+69,126.0,1,1,2,0,0,0,23,City Hotel,June,BB,IRL,Direct,Direct,A,A,No Deposit,Transient,14,1
+35,52.2,4,7,1,0,0,2,45,Resort Hotel,November,BB,AUT,Corporate,Corporate,E,E,No Deposit,Transient-Party,185,0
+38,72.0,0,2,2,0,0,0,13,Resort Hotel,March,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,250,0
+108,58.0,2,5,2,0,0,0,19,Resort Hotel,May,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+109,73.8,1,1,2,0,1,0,29,Resort Hotel,July,BB,ESP,Online TA,TA/TO,A,C,No Deposit,Transient,240,0
+1,43.0,0,1,1,0,2,0,2,Resort Hotel,January,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+94,173.0,0,2,2,0,0,0,28,Resort Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+79,95.0,2,5,2,0,0,2,36,City Hotel,September,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,86,0
+155,215.27,1,1,2,3,1,0,29,City Hotel,July,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,7,1
+20,68.0,0,1,1,0,2,0,40,Resort Hotel,September,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+5,124.0,0,2,2,0,1,0,37,City Hotel,September,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+107,116.1,0,2,2,0,0,0,25,City Hotel,June,SC,CPV,Online TA,TA/TO,B,B,No Deposit,Transient,9,1
+20,163.33,1,2,2,0,2,0,20,City Hotel,May,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+37,170.0,0,5,2,0,1,0,25,City Hotel,June,BB,USA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+150,95.69,2,5,2,0,0,1,23,City Hotel,June,BB,BEL,Direct,Direct,A,D,No Deposit,Transient,14,0
+6,97.02,1,2,1,0,1,0,22,City Hotel,May,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+37,160.0,1,1,1,0,0,0,25,City Hotel,June,SC,USA,Direct,Direct,A,A,No Deposit,Transient,14,0
+190,132.6,2,4,2,0,4,2,36,City Hotel,September,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+66,90.0,2,3,3,0,1,0,48,City Hotel,November,BB,FRA,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,28,0
+278,78.3,1,2,2,0,2,0,50,City Hotel,December,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+143,178.1,2,5,2,1,1,0,32,Resort Hotel,August,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,241,1
+126,83.12,2,2,2,0,1,0,21,City Hotel,May,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+115,61.86,2,5,2,0,1,0,11,Resort Hotel,March,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+36,94.99,0,4,2,0,2,0,48,City Hotel,November,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,1
+219,110.7,0,1,2,0,2,0,36,Resort Hotel,September,BB,NLD,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+4,104.0,1,1,1,0,1,0,16,City Hotel,April,SC,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+5,158.0,0,1,1,0,1,0,38,City Hotel,September,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+12,140.0,0,2,2,1,1,2,18,Resort Hotel,May,BB,ESP,Online TA,TA/TO,E,G,No Deposit,Transient,240,0
+23,242.67,0,3,2,2,0,0,35,City Hotel,August,BB,GBR,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+18,106.0,2,0,2,0,0,0,16,City Hotel,April,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+54,135.9,2,2,2,0,1,0,32,City Hotel,August,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+247,86.85,1,3,2,0,0,0,35,City Hotel,August,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,42,0
+0,77.0,0,1,1,0,1,0,23,Resort Hotel,June,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,241,0
+209,133.2,0,2,3,0,0,0,34,City Hotel,August,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+98,59.5,0,3,2,0,0,0,53,City Hotel,December,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,83,1
+62,98.0,0,1,2,0,0,0,46,City Hotel,November,BB,ESP,Direct,Direct,A,A,No Deposit,Transient,14,0
+48,80.1,0,1,2,0,0,1,19,City Hotel,May,SC,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,58,0
+151,190.0,0,4,3,0,0,0,30,City Hotel,July,BB,ESP,Direct,Direct,D,D,No Deposit,Transient,14,0
+15,139.2,2,3,2,0,1,0,33,City Hotel,August,BB,IRL,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+24,60.75,0,4,3,0,1,0,45,City Hotel,November,BB,DEU,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,16,0
+17,118.15,0,1,2,0,0,1,34,City Hotel,August,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,14,0
+0,190.0,1,0,3,0,0,0,31,City Hotel,July,BB,AUS,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+75,75.0,2,1,2,0,0,0,18,City Hotel,April,BB,MYS,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+127,140.0,2,3,2,0,1,0,23,Resort Hotel,June,BB,IRL,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+26,30.0,0,3,1,0,0,0,7,Resort Hotel,February,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Group,171,0
+57,106.0,2,5,2,0,0,0,22,Resort Hotel,June,HB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,40,0
+2,79.0,0,1,1,0,1,0,12,City Hotel,March,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+144,41.4,2,2,2,0,0,1,14,Resort Hotel,April,BB,GBR,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,177,0
+15,107.75,2,2,2,0,1,0,37,City Hotel,September,SC,CZE,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+1,75.0,3,9,1,0,0,2,33,City Hotel,August,BB,AGO,Direct,Direct,A,A,No Deposit,Transient-Party,None,0
+12,50.4,0,1,1,0,0,1,53,Resort Hotel,December,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,1
+7,82.66,2,0,2,0,1,0,27,City Hotel,June,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+16,134.8,1,0,2,1,1,0,27,City Hotel,June,BB,USA,Online TA,TA/TO,A,A,No Deposit,Transient,11,0
+40,149.4,0,5,2,0,0,0,35,City Hotel,August,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+43,230.0,1,1,2,2,0,0,13,City Hotel,April,BB,CZE,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+66,193.5,2,3,1,3,0,0,21,City Hotel,May,BB,AGO,Direct,Direct,F,F,No Deposit,Transient,14,1
+5,190.0,0,1,1,0,0,0,30,Resort Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Group,240,0
+89,83.66,2,5,2,0,1,0,13,City Hotel,March,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,8,0
+25,115.5,2,7,2,0,1,1,15,Resort Hotel,April,BB,PRT,Direct,Direct,E,E,No Deposit,Transient,250,1
+39,96.3,1,2,2,0,2,0,46,City Hotel,November,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+1,50.0,0,1,2,0,3,0,49,Resort Hotel,December,BB,PRT,Corporate,Corporate,G,G,No Deposit,Transient,None,0
+3,111.0,0,2,2,1,2,0,6,City Hotel,February,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+199,187.37,2,5,3,0,2,0,31,Resort Hotel,August,BB,GBR,Direct,Direct,A,A,No Deposit,Transient,250,0
+10,214.0,0,1,3,0,0,0,14,City Hotel,April,BB,SWE,Online TA,TA/TO,E,E,No Deposit,Transient,9,1
+229,89.1,2,4,2,0,1,0,28,City Hotel,July,SC,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+25,86.0,2,2,2,0,1,0,5,City Hotel,February,BB,ESP,Direct,Direct,A,A,No Deposit,Transient,14,0
+262,98.1,1,2,2,1,2,2,2,City Hotel,January,BB,ROU,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+21,163.33,1,2,1,0,2,0,20,City Hotel,May,BB,IRL,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+55,102.6,1,0,2,0,2,0,47,City Hotel,November,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+150,85.5,1,0,2,0,1,0,27,City Hotel,June,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+52,126.0,1,3,2,0,0,0,18,City Hotel,May,SC,AUT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+67,109.8,2,1,2,0,1,0,15,City Hotel,April,BB,CHE,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+271,100.0,0,3,2,0,0,0,18,City Hotel,May,BB,PRT,Groups,TA/TO,A,A,Non Refund,Transient,58,1
+31,88.33,2,4,2,0,2,0,1,City Hotel,January,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+79,57.29,2,5,2,0,2,0,52,Resort Hotel,December,HB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,156,0
+301,128.0,2,5,2,0,2,0,31,Resort Hotel,July,BB,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+5,165.0,0,3,2,1,0,0,28,Resort Hotel,July,BB,PRT,Direct,Direct,E,E,No Deposit,Transient,250,0
+74,171.0,1,1,3,0,0,0,17,City Hotel,April,BB,USA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+35,38.67,0,3,2,0,0,0,11,City Hotel,March,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,27,0
+279,153.9,0,3,3,0,2,0,21,City Hotel,May,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+0,0.0,0,1,1,0,0,0,29,City Hotel,July,BB,PRT,Online TA,TA/TO,B,A,No Deposit,Transient,9,0
+22,107.0,2,1,2,0,2,0,13,Resort Hotel,April,HB,ESP,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+36,53.45,2,6,2,0,0,1,45,Resort Hotel,November,BB,GBR,Corporate,Corporate,E,E,No Deposit,Transient-Party,185,0
+8,85.0,0,1,1,0,2,0,46,City Hotel,November,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,1
+0,142.0,0,1,2,0,0,0,18,City Hotel,May,BB,BEL,Direct,Direct,A,B,No Deposit,Transient,None,0
+137,80.0,1,1,2,0,1,1,10,City Hotel,March,BB,ISR,Groups,TA/TO,A,A,No Deposit,Transient-Party,37,0
+187,95.4,2,2,2,0,1,0,32,Resort Hotel,July,BB,CN,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,96,0
+6,117.8,1,1,2,0,0,0,34,City Hotel,August,SC,ESP,Direct,Direct,A,A,No Deposit,Transient,14,0
+3,97.0,2,1,2,0,0,0,17,Resort Hotel,April,BB,ESP,Direct,Direct,A,C,No Deposit,Transient,250,0
+20,190.0,0,1,2,0,2,4,31,City Hotel,August,BB,CHN,Online TA,TA/TO,D,D,No Deposit,Transient-Party,9,0
+125,29.16,2,4,2,0,3,0,47,Resort Hotel,November,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+5,0.0,0,1,2,0,0,0,43,City Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,3,0
+123,114.69,2,4,2,0,1,0,39,City Hotel,September,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+12,153.0,1,1,2,0,2,0,30,Resort Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+85,94.5,0,4,2,0,0,0,29,City Hotel,July,SC,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+121,184.5,2,5,2,2,0,0,30,Resort Hotel,July,BB,IRL,Direct,Direct,C,C,No Deposit,Transient,250,0
+4,61.2,1,2,2,0,4,0,50,Resort Hotel,December,BB,BRA,Direct,TA/TO,D,D,No Deposit,Transient,250,0
+312,172.8,2,2,2,1,2,2,31,Resort Hotel,August,BB,LUX,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+5,88.0,1,1,1,0,1,1,50,City Hotel,December,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+94,88.0,1,3,3,0,0,0,7,Resort Hotel,February,HB,GBR,Groups,TA/TO,A,A,No Deposit,Transient-Party,152,0
+59,87.0,0,2,2,0,1,3,5,City Hotel,January,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,87,0
+11,90.0,0,3,1,0,0,0,25,City Hotel,June,BB,PRT,Corporate,Corporate,D,D,No Deposit,Transient-Party,None,0
+1,96.3,2,2,2,0,0,0,35,City Hotel,August,BB,GEO,Online TA,TA/TO,A,A,No Deposit,Transient,None,0
+21,127.0,0,1,1,2,0,1,11,City Hotel,March,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+8,151.0,2,1,2,0,0,0,32,City Hotel,August,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+108,180.0,1,2,1,0,1,1,20,City Hotel,May,BB,GBR,Online TA,TA/TO,E,E,No Deposit,Transient,9,0
+3,156.33,0,3,3,0,2,0,49,City Hotel,December,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+98,143.0,0,4,2,0,1,1,18,City Hotel,May,HB,GBR,Direct,Direct,A,A,No Deposit,Transient-Party,14,0
+48,173.7,2,2,2,0,2,0,42,City Hotel,October,HB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+56,164.0,1,1,3,0,1,1,25,Resort Hotel,June,BB,USA,Online TA,TA/TO,A,A,No Deposit,Transient,242,0
+31,85.0,1,3,2,0,0,0,44,City Hotel,October,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+123,138.6,2,1,2,0,2,0,32,Resort Hotel,August,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+35,82.45,1,2,2,0,1,0,5,City Hotel,January,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+4,67.0,1,0,1,0,1,0,49,City Hotel,November,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+195,89.1,2,3,2,0,1,0,29,City Hotel,July,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+34,109.0,1,1,2,0,1,0,44,City Hotel,October,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+117,94.5,0,2,2,0,1,0,19,City Hotel,May,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+145,118.8,0,2,2,0,0,0,31,City Hotel,July,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient-Party,9,0
+7,79.2,1,1,2,0,0,2,46,City Hotel,November,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+3,40.0,0,1,1,0,2,0,4,Resort Hotel,January,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+9,96.9,1,3,2,0,2,0,1,City Hotel,January,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+215,75.0,1,1,1,0,0,2,48,City Hotel,November,BB,ESP,Groups,Corporate,A,D,No Deposit,Transient,None,0
+160,146.7,1,2,3,0,0,1,35,City Hotel,August,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+4,110.11,1,0,1,0,1,0,38,City Hotel,September,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+15,131.0,0,1,2,0,0,0,17,City Hotel,April,BB,TUR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+9,88.0,2,2,2,0,0,1,2,City Hotel,January,BB,MAR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+1,0.0,0,0,1,0,0,0,43,City Hotel,October,BB,PRT,Complementary,Direct,D,A,No Deposit,Transient,None,0
+31,120.7,1,3,2,0,4,0,51,City Hotel,December,HB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+140,113.9,2,3,2,0,0,0,32,City Hotel,July,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+180,97.54,0,1,0,2,1,0,34,City Hotel,August,BB,GBR,Online TA,TA/TO,B,B,No Deposit,Transient,9,0
+21,112.0,0,3,2,0,1,0,9,Resort Hotel,March,HB,BEL,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+4,37.0,0,1,1,0,0,0,44,Resort Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,330,0
+3,64.0,2,2,2,0,1,0,46,Resort Hotel,November,BB,NLD,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+16,127.0,0,1,2,1,1,0,12,City Hotel,March,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+56,144.0,0,3,2,1,0,0,15,City Hotel,April,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+56,79.2,0,3,2,0,1,0,13,City Hotel,March,SC,CHN,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+12,64.0,0,1,2,0,0,0,13,Resort Hotel,March,BB,SRB,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+144,80.1,1,2,2,0,0,0,44,City Hotel,October,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+35,74.8,2,3,2,0,0,0,10,City Hotel,March,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+5,94.0,1,1,2,0,1,0,46,City Hotel,November,BB,JPN,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+8,180.0,1,0,1,1,3,1,34,City Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+68,93.6,1,1,2,0,2,0,4,City Hotel,January,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+60,62.0,0,1,2,0,1,0,1,Resort Hotel,January,BB,FRA,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+213,110.7,0,1,3,0,0,1,51,City Hotel,December,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+168,130.5,2,3,2,0,1,0,34,City Hotel,August,BB,CZE,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+1,58.0,0,1,2,0,1,0,8,Resort Hotel,February,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+72,36.0,2,6,1,0,0,0,15,Resort Hotel,April,BB,GBR,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,96,0
+3,196.0,0,2,3,0,1,0,31,Resort Hotel,August,BB,PHL,Online TA,TA/TO,A,A,No Deposit,Transient,241,0
+27,105.49,0,2,1,0,0,0,17,City Hotel,April,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,7,1
+13,125.0,1,2,2,1,2,0,47,City Hotel,November,BB,DEU,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+136,115.0,1,5,2,0,0,0,44,Resort Hotel,October,HB,ESP,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+9,80.25,1,3,2,0,0,0,41,Resort Hotel,October,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+84,98.4,2,5,2,0,1,0,41,Resort Hotel,October,HB,POL,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+1,121.0,1,1,2,0,0,1,48,City Hotel,November,HB,NLD,Direct,Direct,D,D,No Deposit,Transient,14,0
+24,121.5,2,5,2,0,2,0,31,Resort Hotel,August,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,40,0
+15,75.0,1,1,2,0,1,0,35,City Hotel,August,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+0,131.0,0,1,2,0,0,0,40,Resort Hotel,September,BB,PRT,Direct,Direct,E,E,No Deposit,Transient,None,0
+2,170.0,0,1,1,0,1,2,42,City Hotel,October,BB,ESP,Direct,Direct,D,D,No Deposit,Transient,None,0
+73,43.2,2,5,2,0,0,0,15,Resort Hotel,April,BB,IRL,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,171,0
+203,139.99,1,0,2,0,0,0,34,Resort Hotel,August,BB,PRT,Offline TA/TO,TA/TO,D,I,No Deposit,Transient,36,0
+38,0.0,1,1,2,0,1,3,50,City Hotel,December,BB,PRT,Complementary,Direct,A,A,No Deposit,Transient,None,0
+41,187.0,2,4,3,0,0,0,15,City Hotel,April,BB,LBN,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+100,38.67,1,2,2,0,0,0,13,City Hotel,March,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,27,0
+2,105.0,0,1,1,0,0,1,52,City Hotel,December,BB,PRT,Corporate,Corporate,E,E,No Deposit,Transient,None,0
+227,92.7,3,7,2,0,0,0,23,Resort Hotel,June,HB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,40,0
+102,104.4,0,2,2,0,0,0,44,City Hotel,October,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+4,74.8,0,4,2,0,2,0,5,City Hotel,February,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+12,38.67,0,3,2,0,0,0,12,City Hotel,March,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,27,0
+3,0.0,0,0,2,0,0,0,19,Resort Hotel,May,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient-Party,None,0
+155,113.4,1,1,1,0,0,0,41,City Hotel,October,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+86,100.0,0,2,2,0,0,0,37,City Hotel,September,BB,FRA,Corporate,Corporate,A,D,No Deposit,Transient-Party,None,1
+29,88.0,0,2,2,0,1,0,47,City Hotel,November,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+40,85.0,2,1,2,0,0,0,12,City Hotel,March,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+334,156.6,1,5,2,0,0,0,31,Resort Hotel,August,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+159,108.0,2,2,2,0,0,0,43,City Hotel,October,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,14,1
+138,109.25,2,3,2,0,0,1,29,City Hotel,July,BB,NOR,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+158,202.5,2,5,3,0,0,0,34,City Hotel,August,BB,FRA,Online TA,TA/TO,E,E,No Deposit,Transient,9,1
+1,56.0,0,2,1,0,0,0,43,Resort Hotel,October,BB,PRT,Direct,Corporate,A,B,No Deposit,Transient,None,0
+0,195.0,0,1,2,0,0,0,33,City Hotel,August,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+60,158.33,0,3,2,1,0,0,27,Resort Hotel,June,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+1,70.0,0,1,1,0,0,0,33,City Hotel,August,BB,GRC,Corporate,Corporate,A,A,No Deposit,Transient-Party,None,0
+189,107.1,2,5,2,0,0,0,28,City Hotel,July,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+287,81.6,2,5,1,0,1,1,29,Resort Hotel,July,BB,NOR,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,8,0
+66,80.1,0,2,2,0,2,0,39,Resort Hotel,September,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Group,240,0
+112,75.0,0,4,2,0,0,1,10,Resort Hotel,March,HB,DEU,Direct,Direct,D,D,No Deposit,Transient-Party,None,0
+55,133.21,2,5,2,0,0,0,33,Resort Hotel,August,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,241,1
+10,105.0,0,4,2,0,2,0,37,City Hotel,September,BB,NOR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+83,50.44,2,5,1,0,0,1,46,Resort Hotel,November,HB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,314,0
+51,135.9,0,3,2,0,1,0,31,City Hotel,July,BB,RUS,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+11,119.0,1,2,2,0,0,0,37,City Hotel,September,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+1,37.6,0,1,1,0,0,0,42,Resort Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,314,0
+126,90.95,0,4,2,0,1,0,27,City Hotel,June,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+103,70.03,2,2,2,1,0,0,17,City Hotel,April,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+216,181.0,1,3,2,0,1,0,33,Resort Hotel,August,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+68,168.3,1,2,3,0,1,0,37,City Hotel,September,BB,CHE,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+247,115.2,0,3,2,0,2,0,38,City Hotel,September,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+285,71.6,2,8,1,0,0,1,25,Resort Hotel,June,HB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,314,1
+98,115.2,2,1,1,1,0,0,23,City Hotel,June,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,83,0
+4,176.0,2,1,3,0,2,0,13,City Hotel,March,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+54,89.46,1,3,2,0,1,0,12,City Hotel,March,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+221,65.0,2,1,2,0,0,0,41,City Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,3,1
+3,115.5,1,0,1,0,1,0,45,City Hotel,October,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+166,128.7,1,0,3,0,0,0,36,City Hotel,August,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+27,99.2,0,1,2,0,0,0,39,City Hotel,September,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,13,1
+16,68.0,0,4,2,0,1,0,47,City Hotel,November,BB,CIV,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,42,0
+60,65.0,1,0,1,0,0,0,18,City Hotel,April,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient-Party,None,0
+1,58.0,0,1,1,0,0,1,38,Resort Hotel,September,BB,PRT,Corporate,Corporate,A,F,No Deposit,Transient,None,0
+27,95.0,1,1,2,0,0,0,41,City Hotel,October,BB,ITA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,85,0
+45,123.0,1,1,2,0,0,0,29,Resort Hotel,July,BB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+47,86.35,2,2,2,0,1,0,11,City Hotel,March,BB,HUN,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+6,94.0,1,0,2,0,0,0,23,Resort Hotel,May,BB,IND,Online TA,TA/TO,D,E,No Deposit,Transient,240,0
+6,136.0,2,3,2,0,1,0,43,City Hotel,October,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Contract,9,0
+45,262.5,1,3,2,2,0,1,29,Resort Hotel,July,HB,ESP,Direct,Direct,C,C,No Deposit,Transient,None,0
+109,89.1,0,5,2,0,0,0,15,City Hotel,April,BB,BEL,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,28,0
+64,111.6,0,2,2,1,0,0,4,City Hotel,January,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+3,65.0,0,2,2,0,2,1,50,Resort Hotel,December,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+55,172.8,2,3,1,0,1,0,25,Resort Hotel,June,HB,CHE,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+342,36.0,2,4,1,0,0,0,40,Resort Hotel,September,BB,IRL,Groups,TA/TO,A,A,No Deposit,Transient,201,0
+17,136.0,1,3,2,0,1,0,53,City Hotel,December,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+0,140.0,1,1,2,0,2,0,34,City Hotel,August,SC,AUS,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+9,88.0,0,1,2,0,0,0,10,City Hotel,March,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+46,37.8,2,5,2,0,0,0,45,Resort Hotel,November,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+67,72.25,0,1,2,0,2,0,46,City Hotel,November,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+14,65.0,0,3,1,0,1,0,24,City Hotel,June,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+1,90.0,0,1,1,0,0,1,5,City Hotel,January,BB,DEU,Direct,Direct,A,A,No Deposit,Transient,None,1
+17,194.0,2,4,2,0,1,0,29,Resort Hotel,July,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+59,80.0,1,1,2,0,0,0,4,City Hotel,January,BB,PRT,Groups,TA/TO,A,A,Non Refund,Transient,326,1
+155,149.94,2,5,2,0,0,4,35,Resort Hotel,August,HB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,15,0
+40,46.8,0,4,2,0,1,0,46,Resort Hotel,November,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+0,225.0,0,1,3,0,2,0,35,City Hotel,August,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,None,0
+217,108.33,1,3,2,2,2,3,39,Resort Hotel,September,BB,PRT,Offline TA/TO,TA/TO,C,C,No Deposit,Contract,142,1
+135,162.0,2,0,3,0,2,1,40,City Hotel,September,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+73,67.83,0,3,1,0,0,1,48,City Hotel,November,BB,PRT,Offline TA/TO,TA/TO,A,B,No Deposit,Transient-Party,12,0
+85,129.73,0,2,2,0,0,0,40,City Hotel,September,BB,BRA,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+9,108.0,0,1,2,0,1,0,30,City Hotel,July,SC,AUT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,74.8,1,3,2,0,0,0,6,City Hotel,February,SC,AUT,Online TA,TA/TO,A,B,No Deposit,Transient,9,0
+10,46.64,2,5,2,0,0,0,12,Resort Hotel,March,BB,IRL,Online TA,TA/TO,E,E,No Deposit,Transient,314,0
+72,108.0,0,1,2,0,0,0,38,City Hotel,September,HB,PRT,Offline TA/TO,TA/TO,A,B,No Deposit,Transient-Party,6,0
+123,171.0,0,4,2,0,0,0,27,City Hotel,July,BB,BEL,Online TA,TA/TO,E,E,No Deposit,Transient,9,0
+23,98.33,2,1,2,0,2,0,18,Resort Hotel,April,BB,PHL,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+170,91.8,2,4,2,0,1,0,26,Resort Hotel,June,HB,PRT,Offline TA/TO,TA/TO,D,E,No Deposit,Transient-Party,156,0
+39,192.95,0,4,2,0,0,0,53,City Hotel,December,HB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+314,297.0,1,5,3,1,0,0,32,Resort Hotel,August,HB,MAR,Online TA,TA/TO,H,H,No Deposit,Transient,240,1
+25,101.33,1,2,2,0,1,0,20,City Hotel,May,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+3,85.0,0,3,2,0,0,0,42,City Hotel,October,BB,PRT,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,85,0
+279,63.4,2,5,2,0,0,0,41,Resort Hotel,October,HB,IRL,Groups,TA/TO,A,A,No Deposit,Transient-Party,142,1
+8,114.0,1,0,2,0,2,0,51,City Hotel,December,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+62,73.44,2,5,2,0,0,0,10,City Hotel,March,BB,POL,Online TA,TA/TO,A,A,No Deposit,Transient,83,0
+4,110.0,1,1,1,0,0,1,23,City Hotel,June,BB,BEL,Aviation,Corporate,D,D,No Deposit,Transient,None,0
+259,151.33,2,5,2,0,0,0,27,Resort Hotel,July,HB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,241,1
+146,140.0,0,2,2,0,1,0,24,Resort Hotel,June,BB,USA,Online TA,TA/TO,E,E,No Deposit,Transient-Party,240,0
+4,115.0,1,3,2,0,1,0,14,City Hotel,April,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+25,72.76,2,2,2,0,0,0,42,City Hotel,October,BB,IRL,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,79,0
+70,156.6,0,3,2,1,2,0,50,City Hotel,December,BB,PRT,Online TA,TA/TO,F,F,No Deposit,Transient,9,0
+65,119.0,0,4,3,0,1,0,50,City Hotel,December,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+35,140.0,0,1,2,0,0,0,19,City Hotel,May,BB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,39,1
+8,184.0,0,2,2,0,1,0,39,City Hotel,September,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+119,246.0,3,6,2,0,0,0,34,Resort Hotel,August,HB,GBR,Online TA,TA/TO,E,E,No Deposit,Transient-Party,240,1
+92,81.95,1,3,2,0,0,1,26,City Hotel,June,SC,FIN,Online TA,TA/TO,A,B,No Deposit,Transient,11,0
+63,65.66,2,3,2,0,0,1,8,City Hotel,February,BB,UKR,Online TA,TA/TO,B,B,No Deposit,Transient,9,1
+52,176.7,0,2,3,0,1,0,29,City Hotel,July,BB,FIN,Direct,Direct,E,E,No Deposit,Transient,14,0
+7,75.0,0,5,2,0,0,0,36,City Hotel,September,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,14,0
+92,117.0,1,2,2,0,2,0,15,City Hotel,April,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+52,42.28,2,5,2,0,1,0,12,Resort Hotel,March,BB,SWE,Online TA,TA/TO,E,E,No Deposit,Transient,241,0
+60,60.0,2,0,2,0,1,0,6,City Hotel,January,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+0,39.0,0,1,1,0,0,0,6,Resort Hotel,February,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+19,99.0,1,1,2,0,2,0,20,City Hotel,May,SC,CHE,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+46,72.0,1,5,2,0,0,0,48,City Hotel,November,BB,CHE,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,22,0
+4,0.0,0,0,1,0,0,0,50,Resort Hotel,December,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+0,106.5,0,2,2,2,0,0,4,Resort Hotel,January,BB,GBR,Online TA,TA/TO,G,G,No Deposit,Transient-Party,240,0
+0,88.0,1,1,2,0,3,1,12,City Hotel,March,SC,BRA,Online TA,TA/TO,A,B,No Deposit,Transient,9,0
+16,75.0,2,1,1,0,1,0,8,City Hotel,February,BB,CHN,Groups,TA/TO,D,D,No Deposit,Transient-Party,30,0
+1,127.0,0,1,3,0,0,0,9,City Hotel,February,BB,CHN,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+24,101.0,2,0,1,0,1,0,46,City Hotel,November,BB,PRT,Online TA,TA/TO,A,F,No Deposit,Contract,9,0
+162,92.08,2,4,2,0,0,0,18,City Hotel,April,BB,BRA,Direct,Direct,D,D,No Deposit,Transient,14,0
+57,89.1,0,3,2,0,0,0,24,City Hotel,June,BB,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,28,0
+127,91.29,2,3,2,0,0,0,16,City Hotel,April,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+133,107.1,0,1,2,0,1,0,27,City Hotel,July,BB,CN,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+78,120.14,2,5,2,2,2,1,17,Resort Hotel,April,BB,HRV,Online TA,TA/TO,C,C,No Deposit,Transient,240,1
+21,42.0,0,4,2,0,0,1,8,Resort Hotel,February,BB,GBR,Corporate,Corporate,A,A,No Deposit,Transient-Party,None,0
+386,90.0,2,0,1,0,0,1,44,City Hotel,October,HB,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,6,0
+23,50.33,2,1,2,0,1,0,1,Resort Hotel,January,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+172,75.6,0,1,1,0,0,1,27,City Hotel,July,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,28,0
+42,269.0,2,2,2,2,0,0,35,Resort Hotel,August,BB,MAR,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+177,99.0,1,4,2,0,1,1,40,Resort Hotel,September,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+36,133.5,0,4,2,2,2,0,15,Resort Hotel,April,BB,ESP,Direct,Direct,C,C,No Deposit,Transient,250,0
+116,135.0,0,3,3,0,2,0,52,City Hotel,December,BB,BRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+59,65.0,1,2,2,0,0,0,20,Resort Hotel,May,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+84,54.0,0,1,2,0,0,0,45,Resort Hotel,November,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+219,98.4,4,6,2,0,0,0,22,Resort Hotel,June,HB,PRT,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,40,1
+81,125.1,0,1,2,0,2,0,34,City Hotel,August,SC,CN,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+68,49.0,1,4,1,0,0,0,16,Resort Hotel,April,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+13,86.55,0,3,2,0,0,1,11,Resort Hotel,March,HB,GBR,Groups,TA/TO,A,D,No Deposit,Transient-Party,115,0
+20,63.84,2,1,2,1,1,0,13,Resort Hotel,March,BB,PRT,Online TA,TA/TO,C,D,No Deposit,Transient,196,0
+64,75.0,1,5,2,0,0,0,16,Resort Hotel,April,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+80,81.9,2,0,1,0,0,0,15,City Hotel,April,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+19,169.0,1,1,2,0,0,1,39,Resort Hotel,September,Undefined,IRL,Direct,Direct,A,A,No Deposit,Transient,250,0
+224,89.0,3,9,2,0,1,0,29,City Hotel,July,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,42,0
+0,0.0,0,0,2,0,1,0,26,City Hotel,June,BB,PRT,Complementary,Direct,A,F,No Deposit,Transient,None,0
+166,42.5,2,5,2,0,0,0,12,Resort Hotel,March,BB,GBR,Offline TA/TO,TA/TO,E,E,No Deposit,Contract,2,0
+242,81.45,0,2,2,0,0,0,31,City Hotel,July,BB,BEL,Direct,Direct,B,B,No Deposit,Transient-Party,14,0
+76,82.45,2,5,2,0,1,0,14,City Hotel,March,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+156,130.8,1,2,1,0,0,0,19,City Hotel,May,BB,USA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+1,30.0,0,1,1,0,0,0,5,Resort Hotel,January,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,78,0
+205,101.0,1,4,2,0,0,1,34,City Hotel,August,BB,ESP,Direct,Direct,A,A,No Deposit,Transient,None,0
+194,102.85,1,3,2,0,0,0,36,City Hotel,September,BB,DNK,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+52,86.4,0,3,1,0,1,0,3,City Hotel,January,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+272,89.1,0,2,2,0,1,1,33,City Hotel,August,SC,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+20,125.0,2,0,1,0,0,0,44,City Hotel,October,BB,PRT,Groups,TA/TO,A,D,No Deposit,Transient-Party,111,0
+13,153.0,0,1,2,2,2,2,35,City Hotel,August,BB,FRA,Online TA,TA/TO,F,F,No Deposit,Transient,9,0
+76,49.07,2,1,2,0,0,0,46,City Hotel,November,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,6,0
+40,117.9,0,3,2,0,0,0,27,City Hotel,June,BB,SWE,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+3,140.0,0,1,2,0,1,0,36,City Hotel,September,BB,USA,Direct,Direct,D,D,No Deposit,Transient,14,0
+58,135.0,0,4,2,0,1,0,25,City Hotel,June,SC,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+127,123.75,1,3,2,0,1,0,24,City Hotel,June,BB,ISR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+178,130.5,1,5,2,0,2,0,15,City Hotel,April,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+105,108.0,2,5,2,0,0,0,25,City Hotel,June,SC,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+209,90.0,1,1,2,0,1,0,35,City Hotel,August,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+9,102.43,2,2,2,0,0,0,11,City Hotel,March,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+82,72.25,1,5,2,0,1,2,14,City Hotel,March,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,0.0,0,1,1,0,2,0,7,City Hotel,February,BB,PRT,Complementary,Corporate,D,D,No Deposit,Transient,None,0
+1,31.0,0,1,1,0,0,1,45,Resort Hotel,November,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,330,0
+59,171.72,1,2,1,2,0,0,41,City Hotel,October,BB,CHN,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+38,107.2,2,5,2,0,0,0,31,Resort Hotel,July,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,142,0
+45,99.79,2,3,2,0,0,1,18,City Hotel,April,BB,NLD,Online TA,TA/TO,A,B,No Deposit,Transient-Party,9,0
+27,67.0,0,2,1,0,2,0,2,City Hotel,January,BB,USA,Groups,TA/TO,D,D,No Deposit,Transient-Party,None,0
+115,74.8,1,4,2,0,2,0,12,City Hotel,March,SC,HUN,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,0.0,0,1,2,0,0,0,30,Resort Hotel,July,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,1
+14,170.43,1,3,2,0,1,0,35,Resort Hotel,August,BB,GBR,Online TA,TA/TO,C,C,No Deposit,Transient,241,0
+11,69.2,1,2,2,0,1,0,2,Resort Hotel,January,BB,USA,Online TA,TA/TO,E,E,No Deposit,Transient,241,0
+165,112.5,2,2,2,0,2,0,34,City Hotel,August,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+217,228.0,0,4,2,2,0,1,32,City Hotel,August,HB,DEU,Online TA,TA/TO,F,F,No Deposit,Transient,83,0
+258,62.0,0,2,2,0,0,0,27,City Hotel,July,BB,PRT,Groups,TA/TO,A,A,No Deposit,Contract,1,1
+0,97.0,2,4,1,0,0,0,11,City Hotel,March,SC,COL,Direct,Direct,E,E,No Deposit,Transient,None,0
+18,89.0,2,3,2,0,1,1,3,City Hotel,January,BB,IRQ,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+1,75.0,0,2,2,0,1,3,32,City Hotel,August,BB,DEU,Direct,Direct,A,A,No Deposit,Transient-Party,14,0
+1,75.0,0,3,2,1,1,1,15,Resort Hotel,April,BB,Unknown,Direct,Direct,D,D,No Deposit,Transient,250,0
+64,130.5,0,2,2,0,0,0,15,City Hotel,April,BB,ESP,Direct,Direct,D,D,No Deposit,Transient,14,0
+70,39.3,3,5,2,0,1,1,13,Resort Hotel,March,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,241,0
+6,91.8,1,3,2,0,1,0,4,City Hotel,January,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+109,42.0,2,1,2,0,3,2,8,Resort Hotel,February,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+60,209.1,1,2,2,0,0,2,28,Resort Hotel,July,BB,PRT,Direct,Direct,E,E,No Deposit,Transient,None,0
+170,116.1,0,1,2,0,0,0,28,City Hotel,July,BB,USA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+6,95.0,0,2,2,0,2,0,42,Resort Hotel,October,BB,ESP,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+125,94.37,2,5,2,0,0,0,24,Resort Hotel,June,BB,IRL,Direct,Direct,D,E,No Deposit,Transient,250,0
+30,153.0,1,2,2,0,1,0,26,City Hotel,June,BB,AUT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+118,123.3,2,3,2,0,0,0,44,City Hotel,October,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+4,80.85,1,4,2,0,0,0,14,Resort Hotel,April,HB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,40,0
+1,40.0,0,2,1,0,0,0,10,Resort Hotel,March,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+24,60.06,1,0,1,0,1,0,48,City Hotel,November,SC,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+97,97.2,2,1,2,0,1,0,9,City Hotel,March,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+43,68.47,1,5,1,0,0,1,11,City Hotel,March,BB,CPV,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+266,105.0,0,2,2,0,0,0,37,City Hotel,September,BB,PRT,Groups,TA/TO,A,A,Non Refund,Transient,37,1
+23,89.0,0,1,2,0,0,0,26,City Hotel,June,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+122,99.45,2,4,2,0,0,0,19,City Hotel,May,BB,ROU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+91,132.6,2,4,1,0,1,1,44,City Hotel,October,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+184,126.0,4,6,2,0,1,0,26,Resort Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+1,160.0,1,0,2,0,0,0,32,City Hotel,August,SC,PRT,Direct,Direct,A,A,No Deposit,Transient,14,0
+3,29.0,1,0,2,0,0,0,5,Resort Hotel,January,BB,PRT,Offline TA/TO,TA/TO,A,E,No Deposit,Transient,314,0
+26,139.0,1,2,2,0,0,0,24,City Hotel,June,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+75,90.95,2,3,2,0,1,0,15,City Hotel,April,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+181,114.73,4,10,3,0,0,0,39,Resort Hotel,September,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,241,1
+11,95.0,0,1,1,0,2,0,37,City Hotel,September,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+95,8.0,4,10,2,0,0,0,17,Resort Hotel,April,BB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,95,1
+102,159.0,1,2,2,0,3,0,53,Resort Hotel,December,BB,PRT,Direct,Direct,E,E,No Deposit,Transient,None,0
+116,289.0,2,6,2,2,0,1,29,Resort Hotel,July,BB,CHE,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+17,88.0,0,2,2,0,0,0,48,City Hotel,November,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+210,90.95,2,3,2,0,1,0,33,City Hotel,August,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+10,161.0,0,2,3,1,2,2,7,Resort Hotel,February,HB,ESP,Online TA,TA/TO,G,G,No Deposit,Transient,240,0
+175,126.9,2,0,2,0,0,0,39,City Hotel,September,BB,JEY,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,104.72,0,1,2,0,1,0,42,City Hotel,October,BB,CHE,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+13,142.5,2,0,1,0,1,1,20,City Hotel,May,BB,AUT,Online TA,TA/TO,D,E,No Deposit,Transient,8,0
+179,85.5,1,0,2,0,1,0,30,City Hotel,July,SC,GBR,Online TA,TA/TO,A,D,No Deposit,Transient,9,1
+264,118.62,2,3,2,0,0,0,26,Resort Hotel,June,BB,GBR,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+132,224.0,0,1,2,0,0,0,33,Resort Hotel,August,BB,GBR,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+109,163.29,2,5,2,0,2,0,30,Resort Hotel,July,HB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+64,121.5,2,2,2,1,0,0,31,City Hotel,July,BB,ISR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+64,190.0,0,2,1,0,1,1,39,City Hotel,September,BB,PRT,Online TA,TA/TO,A,G,No Deposit,Contract,9,0
+214,80.57,2,5,3,0,1,1,45,Resort Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,156,1
+25,168.0,0,1,2,0,2,1,37,City Hotel,September,BB,PRT,Direct,Direct,A,E,No Deposit,Transient,14,0
+292,158.4,2,1,2,2,1,0,30,City Hotel,July,BB,PRT,Online TA,TA/TO,F,F,No Deposit,Contract,9,0
+146,125.0,2,3,2,0,3,0,23,Resort Hotel,June,BB,IRL,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+314,133.74,2,5,3,0,0,0,32,Resort Hotel,August,HB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,15,1
+143,110.0,0,2,1,0,0,0,18,City Hotel,May,BB,PRT,Groups,TA/TO,A,A,Non Refund,Transient,56,1
+58,180.9,1,1,2,2,2,1,27,City Hotel,June,BB,FRA,Online TA,TA/TO,F,F,No Deposit,Transient,9,0
+59,0.0,0,0,2,0,1,0,20,Resort Hotel,May,BB,PRT,Offline TA/TO,TA/TO,A,I,No Deposit,Transient-Party,393,0
+1,107.0,0,1,2,0,2,0,11,City Hotel,March,SC,ESP,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+56,132.25,2,6,2,0,0,2,18,City Hotel,May,SC,RUS,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+3,40.0,0,1,2,0,1,0,6,Resort Hotel,February,BB,PRT,Direct,Direct,E,E,No Deposit,Transient,None,0
+300,85.7,2,5,2,0,1,0,23,Resort Hotel,June,BB,GBR,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,40,0
+1,135.0,0,1,2,0,0,0,38,City Hotel,September,BB,BRA,Corporate,Corporate,A,A,No Deposit,Transient,81,0
+177,77.03,1,2,2,0,0,0,30,City Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,11,0
+91,159.28,2,5,3,0,0,0,31,Resort Hotel,August,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,40,0
+1,75.0,1,0,2,2,0,0,9,Resort Hotel,February,BB,RUS,Online TA,TA/TO,C,C,No Deposit,Transient,240,0
+294,70.55,2,3,2,0,2,0,46,City Hotel,November,SC,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+125,224.8,0,1,2,0,1,0,31,Resort Hotel,August,HB,BRA,Online TA,TA/TO,F,F,No Deposit,Transient,241,0
+28,74.8,0,5,1,0,0,0,52,City Hotel,December,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+17,170.0,2,2,1,0,0,1,39,City Hotel,September,BB,DNK,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,0
+136,68.55,1,3,2,0,0,0,13,City Hotel,March,BB,CHE,Online TA,TA/TO,A,A,No Deposit,Transient,11,0
+77,97.0,0,3,2,0,0,0,28,Resort Hotel,July,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,250,1
+77,136.0,1,2,2,0,0,1,39,City Hotel,September,BB,GBR,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,13,0
+134,75.0,0,1,2,0,1,1,8,City Hotel,February,BB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,30,0
+186,244.0,2,5,2,2,0,0,29,Resort Hotel,July,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+32,130.5,1,2,1,0,1,0,31,City Hotel,July,BB,POL,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+1,44.0,0,1,2,0,1,0,1,Resort Hotel,January,BB,SWE,Direct,TA/TO,A,H,No Deposit,Transient,None,0
+211,108.0,0,1,1,0,1,0,34,City Hotel,August,BB,USA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+83,0.0,1,4,2,0,0,5,35,Resort Hotel,August,SC,CN,Online TA,TA/TO,E,I,No Deposit,Transient,242,0
+42,152.1,0,2,2,1,1,0,34,City Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+115,120.6,2,7,2,0,2,0,28,Resort Hotel,July,BB,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+91,24.8,2,2,2,0,2,0,45,Resort Hotel,November,BB,GBR,Offline TA/TO,TA/TO,A,D,No Deposit,Contract,156,0
+113,43.4,2,3,2,0,0,0,18,Resort Hotel,April,BB,IRL,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,177,0
+0,46.0,2,4,2,0,1,0,44,Resort Hotel,October,BB,CN,Offline TA/TO,TA/TO,A,A,No Deposit,Group,96,0
+48,147.0,0,2,2,0,2,0,19,Resort Hotel,May,HB,FRA,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+230,155.0,2,5,3,1,0,0,37,Resort Hotel,September,BB,PRT,Online TA,TA/TO,H,H,No Deposit,Transient,240,1
+32,78.3,0,1,2,0,0,0,3,City Hotel,January,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,25.0,0,3,1,0,0,0,12,Resort Hotel,March,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,315,0
+142,109.2,0,3,2,0,1,0,24,City Hotel,June,SC,DNK,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+191,95.0,1,3,1,0,0,1,26,City Hotel,June,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,34,0
+195,149.45,2,5,3,0,0,0,30,Resort Hotel,July,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,436,0
+53,77.04,2,1,2,0,0,0,35,City Hotel,August,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,157,1
+33,109.0,0,2,1,0,0,0,44,City Hotel,October,SC,ITA,Direct,Direct,A,A,No Deposit,Transient,14,0
+14,74.8,0,4,2,0,1,0,3,Resort Hotel,January,HB,FIN,Online TA,TA/TO,D,D,No Deposit,Transient,242,0
+38,117.0,2,3,2,2,1,0,41,Resort Hotel,October,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+149,135.0,2,5,2,0,0,0,23,City Hotel,June,BB,DEU,Direct,Direct,A,A,No Deposit,Transient,14,0
+12,122.33,0,3,2,0,0,0,18,City Hotel,April,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+52,78.3,0,2,2,0,1,0,8,City Hotel,February,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+65,140.0,2,0,2,0,1,0,23,City Hotel,June,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+164,123.1,2,7,1,0,0,0,39,Resort Hotel,September,BB,IRL,Direct,Direct,F,F,No Deposit,Transient,250,1
+4,181.38,2,3,3,0,0,1,38,City Hotel,September,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,14,0
+1,0.0,0,1,2,1,3,1,34,City Hotel,August,BB,PRT,Complementary,Direct,A,D,No Deposit,Transient,None,0
+23,37.5,0,2,2,1,1,0,6,Resort Hotel,February,BB,PRT,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,5,0
+335,80.0,0,3,1,0,0,0,42,City Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,56,0
+21,141.0,2,2,2,0,1,0,36,City Hotel,September,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+286,58.5,0,2,2,0,0,0,38,City Hotel,September,HB,ITA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,3,0
+10,65.0,2,2,1,0,0,1,3,City Hotel,January,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+165,225.0,2,2,2,0,0,0,20,City Hotel,May,BB,PRT,Groups,TA/TO,A,A,Non Refund,Transient,None,1
+1,25.0,0,1,2,0,0,0,45,Resort Hotel,November,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,6,0
+22,85.0,0,2,2,0,0,0,41,City Hotel,October,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+22,95.0,1,5,1,0,2,0,36,City Hotel,September,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+153,152.1,2,1,2,0,0,0,27,City Hotel,July,BB,CHE,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+0,88.0,1,0,2,0,1,0,50,City Hotel,December,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+100,126.0,2,1,1,0,2,0,20,City Hotel,May,SC,ROU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+40,96.3,0,1,2,0,0,0,43,City Hotel,October,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+139,140.0,1,1,2,0,1,0,24,Resort Hotel,June,BB,CHE,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+53,85.5,0,4,1,0,1,1,46,Resort Hotel,November,BB,GBR,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+149,154.0,0,1,2,0,0,0,25,City Hotel,June,HB,USA,Corporate,Corporate,A,A,No Deposit,Transient-Party,495,0
+65,76.5,0,1,2,0,0,0,11,City Hotel,March,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+342,38.0,2,4,1,0,0,0,40,Resort Hotel,September,BB,IRL,Groups,TA/TO,A,A,No Deposit,Transient-Party,201,0
+193,74.8,0,5,2,0,0,0,7,City Hotel,February,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+55,149.4,0,4,2,0,0,0,31,City Hotel,July,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+1,0.0,0,2,2,0,1,0,10,City Hotel,March,BB,PRT,Complementary,Direct,D,D,No Deposit,Transient,None,0
+38,87.71,0,3,2,0,1,0,10,City Hotel,March,BB,PRT,Direct,Direct,A,A,No Deposit,Transient-Party,None,0
+10,275.0,0,1,1,0,0,1,20,City Hotel,May,BB,PRT,Corporate,Corporate,G,G,No Deposit,Group,None,1
+240,90.95,1,4,2,0,0,0,29,City Hotel,July,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,8,0
+42,114.3,1,1,3,0,0,0,11,City Hotel,March,BB,NLD,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+35,29.0,0,2,2,0,1,0,4,Resort Hotel,January,BB,ITA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,314,0
+22,126.0,2,1,2,0,0,1,13,Resort Hotel,March,HB,PRT,Direct,Direct,E,E,No Deposit,Transient,None,0
+30,75.44,1,3,2,0,2,0,3,City Hotel,January,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+4,102.5,1,1,2,1,3,0,41,Resort Hotel,October,BB,ESP,Direct,Direct,F,F,No Deposit,Transient,None,0
+4,108.67,2,1,2,0,3,0,47,City Hotel,November,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+1,67.0,0,5,2,0,0,0,41,Resort Hotel,October,BB,POL,Online TA,TA/TO,A,C,No Deposit,Transient,240,0
+1,65.0,0,2,1,0,0,3,31,City Hotel,July,BB,PRT,Corporate,Direct,A,A,No Deposit,Transient,None,0
+28,135.0,2,1,2,0,1,0,41,Resort Hotel,October,BB,GBR,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+255,83.0,2,5,2,0,1,0,20,Resort Hotel,May,BB,IRL,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+101,171.0,0,1,2,0,0,0,26,City Hotel,June,BB,BRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+176,144.0,2,5,3,0,0,2,30,Resort Hotel,July,HB,PRT,Offline TA/TO,TA/TO,C,C,No Deposit,Transient,181,0
+157,64.9,2,5,2,0,1,1,26,Resort Hotel,June,BB,GBR,Offline TA/TO,TA/TO,D,E,No Deposit,Contract,243,0
+59,112.2,2,2,2,0,0,0,17,City Hotel,April,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+19,62.0,2,2,2,0,1,0,30,City Hotel,July,BB,ESP,Groups,TA/TO,A,B,No Deposit,Transient-Party,1,0
+10,108.0,2,1,2,0,1,0,7,City Hotel,February,BB,IND,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+88,157.0,2,5,2,0,1,1,31,Resort Hotel,July,HB,Unknown,Direct,Direct,A,A,No Deposit,Transient,None,0
+248,80.0,2,0,2,0,0,0,15,City Hotel,April,BB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,58,1
+149,126.12,0,3,3,0,0,0,29,City Hotel,July,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,83,0
+19,36.0,0,2,1,0,0,0,49,Resort Hotel,December,BB,DEU,Groups,Corporate,A,A,No Deposit,Transient-Party,None,0
+31,170.0,2,0,2,0,1,0,30,City Hotel,July,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+110,72.8,0,2,2,0,0,3,17,City Hotel,April,BB,ISR,Online TA,TA/TO,A,D,No Deposit,Transient-Party,9,0
+219,86.5,0,3,0,2,0,0,33,City Hotel,August,BB,MAR,Online TA,TA/TO,B,B,No Deposit,Transient-Party,9,1
+57,132.3,0,3,1,0,2,0,42,City Hotel,October,BB,SWE,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+5,230.6,2,3,2,0,3,0,33,Resort Hotel,August,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+22,161.4,2,8,2,0,2,0,31,Resort Hotel,August,HB,GBR,Offline TA/TO,TA/TO,E,E,No Deposit,Group,40,0
+25,99.0,1,2,2,0,1,0,41,Resort Hotel,October,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,None,0
+124,70.0,1,3,1,0,1,1,15,City Hotel,April,HB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,0
+187,108.0,2,2,2,0,2,0,29,Resort Hotel,July,BB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+1,210.0,0,1,1,0,1,0,39,City Hotel,September,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+46,85.5,1,3,2,0,0,0,44,City Hotel,October,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,168,0
+19,129.0,2,1,2,0,0,0,39,City Hotel,September,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,90.0,0,1,2,0,0,0,43,Resort Hotel,October,BB,DEU,Direct,Direct,F,F,No Deposit,Transient,None,0
+127,154.8,1,4,2,2,1,0,25,Resort Hotel,June,BB,HRV,Online TA,TA/TO,C,C,No Deposit,Transient,240,0
+35,118.0,0,3,2,0,2,0,44,City Hotel,October,SC,AUT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+209,110.88,1,1,2,0,1,0,32,City Hotel,August,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+0,111.15,0,4,2,0,1,0,29,Resort Hotel,July,BB,ESP,Online TA,TA/TO,A,C,No Deposit,Transient,240,0
+62,46.5,2,5,2,0,1,0,43,Resort Hotel,October,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,26,0
+8,177.5,1,1,2,2,0,0,49,City Hotel,December,BB,ESP,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+174,130.5,1,0,2,0,0,0,26,City Hotel,June,BB,AUS,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+18,99.0,0,1,2,0,0,0,22,City Hotel,June,BB,ISR,Online TA,TA/TO,A,A,No Deposit,Transient,85,0
+1,90.0,0,3,1,0,0,1,37,City Hotel,September,BB,FRA,Corporate,Corporate,A,D,No Deposit,Transient-Party,None,0
+62,72.75,1,4,2,0,0,0,11,City Hotel,March,SC,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+236,48.0,0,3,2,0,1,0,20,Resort Hotel,May,BB,GBR,Groups,Direct,A,C,No Deposit,Transient-Party,315,0
+228,90.9,0,2,1,0,1,0,33,City Hotel,August,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+157,72.25,1,3,2,0,1,0,28,City Hotel,July,BB,IRL,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,22,0
+45,71.1,0,2,2,0,0,0,11,City Hotel,March,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+18,79.0,0,4,2,0,1,0,9,City Hotel,February,SC,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+70,88.3,0,1,2,0,0,0,42,Resort Hotel,October,BB,DEU,Offline TA/TO,TA/TO,F,F,No Deposit,Transient,251,0
+91,52.02,2,2,2,0,0,1,14,City Hotel,April,SC,CHE,Online TA,TA/TO,A,B,No Deposit,Transient,11,0
+164,80.1,2,4,2,0,0,0,32,City Hotel,August,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,85,1
+5,0.0,0,2,2,1,0,1,50,Resort Hotel,December,BB,PRT,Complementary,Direct,A,D,No Deposit,Transient,None,0
+40,125.8,2,2,3,0,2,0,8,City Hotel,February,BB,ITA,Online TA,TA/TO,E,E,No Deposit,Transient,9,0
+22,135.0,0,1,2,0,1,0,22,Resort Hotel,June,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+0,48.0,0,1,2,0,0,1,45,Resort Hotel,November,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+28,90.0,0,3,3,0,0,0,16,Resort Hotel,April,BB,IND,Direct,Direct,A,C,No Deposit,Group,250,0
+0,67.0,0,2,2,0,0,1,3,Resort Hotel,January,BB,ESP,Direct,Direct,E,E,No Deposit,Transient,None,0
+24,48.0,2,2,2,0,2,0,47,Resort Hotel,November,BB,ESP,Online TA,TA/TO,A,E,No Deposit,Transient,240,0
+118,63.75,0,1,2,0,0,0,34,City Hotel,August,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,27,1
+123,210.0,0,3,2,2,0,0,29,Resort Hotel,July,BB,CHE,Online TA,TA/TO,C,C,No Deposit,Transient,240,1
+0,48.0,0,1,2,0,0,0,3,Resort Hotel,January,BB,CHN,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+27,77.2,2,5,2,0,2,0,11,City Hotel,March,SC,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,44.0,0,1,2,0,0,1,1,Resort Hotel,January,BB,ITA,Direct,Direct,A,A,No Deposit,Transient,None,0
+135,76.5,0,3,2,0,3,2,32,City Hotel,August,BB,IRL,Direct,Direct,B,D,No Deposit,Transient-Party,14,0
+142,104.76,2,6,2,0,0,0,32,City Hotel,August,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+181,99.0,1,1,2,0,0,0,17,City Hotel,April,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+307,89.1,0,1,2,0,0,1,19,City Hotel,May,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,276,1
+0,78.0,0,1,1,0,0,2,2,City Hotel,January,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+30,81.9,0,1,2,0,0,0,7,City Hotel,February,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+185,90.95,0,4,2,0,1,0,28,City Hotel,July,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+125,109.86,2,5,2,0,1,0,24,Resort Hotel,June,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+4,138.67,1,2,2,0,2,0,15,Resort Hotel,April,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+0,100.0,1,0,1,0,0,0,18,Resort Hotel,April,BB,PRT,Direct,Direct,E,E,No Deposit,Transient,None,0
+182,114.75,2,2,2,1,0,2,31,City Hotel,July,BB,SWE,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+96,152.4,2,1,3,0,0,0,33,City Hotel,August,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,14,1
+157,230.0,2,3,2,0,1,0,32,Resort Hotel,August,HB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+35,147.07,1,5,2,0,1,0,33,Resort Hotel,August,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,241,0
+121,137.57,2,5,2,0,0,0,20,City Hotel,May,BB,IRL,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+80,114.9,0,3,2,0,1,0,53,City Hotel,December,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,8,0
+105,75.0,2,3,2,0,1,0,20,Resort Hotel,May,BB,IRL,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+69,85.67,2,1,2,0,0,0,44,City Hotel,October,BB,PRT,Groups,TA/TO,A,D,No Deposit,Transient-Party,37,0
+252,92.0,0,2,2,0,2,1,23,Resort Hotel,June,BB,URY,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+24,189.75,2,5,2,1,1,0,30,Resort Hotel,July,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,196,0
+3,67.0,0,1,2,0,1,0,41,Resort Hotel,October,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+132,89.76,1,2,2,0,0,0,41,City Hotel,October,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,83,0
+71,93.6,2,6,2,0,0,0,29,City Hotel,July,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,86,1
+281,86.7,2,5,2,0,2,0,22,Resort Hotel,June,HB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,243,0
+0,124.33,0,3,1,0,1,0,26,City Hotel,June,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+11,46.4,0,2,2,0,2,0,48,Resort Hotel,November,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+18,102.43,2,2,1,0,0,0,11,City Hotel,March,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+179,96.3,0,1,2,0,1,0,27,City Hotel,July,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+141,80.0,1,0,1,0,0,1,39,City Hotel,September,BB,CN,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,6,0
+356,132.3,1,3,3,0,0,0,28,City Hotel,July,BB,NOR,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+28,132.0,1,4,1,0,1,0,24,Resort Hotel,June,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,242,0
+11,6.0,0,2,2,0,0,0,51,Resort Hotel,December,BB,PRT,Complementary,Direct,A,D,No Deposit,Transient,None,0
+54,81.0,2,2,2,0,0,1,43,City Hotel,October,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,21,0
+6,176.16,2,4,2,1,1,0,29,Resort Hotel,July,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,242,0
+247,115.0,1,1,2,0,0,0,24,City Hotel,June,HB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,6,0
+53,67.5,2,0,1,0,0,0,10,City Hotel,March,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,85,1
+1,48.0,0,1,2,0,0,0,2,Resort Hotel,January,BB,ESP,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+4,69.0,0,3,1,0,1,0,12,City Hotel,March,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+59,122.1,1,3,2,1,1,0,17,City Hotel,April,BB,ITA,Direct,Direct,D,E,No Deposit,Transient,14,0
+9,161.33,0,3,3,0,1,0,8,City Hotel,February,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+20,63.22,0,2,1,0,1,0,7,City Hotel,February,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+18,125.0,0,1,2,1,1,1,34,City Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+39,177.3,1,1,2,2,2,0,16,City Hotel,April,BB,GBR,Online TA,TA/TO,F,G,No Deposit,Transient,9,0
+367,70.0,4,10,2,0,1,0,35,Resort Hotel,August,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,2,0
+262,97.75,2,3,1,0,1,0,11,City Hotel,March,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+334,123.38,1,4,2,0,0,1,27,Resort Hotel,July,HB,PRT,Direct,Direct,A,A,No Deposit,Transient-Party,250,1
+32,80.08,0,3,2,0,0,0,47,City Hotel,November,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,7,1
+75,72.25,1,0,2,0,2,0,47,City Hotel,November,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,1
+90,161.7,1,4,3,0,0,2,15,City Hotel,April,BB,AUT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+164,105.4,4,10,2,0,0,0,27,Resort Hotel,July,HB,DEU,Offline TA/TO,TA/TO,E,E,No Deposit,Contract,75,0
+178,200.0,2,5,2,0,2,0,32,Resort Hotel,August,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+173,196.52,2,5,3,0,0,0,31,Resort Hotel,July,HB,ROU,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,11,0
+34,157.71,2,5,2,0,4,0,35,City Hotel,August,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+1,105.0,0,3,1,0,0,0,33,City Hotel,August,BB,PRT,Direct,Direct,A,A,No Deposit,Group,14,0
+152,75.0,0,4,2,0,0,0,16,City Hotel,April,BB,GBR,Offline TA/TO,TA/TO,A,D,No Deposit,Contract,28,0
+56,225.0,2,5,2,1,0,0,33,Resort Hotel,August,BB,PRT,Direct,Direct,C,C,No Deposit,Transient,250,0
+104,130.5,2,3,2,0,2,0,14,City Hotel,April,BB,DNK,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+20,65.0,0,3,1,0,1,1,23,City Hotel,June,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+0,48.0,2,2,2,0,0,1,44,Resort Hotel,October,BB,CN,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,96,0
+26,142.0,1,2,2,0,2,0,41,City Hotel,October,SC,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+32,53.44,1,4,2,0,1,0,7,Resort Hotel,February,BB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+9,141.0,0,1,1,0,0,0,27,City Hotel,June,BB,FRA,Direct,Direct,A,A,No Deposit,Transient,14,0
+5,58.0,1,1,2,0,1,0,47,Resort Hotel,November,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+309,96.25,0,4,2,0,0,1,33,City Hotel,August,BB,ITA,Online TA,TA/TO,B,B,No Deposit,Transient,9,1
+4,63.0,0,1,1,0,0,0,12,Resort Hotel,March,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+90,80.75,2,0,2,0,0,0,19,City Hotel,May,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,22,0
+35,114.0,2,5,2,0,0,0,38,Resort Hotel,September,BB,PRT,Online TA,TA/TO,C,C,No Deposit,Transient,242,1
+49,86.7,2,3,2,0,0,1,51,Resort Hotel,December,HB,GBR,Direct,Direct,E,E,No Deposit,Transient,250,0
+80,203.6,1,1,2,0,2,2,29,Resort Hotel,July,HB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,241,0
+36,95.0,0,1,1,0,0,1,25,City Hotel,June,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,10,0
+48,158.4,1,1,3,0,2,0,43,City Hotel,October,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+6,136.0,0,2,2,0,1,0,23,City Hotel,June,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+126,144.0,0,1,2,1,3,0,16,City Hotel,April,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+6,36.0,0,1,1,0,0,0,53,Resort Hotel,December,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,16,0
+92,51.0,1,0,1,0,0,0,16,Resort Hotel,April,BB,CHE,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+69,126.9,0,3,2,0,2,0,21,City Hotel,May,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+390,49.0,1,0,2,0,0,3,44,Resort Hotel,October,BB,GBR,Groups,Corporate,A,A,No Deposit,Transient-Party,None,0
+130,107.1,1,3,2,0,0,0,27,City Hotel,July,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+35,140.0,0,1,2,0,0,1,19,City Hotel,May,BB,DNK,Groups,TA/TO,A,A,No Deposit,Transient-Party,39,0
+73,29.16,0,2,2,0,1,1,47,Resort Hotel,November,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,240,1
+6,62.0,0,2,1,0,0,2,17,Resort Hotel,April,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+94,90.45,1,1,2,0,0,0,45,City Hotel,October,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+55,75.0,2,1,2,0,1,1,15,City Hotel,April,BB,PRT,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,28,0
+15,86.0,0,2,1,0,0,1,6,City Hotel,February,BB,FRA,Corporate,Corporate,E,F,No Deposit,Transient-Party,None,0
+130,131.4,2,3,2,0,0,0,24,City Hotel,June,BB,FIN,Online TA,TA/TO,D,D,No Deposit,Transient,8,0
+63,171.0,0,4,3,0,0,2,17,City Hotel,April,BB,BRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+2,35.0,0,1,1,0,0,0,1,Resort Hotel,January,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+83,135.9,1,3,2,1,1,0,32,City Hotel,August,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+116,113.56,2,1,3,0,0,0,32,City Hotel,August,BB,PRT,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,83,1
+127,84.15,1,3,2,0,0,0,53,City Hotel,December,BB,ITA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,85,0
+31,98.0,2,1,2,0,0,1,12,City Hotel,March,BB,DEU,Direct,Direct,A,A,No Deposit,Transient,14,0
+69,68.0,0,4,1,0,1,0,30,City Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+25,103.95,0,2,3,0,2,0,16,City Hotel,April,SC,DEU,Online TA,TA/TO,A,E,No Deposit,Transient,7,0
+34,65.4,0,2,2,0,3,0,47,Resort Hotel,November,BB,NLD,Online TA,TA/TO,E,E,No Deposit,Transient-Party,240,0
+154,160.0,2,1,2,0,1,0,29,Resort Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+1,60.0,0,1,2,0,0,0,47,Resort Hotel,November,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+8,30.0,0,1,1,0,0,0,3,Resort Hotel,January,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+69,33.0,1,3,2,0,1,0,45,Resort Hotel,October,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,241,0
+162,69.3,4,6,1,0,1,2,23,Resort Hotel,June,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,None,0
+172,250.0,2,5,2,0,2,0,32,Resort Hotel,August,HB,ESP,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+147,101.88,1,2,2,0,0,2,34,City Hotel,August,BB,ESP,Direct,Direct,A,A,No Deposit,Transient,14,1
+140,103.5,0,2,2,0,1,0,33,City Hotel,August,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+28,74.8,1,5,2,0,2,0,7,City Hotel,February,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+8,109.25,0,4,2,0,0,1,44,City Hotel,October,SC,NLD,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+10,153.0,0,1,2,2,1,0,34,City Hotel,August,SC,PRT,Online TA,TA/TO,F,F,No Deposit,Contract,9,0
+33,191.0,0,1,2,0,0,0,33,Resort Hotel,August,BB,PRT,Groups,Corporate,A,D,No Deposit,Transient,None,0
+195,67.94,2,5,2,0,0,0,10,Resort Hotel,March,HB,GBR,Groups,TA/TO,D,D,No Deposit,Transient-Party,273,0
+139,228.6,1,2,2,2,2,1,28,City Hotel,July,HB,SWE,Online TA,TA/TO,F,G,No Deposit,Transient,9,0
+5,55.0,1,0,2,0,0,0,45,Resort Hotel,November,HB,ESP,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,196,0
+0,88.74,2,3,2,0,0,0,2,City Hotel,January,BB,HRV,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,45.0,0,2,1,0,2,1,15,Resort Hotel,April,BB,PRT,Corporate,Corporate,A,E,No Deposit,Transient,None,0
+40,165.6,0,2,2,0,0,0,24,City Hotel,June,HB,ARG,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+251,92.0,1,3,1,0,0,1,26,Resort Hotel,June,HB,CN,Groups,TA/TO,D,A,No Deposit,Transient-Party,96,0
+95,176.25,1,5,2,1,1,3,35,Resort Hotel,August,BB,ROU,Offline TA/TO,TA/TO,D,E,No Deposit,Transient,11,0
+69,95.85,2,2,2,0,2,1,45,City Hotel,October,BB,FIN,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+156,80.75,2,2,2,0,1,0,27,City Hotel,July,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+61,122.4,0,3,2,1,2,0,7,City Hotel,February,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+3,95.0,0,1,1,0,0,0,46,City Hotel,November,BB,ITA,Aviation,Corporate,D,D,No Deposit,Transient-Party,None,0
+0,147.59,0,1,2,1,0,0,38,City Hotel,September,SC,EST,Online TA,TA/TO,D,D,No Deposit,Transient,152,0
+36,94.2,2,2,1,0,0,1,47,Resort Hotel,November,HB,IRL,Direct,Direct,G,G,No Deposit,Transient,250,0
+100,150.3,0,4,3,0,0,0,35,City Hotel,August,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+55,129.6,2,2,2,2,0,0,43,City Hotel,October,BB,FRA,Online TA,TA/TO,E,E,No Deposit,Transient,89,0
+66,80.0,0,3,2,0,0,0,50,Resort Hotel,December,Undefined,ESP,Groups,TA/TO,A,A,No Deposit,Transient-Party,38,0
+451,112.67,0,3,2,0,1,0,28,City Hotel,July,BB,GBR,Groups,TA/TO,A,C,No Deposit,Transient-Party,229,0
+0,107.0,1,0,2,0,1,0,4,City Hotel,January,BB,DNK,Direct,Direct,A,A,No Deposit,Transient,None,0
+69,75.0,2,3,2,0,0,0,13,City Hotel,March,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+121,132.18,2,6,3,0,2,0,30,City Hotel,July,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+171,182.86,2,5,2,0,1,2,30,Resort Hotel,July,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient-Party,240,0
+256,77.35,2,2,2,0,0,0,3,City Hotel,January,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+190,47.9,2,5,1,0,0,0,16,Resort Hotel,April,HB,GBR,Groups,Direct,A,A,No Deposit,Transient-Party,273,0
+39,137.7,1,3,3,0,0,0,17,City Hotel,April,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+72,79.2,0,1,2,0,0,2,12,City Hotel,March,SC,CHE,Online TA,TA/TO,A,G,No Deposit,Transient,9,1
+3,99.0,0,2,2,0,1,0,7,City Hotel,February,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+5,133.0,0,1,2,0,1,0,39,City Hotel,September,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+2,70.0,1,4,2,0,0,0,8,City Hotel,February,BB,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,28,0
+0,71.0,1,1,2,0,0,0,52,Resort Hotel,December,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+17,95.0,0,1,1,0,0,0,44,City Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,111,0
+90,130.78,2,5,2,0,2,0,25,City Hotel,June,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+45,161.1,0,4,2,1,1,0,32,City Hotel,August,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+1,81.0,0,1,2,0,2,2,32,City Hotel,August,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+0,30.0,1,0,1,0,0,0,49,Resort Hotel,November,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+3,131.0,0,1,2,0,0,0,50,City Hotel,December,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+19,37.0,0,1,2,0,0,0,3,Resort Hotel,January,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,251,0
+5,124.0,0,2,2,0,0,0,31,City Hotel,July,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+98,70.0,1,2,1,0,0,0,48,City Hotel,November,BB,FRA,Groups,TA/TO,A,D,No Deposit,Transient-Party,37,1
+126,58.52,1,5,2,0,0,0,52,Resort Hotel,December,HB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,147,0
+49,29.0,1,4,2,0,1,0,47,Resort Hotel,November,BB,BEL,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,6,0
+191,80.75,2,5,2,0,1,0,37,City Hotel,September,HB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,16,0
+194,94.25,0,2,2,0,1,0,41,City Hotel,October,BB,JPN,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+136,211.16,2,5,2,2,0,0,35,Resort Hotel,August,BB,PRT,Direct,Direct,C,C,No Deposit,Transient,None,0
+56,65.75,2,5,2,1,0,0,47,Resort Hotel,November,HB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,6,0
+19,96.0,0,2,2,0,1,0,49,Resort Hotel,December,HB,ESP,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+257,80.0,0,2,1,0,0,1,27,City Hotel,July,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,6,0
+73,113.4,0,1,1,0,1,0,41,City Hotel,October,BB,GBR,Online TA,TA/TO,A,E,No Deposit,Transient,9,0
+23,180.0,2,2,2,0,1,1,20,City Hotel,May,BB,URY,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+87,130.5,0,3,2,0,1,0,27,City Hotel,July,BB,GBR,Direct,Direct,D,C,No Deposit,Transient,14,0
+48,135.9,0,2,2,0,0,0,31,City Hotel,July,BB,SWE,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+26,97.29,2,5,2,0,1,0,1,Resort Hotel,January,HB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+0,4.0,1,3,1,0,0,0,2,Resort Hotel,January,BB,ESP,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,6,0
+8,144.33,2,1,2,0,0,0,13,City Hotel,March,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+538,51.4,0,1,1,0,0,0,53,City Hotel,December,BB,PRT,Groups,TA/TO,A,A,Non Refund,Transient,1,1
+336,78.0,0,3,2,0,0,0,38,Resort Hotel,September,BB,GBR,Groups,Direct,A,E,No Deposit,Transient-Party,None,0
+4,200.0,0,1,1,0,0,0,25,City Hotel,June,SC,ESP,Online TA,GDS,E,E,No Deposit,Transient,195,0
+0,134.0,1,0,2,0,2,1,13,City Hotel,March,BB,GBR,Direct,Direct,A,E,No Deposit,Transient,None,0
+17,105.55,2,1,2,0,1,2,6,City Hotel,February,BB,SWE,Direct,Direct,D,D,No Deposit,Transient,14,0
+67,92.0,2,0,2,2,1,0,11,Resort Hotel,March,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,240,0
+165,181.3,4,6,2,2,1,2,28,Resort Hotel,July,HB,PRT,Online TA,TA/TO,C,C,No Deposit,Transient,242,0
+115,100.0,1,1,2,0,1,0,18,Resort Hotel,May,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+15,0.0,2,7,2,0,0,1,13,Resort Hotel,March,SC,PRT,Corporate,Corporate,A,I,No Deposit,Transient-Party,None,0
+0,67.5,0,2,2,0,0,2,47,City Hotel,November,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,14,0
+31,94.5,2,2,1,0,2,1,42,City Hotel,October,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+101,78.3,1,2,2,0,0,0,12,City Hotel,March,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+71,77.0,2,2,2,0,2,0,5,City Hotel,February,BB,BRA,Direct,Direct,A,A,No Deposit,Transient,14,0
+59,139.5,0,3,2,0,1,3,43,City Hotel,October,BB,ISR,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+3,170.0,0,1,1,0,1,2,26,City Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+118,110.0,1,1,1,0,0,1,24,City Hotel,June,BB,DEU,Offline TA/TO,Corporate,A,A,No Deposit,Transient-Party,191,0
+33,79.75,2,3,1,0,1,0,4,City Hotel,January,HB,CHE,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,22,0
+0,127.0,1,0,3,0,0,0,8,City Hotel,February,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+70,137.7,2,1,3,0,2,0,15,City Hotel,April,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+40,78.3,1,2,2,0,1,0,7,City Hotel,February,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,145.0,0,1,2,0,0,0,43,City Hotel,October,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+205,62.48,4,8,2,0,1,0,36,Resort Hotel,September,BB,IRL,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,156,0
+86,195.0,0,3,3,0,2,0,31,City Hotel,August,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+10,65.0,2,1,1,0,0,1,4,City Hotel,January,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,77,0
+163,157.5,1,3,2,1,1,0,33,City Hotel,August,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+78,70.88,2,5,2,0,1,0,52,City Hotel,December,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,7,1
+39,66.44,2,3,2,1,1,0,45,Resort Hotel,October,BB,CHN,Online TA,TA/TO,E,E,No Deposit,Transient,241,0
+54,189.0,0,3,2,0,0,0,35,Resort Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+3,45.0,0,1,1,0,1,0,15,Resort Hotel,April,BB,PRT,Direct,Direct,G,G,No Deposit,Transient,None,0
+80,86.4,1,1,1,0,0,0,48,City Hotel,November,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+4,95.2,2,2,2,0,1,0,53,City Hotel,December,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+2,116.4,0,3,3,0,3,0,3,City Hotel,January,BB,ESP,Online TA,TA/TO,A,D,No Deposit,Transient,83,0
+20,66.0,1,0,2,0,0,0,24,Resort Hotel,June,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,8,0
+0,0.0,0,0,2,0,0,1,52,City Hotel,December,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+65,88.0,2,5,2,0,1,0,47,City Hotel,November,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+3,159.6,0,1,2,0,0,0,37,Resort Hotel,September,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,250,0
+34,120.0,1,1,2,0,1,0,15,City Hotel,April,SC,USA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+53,121.5,0,2,2,0,0,0,17,City Hotel,April,BB,CHN,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+21,64.37,0,2,2,0,1,0,5,City Hotel,February,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+24,80.85,0,2,2,0,1,0,36,City Hotel,September,BB,USA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+20,69.5,2,2,2,0,1,0,5,City Hotel,January,SC,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+3,229.0,2,3,2,2,2,0,29,City Hotel,July,BB,RUS,Online TA,TA/TO,F,F,No Deposit,Transient,9,0
+71,90.95,1,3,2,0,1,0,14,City Hotel,March,BB,BEL,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+11,106.0,2,2,2,0,1,0,15,City Hotel,April,SC,USA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+131,195.0,1,3,2,0,1,0,29,Resort Hotel,July,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+184,116.6,4,10,2,0,1,0,27,Resort Hotel,July,BB,NOR,Online TA,TA/TO,D,D,No Deposit,Transient,241,0
+136,80.44,2,2,2,0,0,0,28,City Hotel,July,HB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,0
+132,70.56,0,2,1,0,0,1,3,City Hotel,January,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,83,1
+0,146.0,2,4,1,0,0,2,37,Resort Hotel,September,HB,GBR,Direct,Direct,A,A,No Deposit,Transient,None,0
+143,85.5,2,2,2,0,0,0,35,City Hotel,August,SC,GEO,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+56,189.0,0,4,2,0,2,0,34,Resort Hotel,August,BB,GIB,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+1,0.0,0,1,1,0,1,0,36,City Hotel,September,BB,PRT,Complementary,Direct,A,F,No Deposit,Transient,None,0
+173,127.71,2,8,2,0,0,0,33,City Hotel,August,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+1,149.0,0,1,2,0,1,0,36,City Hotel,September,SC,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+88,90.95,2,3,2,0,1,0,16,City Hotel,April,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+8,148.0,0,1,1,0,1,0,25,City Hotel,June,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+0,102.0,0,1,1,0,0,0,26,City Hotel,June,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+142,113.05,1,3,2,0,1,0,22,City Hotel,May,BB,AUT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+4,100.8,1,2,2,0,1,0,43,City Hotel,October,BB,ESP,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,83,0
+205,99.0,0,1,2,0,0,0,34,City Hotel,August,SC,DEU,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+144,148.5,2,1,2,1,0,0,30,City Hotel,July,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+195,90.9,0,4,1,0,2,0,43,City Hotel,October,BB,ROU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+101,106.2,0,3,2,0,0,0,12,City Hotel,March,BB,HUN,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+68,133.2,2,0,3,0,2,0,18,City Hotel,April,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+19,99.2,0,1,1,0,0,0,36,City Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,83,1
+125,76.0,2,5,2,0,3,1,13,Resort Hotel,March,BB,DEU,Direct,Direct,E,F,No Deposit,Transient,None,0
+56,59.5,2,5,2,0,0,0,16,Resort Hotel,April,HB,NLD,Offline TA/TO,TA/TO,E,E,No Deposit,Contract,71,0
+10,140.0,1,0,1,0,1,2,21,City Hotel,May,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+1,35.0,0,2,1,0,0,0,13,Resort Hotel,March,BB,Unknown,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+46,79.2,2,1,1,0,0,0,47,City Hotel,November,BB,JPN,Direct,Direct,A,A,No Deposit,Transient,14,0
+236,50.0,0,3,1,0,0,1,20,Resort Hotel,May,BB,GBR,Groups,TA/TO,A,A,No Deposit,Transient-Party,315,0
+170,119.1,0,1,2,0,2,0,27,Resort Hotel,July,BB,USA,Online TA,TA/TO,A,F,No Deposit,Transient,242,0
+9,126.0,0,3,2,0,1,0,28,City Hotel,July,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,68.0,0,2,2,0,1,0,9,Resort Hotel,February,BB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+214,143.1,2,6,2,0,1,0,28,City Hotel,July,HB,RUS,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+17,270.5,2,2,2,0,1,3,33,Resort Hotel,August,HB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+125,150.0,0,3,2,0,1,0,25,Resort Hotel,June,BB,FRA,Online TA,TA/TO,E,F,No Deposit,Transient,240,0
+0,0.0,0,2,1,0,0,1,30,City Hotel,July,BB,PRT,Direct,Direct,D,A,No Deposit,Transient,None,0
+309,65.61,2,4,1,0,0,1,36,Resort Hotel,September,BB,PRT,Online TA,TA/TO,A,C,No Deposit,Transient,240,1
+107,76.43,2,5,2,0,3,1,43,Resort Hotel,October,HB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+0,65.0,0,1,1,0,0,0,16,City Hotel,April,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+239,114.71,4,10,2,0,1,1,35,Resort Hotel,August,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+327,167.18,2,5,2,0,1,0,35,Resort Hotel,August,HB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+65,79.2,1,2,2,0,2,0,7,City Hotel,February,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+175,164.7,0,5,2,0,0,0,32,City Hotel,August,HB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+111,200.96,2,5,2,1,2,0,34,Resort Hotel,August,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,241,0
+63,59.33,2,4,2,0,2,0,53,Resort Hotel,December,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+12,61.2,1,1,2,0,1,0,48,Resort Hotel,November,BB,ESP,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+0,42.0,0,2,1,0,0,0,18,Resort Hotel,April,BB,Unknown,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+0,35.0,0,1,1,0,0,0,3,Resort Hotel,January,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+46,29.0,0,1,2,0,0,3,11,Resort Hotel,March,BB,PRT,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,375,0
+0,114.0,0,1,2,0,0,0,37,City Hotel,September,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+24,123.5,1,3,2,0,0,0,16,City Hotel,April,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,7,1
+47,130.61,0,4,2,0,1,0,40,City Hotel,September,BB,CHN,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+71,120.0,1,3,2,0,1,1,26,City Hotel,June,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+184,63.0,2,2,2,0,0,0,24,Resort Hotel,June,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,410,1
+0,99.0,1,0,2,0,0,0,11,City Hotel,March,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+69,150.3,1,1,2,2,1,1,11,City Hotel,March,BB,USA,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+90,108.75,1,3,2,0,2,0,15,Resort Hotel,April,BB,IRL,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+173,114.75,2,2,2,1,1,0,33,City Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+27,95.0,0,1,2,0,0,3,39,City Hotel,September,BB,PRT,Direct,Direct,A,D,No Deposit,Transient-Party,288,0
+77,126.9,2,2,2,0,1,1,20,City Hotel,May,BB,NLD,Online TA,TA/TO,A,E,No Deposit,Transient,9,0
+10,0.0,0,0,3,0,2,0,1,City Hotel,January,BB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,9,0
+220,72.75,2,5,2,0,0,0,43,Resort Hotel,October,HB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,243,0
+229,0.0,0,0,2,0,0,5,23,Resort Hotel,May,BB,PRT,Groups,Direct,A,D,No Deposit,Transient-Party,None,0
+126,130.67,2,4,2,0,2,1,37,Resort Hotel,September,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+13,85.0,1,5,2,0,0,0,37,City Hotel,September,SC,ITA,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,22,0
+368,4.0,2,5,1,0,0,0,41,Resort Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,96,1
+135,175.0,0,2,2,1,2,1,14,City Hotel,April,BB,PRT,Direct,Direct,F,G,No Deposit,Transient,None,0
+62,94.0,1,4,2,0,1,0,15,Resort Hotel,April,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+191,162.0,0,4,2,0,0,0,32,Resort Hotel,August,BB,CN,Direct,Direct,A,A,No Deposit,Transient,250,0
+0,45.0,0,2,2,0,0,1,6,Resort Hotel,February,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+240,81.9,2,5,2,0,1,0,25,Resort Hotel,June,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,315,1
+187,104.85,2,2,2,0,0,0,31,Resort Hotel,July,BB,CN,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,410,0
+153,38.81,1,4,2,0,1,2,4,Resort Hotel,January,BB,CN,Online TA,TA/TO,E,E,No Deposit,Transient,241,0
+10,119.5,2,0,2,0,2,0,35,City Hotel,August,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+101,101.18,0,1,2,0,1,0,33,City Hotel,August,BB,CHE,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+11,155.5,1,3,2,0,1,0,34,City Hotel,August,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+11,119.7,2,3,2,0,1,0,41,City Hotel,October,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient-Party,10,0
+41,80.0,0,3,2,0,0,0,9,City Hotel,February,BB,IRL,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,22,0
+47,130.0,2,0,1,0,1,0,29,City Hotel,July,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+26,48.0,0,1,1,0,0,0,44,Resort Hotel,October,BB,Unknown,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+83,150.6,3,6,1,0,1,3,34,Resort Hotel,August,HB,PRT,Direct,Direct,A,A,No Deposit,Transient-Party,None,0
+0,82.35,0,2,2,0,1,0,14,Resort Hotel,March,BB,Unknown,Direct,Direct,F,F,No Deposit,Transient,None,0
+122,105.83,2,2,2,0,2,0,28,City Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+157,108.0,1,2,2,0,0,0,41,City Hotel,October,SC,MEX,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+59,162.0,1,3,2,0,3,1,20,City Hotel,May,BB,AUT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+47,142.65,2,2,2,0,1,0,26,City Hotel,June,HB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+95,72.0,1,2,2,0,0,0,6,City Hotel,February,BB,NLD,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,121,0
+224,66.0,0,4,2,0,0,0,22,Resort Hotel,May,BB,GBR,Groups,Direct,A,A,No Deposit,Transient-Party,None,0
+27,76.0,2,5,2,0,0,0,8,Resort Hotel,February,HB,NLD,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,75,0
+0,87.0,0,2,2,0,0,1,9,City Hotel,February,SC,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+195,90.95,2,5,2,0,1,0,30,City Hotel,July,BB,NOR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,88.0,1,0,2,0,0,0,4,City Hotel,January,SC,CYP,Direct,Direct,A,A,No Deposit,Transient,None,0
+0,51.0,1,0,2,0,0,0,3,Resort Hotel,January,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,None,0
+253,89.7,2,4,2,0,1,2,21,Resort Hotel,May,BB,FRA,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+99,113.0,2,4,1,0,0,2,15,City Hotel,April,HB,DEU,Groups,TA/TO,A,A,No Deposit,Transient-Party,205,0
+2,82.0,2,1,2,0,0,0,9,City Hotel,February,BB,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,28,0
+9,36.25,2,1,1,0,0,0,33,City Hotel,August,HB,ITA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,17,0
+74,50.05,2,5,2,2,0,0,43,Resort Hotel,October,BB,GBR,Online TA,TA/TO,C,C,No Deposit,Transient,241,0
+43,122.0,0,2,2,1,1,0,22,Resort Hotel,June,HB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+153,96.3,2,2,2,0,0,0,35,City Hotel,August,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+46,79.35,2,3,2,0,1,0,7,City Hotel,February,BB,DEU,Direct,Direct,D,D,No Deposit,Transient,14,1
+171,130.5,2,3,2,0,3,0,32,City Hotel,August,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+34,111.6,0,1,2,0,0,0,37,City Hotel,September,BB,PRT,Online TA,TA/TO,D,A,No Deposit,Transient,9,0
+0,90.0,2,0,2,0,1,1,15,Resort Hotel,April,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient-Party,240,0
+112,120.0,0,3,2,0,1,0,23,City Hotel,June,BB,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,192,0
+96,82.45,1,3,2,0,1,0,17,City Hotel,April,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+211,54.5,1,1,1,0,1,1,20,Resort Hotel,May,HB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,298,0
+161,116.5,2,4,2,0,3,0,25,Resort Hotel,June,BB,USA,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+7,0.0,0,1,2,0,1,1,24,City Hotel,June,BB,PRT,Complementary,Direct,A,D,No Deposit,Transient,None,0
+4,128.01,0,4,2,0,1,0,42,City Hotel,October,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+67,61.4,2,2,2,0,1,0,42,Resort Hotel,October,BB,IRL,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+77,121.35,1,4,2,1,3,0,31,Resort Hotel,July,BB,NOR,Online TA,TA/TO,C,C,No Deposit,Transient,241,0
+56,73.37,2,4,2,0,0,0,13,City Hotel,March,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+51,109.8,0,3,2,1,2,5,50,City Hotel,December,BB,ITA,Online TA,TA/TO,A,D,No Deposit,Transient,9,1
+88,52.5,2,3,2,0,1,0,15,Resort Hotel,April,BB,GBR,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+12,163.33,2,1,2,0,1,0,21,City Hotel,May,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+18,137.67,2,1,1,1,0,0,12,City Hotel,March,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+69,70.0,2,3,2,0,2,0,15,Resort Hotel,April,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+24,48.0,1,0,2,0,0,3,8,Resort Hotel,February,BB,GBR,Corporate,Corporate,D,D,No Deposit,Transient-Party,None,0
+0,141.0,0,1,2,0,0,0,13,City Hotel,March,BB,CHN,Online TA,TA/TO,A,B,No Deposit,Transient,9,0
+97,63.79,2,5,2,0,2,0,40,Resort Hotel,September,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,147,0
+2,147.0,2,2,3,0,2,0,14,City Hotel,March,BB,IRN,Online TA,TA/TO,D,E,No Deposit,Transient,9,0
+5,0.0,4,5,1,0,0,0,42,Resort Hotel,October,SC,PRT,Corporate,Corporate,A,I,No Deposit,Transient-Party,None,0
+34,140.0,0,2,2,0,0,1,19,City Hotel,May,BB,SRB,Groups,TA/TO,A,A,No Deposit,Transient-Party,39,0
+259,140.43,1,4,2,0,2,0,53,City Hotel,December,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,45.0,0,1,1,0,0,1,7,Resort Hotel,February,BB,PRT,Corporate,Direct,A,D,No Deposit,Transient,None,0
+54,123.3,1,2,2,0,0,0,36,City Hotel,September,BB,HUN,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+28,75.0,2,4,2,0,0,0,7,City Hotel,February,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+9,0.0,0,1,2,0,1,0,50,City Hotel,December,BB,PRT,Complementary,Direct,G,G,No Deposit,Transient,None,0
+108,183.6,1,4,3,0,0,0,21,City Hotel,May,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+190,105.3,2,1,2,0,1,0,44,City Hotel,October,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+37,143.1,2,2,2,0,2,2,27,City Hotel,June,HB,FRA,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+12,68.8,2,3,3,0,0,1,34,City Hotel,August,BB,DEU,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,27,0
+80,160.0,0,4,2,0,0,0,29,Resort Hotel,July,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+291,70.0,4,10,2,0,1,0,26,Resort Hotel,June,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,40,0
+0,149.4,0,1,3,0,1,0,26,City Hotel,June,BB,USA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+67,100.0,0,3,1,0,0,1,14,City Hotel,April,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,None,0
+95,130.5,2,3,2,1,1,0,27,City Hotel,July,BB,FIN,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+68,216.0,0,3,3,0,1,0,18,City Hotel,May,BB,USA,Online TA,TA/TO,E,E,No Deposit,Transient,9,0
+0,72.0,1,0,2,0,0,0,17,Resort Hotel,April,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+60,65.0,1,1,2,0,0,0,39,City Hotel,September,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,20,0
+37,96.3,0,3,2,0,1,0,43,City Hotel,October,BB,HUN,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+6,27.0,0,1,1,0,0,0,53,Resort Hotel,December,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,94,0
+47,92.28,0,4,2,0,1,0,20,City Hotel,May,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+21,159.0,0,4,2,0,0,0,31,City Hotel,August,BB,BEL,Online TA,TA/TO,D,A,No Deposit,Transient,9,0
+143,100.3,2,3,2,0,0,0,23,City Hotel,June,BB,CHE,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+247,137.7,1,4,2,0,1,0,29,Resort Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,242,1
+27,85.0,1,3,2,0,0,0,18,Resort Hotel,April,BB,IRL,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+142,96.3,1,0,2,0,1,0,28,City Hotel,July,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+27,114.19,2,6,2,0,1,2,36,Resort Hotel,September,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient-Party,240,0
+9,140.0,0,3,1,0,2,0,20,City Hotel,May,SC,CHE,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+115,100.0,2,6,2,0,3,1,19,Resort Hotel,May,BB,FIN,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+8,55.0,0,2,2,0,0,0,3,Resort Hotel,January,HB,ESP,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,177,0
+27,138.2,1,4,2,0,3,0,51,City Hotel,December,HB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+35,137.7,0,1,3,0,0,0,17,City Hotel,April,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+200,101.7,2,5,2,2,1,0,19,Resort Hotel,May,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+225,115.76,3,7,2,0,0,0,30,Resort Hotel,July,BB,IRL,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,5,0
+37,54.0,0,4,2,0,2,2,45,Resort Hotel,November,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+23,49.74,2,5,2,0,1,0,4,City Hotel,January,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+106,90.0,1,2,2,0,2,0,45,City Hotel,November,BB,CHE,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+39,55.0,2,5,2,0,0,0,6,Resort Hotel,February,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,6,1
+49,77.69,1,2,2,0,1,0,11,City Hotel,March,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+5,54.0,0,1,2,0,3,0,2,Resort Hotel,January,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+85,85.0,1,3,2,0,1,0,41,City Hotel,October,BB,CN,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,6,0
+19,62.0,2,2,2,0,0,0,30,City Hotel,July,BB,PRT,Groups,TA/TO,A,D,No Deposit,Transient-Party,1,0
+133,94.48,0,3,3,0,0,0,18,Resort Hotel,May,BB,FRA,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,6,0
+118,189.0,0,1,3,0,0,0,25,City Hotel,June,BB,SWE,Online TA,TA/TO,E,E,No Deposit,Transient,9,0
+74,78.0,2,3,2,0,2,2,1,City Hotel,January,BB,ROU,Groups,TA/TO,D,D,No Deposit,Transient-Party,330,0
+187,143.1,1,4,2,0,1,0,34,Resort Hotel,August,HB,PRT,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,75,1
+11,126.69,1,3,2,0,1,0,46,City Hotel,November,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+238,95.63,2,2,2,0,2,0,36,City Hotel,September,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+55,102.0,2,5,2,0,1,0,10,City Hotel,March,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+188,100.8,2,4,2,0,1,0,34,Resort Hotel,August,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,15,0
+90,94.0,0,5,2,0,1,0,19,Resort Hotel,May,BB,SRB,Online TA,TA/TO,A,C,No Deposit,Transient-Party,240,0
+247,111.0,1,1,2,0,0,0,24,City Hotel,June,HB,DEU,Offline TA/TO,TA/TO,A,F,No Deposit,Transient-Party,6,0
+9,131.0,0,3,2,0,1,0,18,City Hotel,April,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+6,129.0,1,0,1,0,2,0,38,City Hotel,September,SC,CN,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+140,113.48,1,3,2,0,0,0,24,City Hotel,June,BB,DEU,Direct,Direct,D,D,No Deposit,Transient,14,0
+18,112.8,0,4,2,0,0,0,23,City Hotel,May,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,15,1
+132,141.78,3,6,2,0,2,0,30,City Hotel,July,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+27,174.0,0,1,2,0,0,0,28,Resort Hotel,July,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient-Party,240,0
+0,98.0,1,0,2,0,0,0,49,City Hotel,November,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+111,180.0,2,5,2,0,0,0,30,Resort Hotel,July,BB,AND,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+40,158.95,2,1,2,1,0,2,38,City Hotel,September,BB,IND,Direct,Direct,E,E,No Deposit,Transient,14,0
+3,122.33,2,4,2,0,2,2,20,City Hotel,May,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+65,80.1,0,1,2,0,2,0,44,City Hotel,October,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+8,129.0,0,2,2,0,0,1,43,Resort Hotel,October,HB,PRT,Direct,Direct,F,F,No Deposit,Transient,250,0
+167,60.0,2,2,2,0,1,0,12,City Hotel,March,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Group,28,0
+34,95.0,1,2,1,0,0,1,23,City Hotel,June,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,10,0
+184,125.0,1,1,2,0,1,1,29,City Hotel,July,HB,ITA,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,0
+14,125.4,0,2,1,0,2,0,20,City Hotel,May,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+119,83.0,0,2,1,0,0,0,14,City Hotel,March,BB,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,39,0
+6,149.45,0,4,2,0,0,0,35,Resort Hotel,August,BB,GBR,Online TA,TA/TO,D,F,No Deposit,Transient,314,0
+1,172.55,0,1,2,0,0,0,34,Resort Hotel,August,BB,PRT,Corporate,Corporate,E,E,No Deposit,Transient,None,1
+91,185.85,0,2,2,1,0,0,20,City Hotel,May,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+1,68.0,0,1,2,0,0,0,48,Resort Hotel,November,BB,NLD,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+49,116.7,2,1,2,0,1,0,27,City Hotel,June,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+64,68.61,1,3,2,0,1,0,26,City Hotel,June,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+9,90.0,0,2,2,0,2,0,43,Resort Hotel,October,BB,GBR,Online TA,TA/TO,D,F,No Deposit,Transient,240,0
+29,103.0,2,0,1,0,2,0,13,City Hotel,March,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+73,60.98,0,1,2,0,1,0,49,City Hotel,December,SC,USA,Online TA,TA/TO,A,D,No Deposit,Transient,7,0
+0,149.0,1,1,2,0,0,1,40,City Hotel,September,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+34,70.71,2,5,2,0,1,0,50,Resort Hotel,December,BB,FRA,Online TA,TA/TO,E,E,No Deposit,Transient-Party,240,0
+1,87.82,1,0,2,0,0,0,29,City Hotel,July,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,152,0
+17,265.0,0,2,2,2,0,0,10,City Hotel,March,HB,FRA,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+49,109.8,1,0,2,0,0,0,36,City Hotel,August,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+61,88.4,2,3,2,0,0,0,49,City Hotel,December,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+78,170.5,1,1,3,0,1,0,28,City Hotel,July,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,None,0
+42,76.96,2,2,2,0,1,2,45,Resort Hotel,November,HB,FRA,Direct,Direct,A,A,No Deposit,Transient,250,0
+118,96.78,1,3,3,0,1,0,44,City Hotel,October,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+1,44.0,0,2,1,0,0,0,48,Resort Hotel,November,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+118,44.0,2,5,1,0,0,0,19,Resort Hotel,May,BB,IRL,Groups,TA/TO,A,A,No Deposit,Transient-Party,96,0
+146,110.0,2,3,2,0,1,0,23,Resort Hotel,June,BB,PRT,Online TA,TA/TO,A,B,No Deposit,Transient,240,0
+17,236.0,1,3,2,0,1,0,31,Resort Hotel,July,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+33,330.0,2,4,2,2,1,0,32,Resort Hotel,August,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,240,0
+0,176.0,0,2,2,0,0,0,29,Resort Hotel,July,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+53,135.9,1,3,2,0,0,0,32,City Hotel,August,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+7,100.0,0,1,2,0,1,1,44,City Hotel,October,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+10,106.5,1,3,2,0,1,0,18,Resort Hotel,May,BB,IRL,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+28,256.67,0,3,2,2,0,1,23,City Hotel,June,BB,CHE,Online TA,TA/TO,F,F,No Deposit,Transient,9,0
+26,65.0,0,2,1,0,1,0,27,City Hotel,June,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+124,114.3,1,2,2,0,0,0,19,City Hotel,May,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+216,125.1,0,2,2,0,1,0,21,City Hotel,May,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,0.0,0,1,1,0,1,0,16,City Hotel,April,BB,PRT,Direct,Direct,B,B,No Deposit,Transient,None,0
+35,70.03,0,3,2,0,1,0,9,City Hotel,February,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+47,37.8,0,1,2,0,0,0,47,Resort Hotel,November,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+3,155.0,1,0,2,0,0,0,38,City Hotel,September,SC,ESP,Direct,Direct,A,A,No Deposit,Transient,14,1
+130,152.0,2,5,2,0,1,0,20,Resort Hotel,May,HB,CHE,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+86,129.0,0,1,2,0,1,0,30,City Hotel,July,SC,GBR,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+44,100.3,2,3,2,0,0,0,12,City Hotel,March,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+7,210.0,1,1,3,0,0,0,29,City Hotel,July,BB,USA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+37,73.75,1,3,2,0,2,0,13,Resort Hotel,March,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,1
+5,73.15,2,3,1,0,0,0,47,City Hotel,November,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+41,140.0,0,2,2,0,1,1,23,City Hotel,June,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+20,141.0,2,1,2,0,1,0,25,City Hotel,June,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+59,85.5,0,1,1,0,0,0,17,City Hotel,April,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+134,240.3,0,2,2,2,0,0,14,City Hotel,April,HB,BEL,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+18,85.0,0,2,2,0,0,0,41,City Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,28,1
+180,0.0,1,1,2,0,1,0,19,City Hotel,May,BB,ITA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,3,0
+54,139.5,0,3,2,0,3,0,42,City Hotel,October,BB,USA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+28,93.4,1,3,1,0,0,0,37,City Hotel,September,BB,IRN,Online TA,TA/TO,A,A,No Deposit,Transient,86,0
+2,42.0,0,2,1,0,0,1,14,Resort Hotel,March,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,1
+225,72.0,1,3,2,0,2,0,26,Resort Hotel,June,BB,GBR,Online TA,TA/TO,A,F,No Deposit,Transient-Party,240,0
+69,148.0,2,3,2,0,1,0,30,City Hotel,July,BB,FIN,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+2,93.0,0,2,2,0,0,0,45,Resort Hotel,November,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+72,99.45,0,4,2,0,1,0,16,City Hotel,April,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+61,92.5,1,3,2,0,1,1,53,City Hotel,December,SC,POL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+1,108.0,2,1,2,0,1,0,9,City Hotel,February,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+82,68.42,0,3,2,0,0,1,14,City Hotel,March,BB,SWE,Online TA,TA/TO,A,A,No Deposit,Transient,11,0
+6,77.0,0,2,3,0,0,0,49,City Hotel,December,BB,SGP,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,151,0
+111,127.8,0,2,2,0,0,0,33,City Hotel,August,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+39,109.49,0,2,2,0,2,0,25,City Hotel,June,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+12,211.0,0,2,2,0,1,0,35,Resort Hotel,August,BB,PRT,Online TA,TA/TO,A,C,No Deposit,Transient,240,0
+19,175.5,2,4,2,1,1,0,37,Resort Hotel,September,BB,PRT,Direct,Direct,C,C,No Deposit,Transient,250,1
+81,66.43,4,10,1,0,2,2,40,Resort Hotel,September,FB,PRT,Direct,Direct,A,E,No Deposit,Transient,None,1
+113,60.3,2,5,2,0,1,0,8,Resort Hotel,February,BB,NLD,Direct,Direct,F,F,No Deposit,Transient,250,0
+21,160.0,4,10,1,0,0,1,29,Resort Hotel,July,HB,PRT,Direct,Direct,E,E,No Deposit,Transient,None,0
+195,64.9,2,5,2,0,0,0,39,Resort Hotel,September,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,243,0
+15,149.0,0,1,2,0,0,0,39,City Hotel,September,SC,PRT,Direct,Direct,A,E,No Deposit,Transient,14,0
+26,89.0,0,1,1,0,1,1,12,City Hotel,March,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+11,248.0,0,2,2,0,2,1,39,City Hotel,September,BB,PRT,Online TA,TA/TO,F,F,No Deposit,Transient,9,0
+103,251.43,2,5,2,2,1,0,34,Resort Hotel,August,BB,ESP,Online TA,TA/TO,C,C,No Deposit,Transient,240,1
+350,44.27,3,7,2,0,0,0,52,Resort Hotel,December,BB,GBR,Offline TA/TO,TA/TO,A,C,No Deposit,Transient,26,0
+29,85.0,0,4,2,0,0,0,15,City Hotel,April,SC,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,85,1
+40,67.76,1,2,2,0,1,0,11,City Hotel,March,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+78,252.0,3,5,3,1,0,0,37,Resort Hotel,September,HB,ESP,Online TA,TA/TO,H,H,No Deposit,Transient,240,1
+167,75.0,0,3,2,0,0,0,9,City Hotel,March,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+16,70.67,2,5,2,0,1,0,1,City Hotel,January,SC,UZB,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+8,68.0,1,4,2,0,0,0,9,City Hotel,March,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,168,0
+0,95.0,0,1,2,0,0,0,5,City Hotel,January,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,None,0
+130,165.0,2,1,2,1,3,0,25,City Hotel,June,BB,NLD,Direct,Direct,A,A,No Deposit,Transient,14,0
+172,212.0,1,4,2,0,0,0,31,Resort Hotel,July,HB,BEL,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+81,114.75,1,3,1,0,1,0,17,City Hotel,April,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+183,42.5,1,1,2,0,0,1,16,Resort Hotel,April,HB,DEU,Groups,TA/TO,A,A,No Deposit,Transient-Party,298,0
+5,207.5,1,3,2,0,1,0,30,Resort Hotel,July,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+53,62.0,1,1,2,0,0,0,35,City Hotel,August,BB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,1
+9,95.2,0,2,2,0,1,0,29,City Hotel,July,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+130,261.0,2,3,2,0,1,0,33,Resort Hotel,August,HB,HUN,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+23,105.0,2,2,3,0,1,0,43,City Hotel,October,BB,FRA,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,28,0
+93,51.84,0,3,2,0,0,1,1,Resort Hotel,January,HB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,339,1
+65,82.15,2,5,2,0,2,0,12,Resort Hotel,March,HB,GBR,Online TA,TA/TO,F,F,No Deposit,Transient,241,0
+44,48.0,2,6,2,0,2,0,8,Resort Hotel,February,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+18,111.75,2,2,2,0,2,0,40,City Hotel,October,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+208,72.25,2,1,2,0,1,0,48,City Hotel,November,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+62,86.0,1,0,2,0,1,0,19,Resort Hotel,May,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,242,0
+192,166.5,3,6,2,0,1,0,30,City Hotel,July,HB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+212,130.8,1,5,2,0,2,0,21,City Hotel,May,HB,HRV,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+93,76.5,0,2,2,0,1,0,30,City Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+151,160.0,2,3,2,2,2,0,28,Resort Hotel,July,BB,ESP,Online TA,TA/TO,C,C,No Deposit,Transient,240,1
+7,92.65,0,1,1,0,0,0,24,City Hotel,June,BB,PRT,Groups,Direct,A,A,No Deposit,Transient,None,1
+94,62.0,1,3,2,0,0,0,7,Resort Hotel,February,HB,GBR,Groups,TA/TO,A,A,No Deposit,Transient,152,0
+200,76.5,0,1,2,0,3,0,34,City Hotel,August,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+76,74.7,2,3,2,0,0,0,39,Resort Hotel,September,BB,PRT,Online TA,TA/TO,A,E,No Deposit,Transient,240,0
+83,62.9,4,10,2,0,0,0,23,Resort Hotel,June,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,243,0
+17,89.0,0,1,2,0,0,0,31,City Hotel,August,BB,KOR,Online TA,TA/TO,A,D,No Deposit,Transient,85,0
+124,53.69,2,5,2,0,0,0,39,Resort Hotel,September,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,147,0
+4,98.0,1,0,1,0,1,0,27,City Hotel,July,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,0.0,0,0,2,0,0,0,7,City Hotel,February,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+12,181.0,1,2,2,0,0,0,29,Resort Hotel,July,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+39,141.6,3,7,2,0,1,0,30,Resort Hotel,July,HB,PRT,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,142,0
+91,90.45,2,2,2,0,1,0,45,City Hotel,October,BB,POL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+180,130.5,0,1,3,0,0,0,32,City Hotel,August,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+61,135.9,1,0,2,0,2,0,21,City Hotel,May,BB,CN,Online TA,TA/TO,A,E,No Deposit,Transient,9,0
+85,75.0,1,3,1,0,0,0,41,City Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,6,1
+385,66.0,0,4,2,0,0,0,39,Resort Hotel,September,BB,PRT,Groups,Direct,A,A,Non Refund,Transient,None,1
+27,234.35,1,2,2,2,1,0,39,City Hotel,September,BB,POL,Online TA,TA/TO,G,G,No Deposit,Transient,7,0
+235,142.1,1,2,2,0,1,0,21,City Hotel,May,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+3,130.0,1,2,2,0,1,0,5,City Hotel,January,HB,EGY,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+278,67.5,2,5,2,0,1,0,20,Resort Hotel,May,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+6,104.2,0,4,2,0,1,0,53,City Hotel,December,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+93,155.0,0,3,2,0,2,0,32,City Hotel,August,BB,IRL,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+9,96.5,0,2,2,0,1,0,39,Resort Hotel,September,BB,PRT,Online TA,TA/TO,D,E,No Deposit,Transient,240,0
+3,136.5,2,2,2,1,1,0,13,City Hotel,March,BB,ITA,Direct,Direct,A,D,No Deposit,Transient,14,0
+33,147.25,1,1,2,0,4,3,40,City Hotel,September,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+29,81.2,2,1,2,0,0,0,5,City Hotel,January,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,7,1
+218,191.41,1,2,2,1,4,0,33,Resort Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,242,0
+93,123.75,1,3,2,0,0,0,17,City Hotel,April,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+14,88.0,0,2,2,0,0,0,9,City Hotel,March,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+199,142.65,2,5,2,0,1,1,35,Resort Hotel,August,HB,IRL,Offline TA/TO,TA/TO,E,E,No Deposit,Transient-Party,175,0
+18,0.0,0,1,2,0,0,0,44,Resort Hotel,October,BB,PRT,Groups,Direct,A,A,No Deposit,Transient,None,1
+0,0.0,0,0,1,0,0,0,13,City Hotel,March,BB,PRT,Online TA,TA/TO,A,K,No Deposit,Transient,9,0
+43,148.0,0,2,2,2,1,0,10,Resort Hotel,March,HB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,240,0
+18,244.0,0,1,2,2,0,0,43,City Hotel,October,BB,CHE,Direct,Direct,F,F,No Deposit,Transient,14,1
+73,117.0,0,3,2,0,0,0,15,Resort Hotel,April,HB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+307,77.35,2,5,2,0,0,0,11,City Hotel,March,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+148,154.0,2,4,2,0,1,2,27,Resort Hotel,July,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+6,51.25,2,2,2,0,0,2,9,Resort Hotel,February,BB,ESP,Direct,Direct,A,A,No Deposit,Transient-Party,250,0
+48,65.0,0,2,1,0,0,1,36,City Hotel,August,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,1
+35,83.0,2,7,2,0,0,0,40,Resort Hotel,September,HB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,40,0
+197,82.45,2,5,2,0,2,0,34,City Hotel,August,BB,DEU,Offline TA/TO,TA/TO,D,D,No Deposit,Transient-Party,16,0
+23,69.0,1,4,2,0,0,0,50,City Hotel,December,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,10,1
+109,204.0,2,4,3,0,1,0,33,City Hotel,August,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+228,0.0,0,0,2,0,0,0,23,City Hotel,June,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+31,87.41,5,10,1,0,2,0,50,City Hotel,December,SC,USA,Online TA,TA/TO,A,D,No Deposit,Transient,9,1
+87,200.0,2,2,3,0,2,0,33,City Hotel,August,BB,BRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+31,200.0,0,2,2,0,2,0,39,City Hotel,September,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,1
+83,80.55,1,1,1,0,0,0,36,Resort Hotel,August,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+142,68.8,2,5,2,0,1,0,35,City Hotel,August,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+80,237.0,2,5,2,0,2,0,29,Resort Hotel,July,HB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+29,140.0,4,8,2,0,2,5,33,Resort Hotel,August,HB,PRT,Direct,Direct,E,E,No Deposit,Transient,None,0
+86,93.6,0,2,2,0,1,0,51,City Hotel,December,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+5,65.0,0,2,1,0,1,0,20,City Hotel,May,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+192,227.6,3,6,2,0,2,1,29,Resort Hotel,July,HB,PRT,Direct,Direct,F,F,No Deposit,Transient,250,0
+11,117.81,0,1,2,0,0,0,30,Resort Hotel,July,BB,ESP,Online TA,TA/TO,A,F,No Deposit,Transient,241,0
+0,44.0,0,1,1,0,0,0,49,Resort Hotel,December,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+190,161.4,2,8,2,0,0,0,31,Resort Hotel,August,HB,GBR,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,40,0
+10,38.0,2,1,2,0,2,0,44,Resort Hotel,October,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+24,79.0,4,10,2,0,0,1,6,Resort Hotel,February,Undefined,FRA,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,363,0
+19,74.28,3,5,2,2,0,1,42,Resort Hotel,October,BB,GBR,Offline TA/TO,TA/TO,C,C,No Deposit,Transient,147,0
+63,209.29,2,5,2,0,2,0,34,Resort Hotel,August,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+0,106.0,1,3,2,0,1,1,46,City Hotel,November,BB,USA,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+32,80.0,0,3,2,0,2,0,13,Resort Hotel,March,BB,AGO,Online TA,TA/TO,E,F,No Deposit,Transient,None,0
+312,56.0,2,5,2,0,0,0,10,Resort Hotel,March,HB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,298,1
+170,91.44,0,3,2,0,0,0,37,City Hotel,September,BB,GBR,Online TA,TA/TO,A,C,No Deposit,Transient,89,0
+76,119.0,1,3,3,0,1,0,1,City Hotel,January,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+336,69.0,1,3,2,0,0,1,38,Resort Hotel,September,BB,GBR,Groups,Direct,A,D,No Deposit,Transient-Party,None,0
+152,105.0,2,2,2,0,0,0,16,City Hotel,April,BB,PRT,Offline TA/TO,TA/TO,A,A,Non Refund,Transient,58,1
+43,74.88,0,1,2,0,0,0,53,City Hotel,December,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,83,0
+4,97.41,0,1,2,1,0,0,32,City Hotel,August,SC,USA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+72,89.25,0,4,2,0,1,0,43,City Hotel,October,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+205,58.95,2,3,2,0,1,0,36,Resort Hotel,September,BB,IRL,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,142,0
+176,135.0,1,1,2,0,1,1,34,City Hotel,August,HB,DEU,Direct,Direct,A,D,No Deposit,Transient,14,0
+0,140.0,1,0,1,0,0,0,45,City Hotel,October,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,None,0
+0,91.0,0,1,2,0,1,0,16,Resort Hotel,April,BB,BRA,Direct,TA/TO,A,A,No Deposit,Transient,None,0
+4,102.0,1,0,2,0,0,0,10,City Hotel,February,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,None,0
+35,137.34,2,3,2,0,2,0,40,City Hotel,September,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+82,38.67,1,2,2,0,0,0,14,City Hotel,March,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,27,0
+3,106.0,0,1,1,0,1,0,14,City Hotel,March,BB,ESP,Online TA,TA/TO,A,E,No Deposit,Transient,8,0
+160,62.88,2,8,2,0,2,1,53,Resort Hotel,December,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+116,85.0,2,1,1,0,0,0,10,City Hotel,February,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,134,0
+18,62.16,2,3,1,0,0,0,45,Resort Hotel,November,BB,DZA,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,314,0
+8,148.0,0,4,2,0,1,0,33,City Hotel,August,SC,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,146.0,0,3,2,1,1,0,34,City Hotel,August,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+67,161.1,0,3,2,0,1,0,20,City Hotel,May,HB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+6,162.0,1,0,2,2,0,0,34,City Hotel,August,BB,PRT,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+72,133.0,2,5,2,0,2,0,33,Resort Hotel,August,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,149,0
+30,125.1,0,1,2,0,2,0,38,City Hotel,September,SC,USA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+110,94.5,2,1,2,0,0,0,20,City Hotel,May,BB,BEL,Direct,Direct,A,A,No Deposit,Transient,14,1
+201,149.4,3,5,3,0,1,0,18,City Hotel,May,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+234,108.0,2,5,2,0,1,0,29,Resort Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+128,48.2,2,5,1,0,1,0,20,Resort Hotel,May,HB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,243,0
+61,190.0,0,2,2,2,1,0,28,Resort Hotel,July,BB,USA,Direct,Direct,C,C,No Deposit,Transient,None,0
+28,228.0,2,5,2,2,1,0,15,Resort Hotel,April,HB,ESP,Online TA,TA/TO,G,G,No Deposit,Transient,240,0
+14,30.5,0,2,2,0,0,0,50,Resort Hotel,December,BB,PRT,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,127,0
+59,110.0,0,2,2,0,0,2,24,Resort Hotel,June,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient-Party,240,0
+190,106.2,2,5,2,0,0,1,27,Resort Hotel,July,HB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,314,1
+27,175.0,0,5,2,1,1,0,14,City Hotel,April,BB,PRT,Direct,Direct,E,E,No Deposit,Transient,14,1
+215,75.0,1,2,1,0,0,0,48,City Hotel,November,BB,MLT,Groups,Corporate,A,A,No Deposit,Transient,None,0
+0,150.0,0,1,2,0,0,0,22,City Hotel,June,BB,DZA,Direct,Direct,A,A,No Deposit,Transient,None,0
+26,115.0,1,1,2,0,1,0,17,City Hotel,April,SC,USA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+13,48.0,1,0,2,0,0,1,20,Resort Hotel,May,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,6,0
+17,182.95,1,1,2,2,1,1,33,City Hotel,August,BB,PRT,Direct,Direct,E,E,No Deposit,Transient,None,0
+0,75.0,1,0,2,0,0,0,41,City Hotel,October,BB,PRT,Corporate,Corporate,A,E,No Deposit,Transient,None,0
+178,72.25,2,5,2,0,0,0,34,City Hotel,August,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,138,1
+111,85.0,1,1,1,0,0,2,14,City Hotel,April,BB,ISR,Groups,TA/TO,A,A,No Deposit,Transient-Party,37,0
+68,198.9,1,2,2,1,0,0,20,City Hotel,May,BB,FRA,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+193,107.1,0,1,2,0,0,0,21,City Hotel,May,SC,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+111,214.0,1,4,2,0,1,0,34,Resort Hotel,August,BB,PRT,Online TA,TA/TO,E,F,No Deposit,Transient,240,0
+177,130.05,2,3,3,0,2,0,33,City Hotel,August,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+0,138.0,0,2,2,0,0,0,41,City Hotel,October,BB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,0
+56,86.4,0,3,2,0,0,0,45,City Hotel,November,BB,IND,Online TA,TA/TO,A,A,No Deposit,Transient,83,0
+345,90.2,2,1,3,0,1,0,8,City Hotel,February,BB,BRA,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+7,199.63,2,6,3,0,1,2,33,Resort Hotel,August,BB,ITA,Direct,Direct,A,A,No Deposit,Transient,250,0
+36,90.0,2,1,2,1,0,1,9,City Hotel,February,BB,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,28,0
+192,50.4,1,5,2,0,3,0,8,Resort Hotel,February,BB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+109,59.94,0,1,2,0,1,0,1,Resort Hotel,January,BB,RUS,Online TA,TA/TO,A,D,No Deposit,Transient-Party,240,0
+13,39.0,0,1,1,0,0,0,44,Resort Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,146,0
+0,127.0,1,0,2,1,0,0,27,City Hotel,June,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+213,179.1,0,1,2,2,0,0,28,City Hotel,July,BB,CHE,Online TA,TA/TO,F,F,No Deposit,Transient,9,0
+20,178.0,1,1,1,0,0,0,11,City Hotel,March,BB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,254,1
+297,123.0,1,3,2,0,2,0,36,Resort Hotel,September,BB,IRL,Direct,TA/TO,A,A,No Deposit,Transient-Party,240,0
+6,119.0,1,0,1,0,0,0,14,City Hotel,April,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,290,0
+1,66.0,0,2,1,0,1,0,9,City Hotel,February,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+17,76.29,2,2,2,0,1,0,49,City Hotel,December,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+364,60.0,1,4,1,0,0,1,42,Resort Hotel,October,BB,GBR,Groups,Corporate,A,A,No Deposit,Transient-Party,None,0
+215,94.05,1,1,2,0,0,0,33,City Hotel,August,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+17,146.5,2,2,2,1,1,1,6,Resort Hotel,February,HB,PRT,Direct,Direct,G,G,No Deposit,Transient,250,0
+159,95.29,1,3,2,0,1,0,15,City Hotel,April,BB,NOR,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+19,105.0,2,3,2,0,1,0,38,City Hotel,September,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+137,82.8,1,2,2,0,1,0,8,Resort Hotel,February,HB,DEU,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+149,162.0,0,4,2,0,0,0,26,City Hotel,June,HB,NLD,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+1,199.43,0,1,3,0,1,0,34,Resort Hotel,August,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,241,0
+1,150.0,0,2,2,0,0,0,18,City Hotel,May,SC,IRL,Direct,Direct,A,A,No Deposit,Transient,14,0
+92,116.0,2,3,2,0,0,0,27,Resort Hotel,June,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+29,126.0,0,3,2,0,3,1,44,City Hotel,October,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,1
+3,95.0,0,2,2,0,0,0,21,Resort Hotel,May,BB,ESP,Online TA,TA/TO,A,F,No Deposit,Transient,240,0
+0,115.0,0,1,2,0,0,0,28,Resort Hotel,July,BB,FRA,Direct,Direct,D,D,No Deposit,Transient,None,0
+99,139.5,1,1,2,0,0,0,21,City Hotel,May,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+4,98.0,1,2,2,2,0,0,48,Resort Hotel,November,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient-Party,240,0
+146,178.5,0,3,2,1,2,0,21,City Hotel,May,BB,FRA,Direct,Direct,F,F,No Deposit,Transient,None,0
+72,159.3,0,1,3,0,0,0,20,City Hotel,May,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+2,79.0,2,2,2,0,0,0,34,City Hotel,August,BB,ESP,Direct,Direct,D,D,No Deposit,Transient,14,0
+39,134.0,2,0,1,0,1,1,41,City Hotel,October,BB,USA,Online TA,GDS,A,A,No Deposit,Transient,195,1
+16,219.0,1,2,2,2,0,0,28,Resort Hotel,July,BB,GBR,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+88,151.2,0,3,3,0,1,1,43,City Hotel,October,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+20,175.0,2,1,2,0,2,0,35,City Hotel,August,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+34,58.57,2,5,2,0,0,0,45,Resort Hotel,October,BB,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+60,104.4,1,3,2,0,0,0,13,City Hotel,March,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+24,160.0,2,2,2,0,1,0,26,Resort Hotel,June,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+2,67.0,2,0,1,0,0,0,28,City Hotel,July,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+116,88.4,2,4,2,0,1,0,52,City Hotel,December,BB,SWE,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+10,89.59,2,3,2,0,0,0,49,City Hotel,December,BB,CHE,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+6,300.0,1,1,2,2,1,0,33,Resort Hotel,August,BB,USA,Direct,Direct,H,H,No Deposit,Transient,None,0
+283,67.31,2,5,2,0,0,0,42,Resort Hotel,October,BB,GBR,Groups,Direct,D,D,No Deposit,Transient-Party,273,0
+108,249.0,2,5,2,0,0,0,34,Resort Hotel,August,FB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,196,0
+58,58.0,2,4,2,0,1,1,52,Resort Hotel,December,BB,USA,Direct,Direct,E,E,No Deposit,Transient,250,0
+131,123.0,2,5,2,0,1,0,27,Resort Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+28,158.86,2,3,2,1,1,0,31,City Hotel,July,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+62,152.0,2,3,2,0,0,0,31,City Hotel,August,BB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,86,1
+189,144.2,1,4,2,0,0,0,21,City Hotel,May,BB,FIN,Direct,Direct,D,D,No Deposit,Transient,14,1
+4,45.0,0,1,1,0,0,0,17,Resort Hotel,April,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+27,110.0,0,1,1,0,1,0,20,City Hotel,May,BB,ESP,Corporate,Corporate,D,E,No Deposit,Transient,None,0
+1,80.0,0,1,1,0,0,0,8,City Hotel,February,BB,PRT,Corporate,TA/TO,A,A,No Deposit,Transient-Party,None,0
+213,104.0,1,3,1,0,0,1,35,City Hotel,August,HB,PRT,Groups,TA/TO,A,K,No Deposit,Transient-Party,19,0
+68,99.45,2,3,2,0,1,0,13,City Hotel,March,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+13,99.0,1,0,2,0,1,0,26,Resort Hotel,June,BB,DNK,Online TA,TA/TO,A,C,No Deposit,Transient-Party,240,0
+0,99.0,2,1,2,0,0,0,43,Resort Hotel,October,HB,ESP,Direct,Direct,A,D,No Deposit,Transient,None,0
+3,30.0,0,1,1,0,2,0,3,Resort Hotel,January,BB,PRT,Groups,TA/TO,A,D,No Deposit,Transient-Party,96,0
+396,122.4,2,0,2,0,1,0,26,City Hotel,June,HB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,6,0
+215,203.19,2,4,2,0,1,1,33,Resort Hotel,August,HB,PRT,Direct,Direct,E,F,No Deposit,Transient,250,0
+241,106.0,1,2,1,0,0,0,44,City Hotel,October,BB,PRT,Corporate,Corporate,E,E,Non Refund,Transient-Party,None,1
+122,81.26,3,5,2,0,2,0,35,City Hotel,August,BB,ESP,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,52,0
+7,173.67,0,3,3,0,2,0,24,City Hotel,June,BB,SWE,Online TA,TA/TO,D,D,No Deposit,Transient,8,0
+0,114.0,0,1,2,0,0,0,42,City Hotel,October,BB,ESP,Direct,Direct,A,A,No Deposit,Transient,None,0
+18,93.0,1,0,2,0,2,0,50,Resort Hotel,December,HB,ESP,Direct,Direct,D,D,No Deposit,Transient,250,0
+12,62.0,2,2,2,0,0,0,29,City Hotel,July,BB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,1
+142,106.33,2,3,2,0,1,2,23,City Hotel,June,BB,BRA,Direct,Direct,A,B,No Deposit,Transient-Party,14,0
+131,103.05,1,1,1,0,1,0,42,City Hotel,October,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+58,94.8,0,3,1,0,0,0,13,City Hotel,March,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+286,44.5,2,5,2,0,0,1,42,Resort Hotel,October,BB,GBR,Groups,Corporate,A,H,No Deposit,Transient,None,0
+41,56.5,1,3,2,0,0,0,14,Resort Hotel,March,BB,BEL,Direct,Direct,D,D,No Deposit,Transient,250,0
+129,252.0,2,5,2,0,1,0,30,Resort Hotel,July,HB,GBR,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+168,86.0,0,2,2,0,0,0,16,Resort Hotel,April,HB,PRT,Groups,TA/TO,A,A,Non Refund,Transient,245,1
+63,168.3,1,0,3,0,1,0,33,City Hotel,August,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+46,106.2,1,2,2,0,0,0,13,City Hotel,March,BB,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+256,125.1,0,1,2,1,2,0,29,City Hotel,July,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,0.0,0,1,2,0,2,0,7,City Hotel,February,BB,PRT,Complementary,Direct,E,E,No Deposit,Transient,None,1
+96,51.27,4,7,1,0,0,0,11,Resort Hotel,March,HB,GBR,Groups,TA/TO,A,A,No Deposit,Transient-Party,None,0
+100,52.85,2,5,2,0,0,0,17,Resort Hotel,April,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,40,0
+141,90.0,1,0,2,0,0,0,39,City Hotel,September,BB,CN,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,6,0
+87,89.25,1,2,2,0,1,0,38,City Hotel,September,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+59,142.2,0,2,3,0,0,0,36,City Hotel,September,BB,FRA,Online TA,TA/TO,D,F,No Deposit,Transient,9,0
+2,138.67,2,1,2,0,1,0,37,City Hotel,September,BB,NLD,Online TA,TA/TO,A,D,No Deposit,Contract,9,0
+352,60.0,2,5,2,0,2,0,21,Resort Hotel,May,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient-Party,240,1
+79,90.0,2,4,3,1,0,3,14,Resort Hotel,March,BB,BEL,Direct,Direct,H,H,No Deposit,Transient,None,0
+9,0.0,0,0,2,0,0,0,21,Resort Hotel,May,BB,PRT,Groups,Direct,A,A,No Deposit,Transient-Party,None,0
+47,59.4,2,4,2,0,0,2,48,Resort Hotel,November,BB,ESP,Direct,Direct,F,F,No Deposit,Transient,250,0
+24,69.56,0,1,2,0,0,0,4,City Hotel,January,BB,FRA,Direct,Direct,A,A,No Deposit,Transient,14,1
+225,72.0,1,3,2,0,0,2,22,Resort Hotel,May,BB,GBR,Groups,Direct,A,D,No Deposit,Transient-Party,None,0
+10,148.75,3,5,1,0,3,1,28,City Hotel,July,BB,GBR,Direct,Direct,A,A,No Deposit,Transient,None,0
+72,98.0,0,2,1,0,0,1,37,City Hotel,September,HB,PRT,Groups,TA/TO,A,D,No Deposit,Transient-Party,30,0
+26,101.0,0,1,2,0,0,0,26,City Hotel,June,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+79,190.0,2,2,3,0,2,0,30,City Hotel,July,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+71,135.0,2,5,2,0,0,0,33,Resort Hotel,August,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,196,1
+208,85.5,0,3,2,0,0,0,36,City Hotel,August,SC,CHE,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+247,90.0,1,1,1,0,0,1,24,City Hotel,June,HB,DEU,Offline TA/TO,TA/TO,A,F,No Deposit,Transient-Party,6,0
+29,75.0,1,1,2,0,1,0,44,Resort Hotel,October,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+287,44.5,1,3,2,0,0,1,42,Resort Hotel,October,BB,GBR,Groups,Corporate,A,I,No Deposit,Transient-Party,None,1
+39,43.2,0,5,2,0,0,2,46,Resort Hotel,November,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient-Party,185,0
+70,109.0,0,2,2,0,0,0,25,City Hotel,June,HB,NLD,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,6,1
+332,106.5,4,10,2,0,0,0,25,Resort Hotel,June,HB,GBR,Offline TA/TO,TA/TO,E,E,No Deposit,Contract,40,0
+0,95.0,0,1,2,0,0,0,1,City Hotel,January,SC,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+98,70.0,1,2,1,0,0,0,48,City Hotel,November,BB,EGY,Groups,TA/TO,A,A,No Deposit,Transient-Party,37,0
+213,104.0,1,3,1,0,2,1,35,City Hotel,August,HB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,19,0
+274,141.3,1,3,2,0,1,0,32,City Hotel,August,HB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,158.0,0,1,2,1,0,0,23,City Hotel,June,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+434,112.67,2,1,2,0,2,0,22,City Hotel,June,BB,AUS,Groups,TA/TO,A,A,No Deposit,Transient-Party,229,0
+13,152.67,0,3,2,0,0,0,23,City Hotel,June,BB,DNK,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+74,80.75,0,3,2,0,1,0,19,City Hotel,May,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,173,1
+18,89.0,1,0,2,0,0,0,51,City Hotel,December,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,378,0
+227,81.0,2,8,2,0,0,0,18,Resort Hotel,May,BB,GBR,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+124,159.3,1,2,3,0,0,0,23,City Hotel,June,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+65,167.0,2,6,2,0,2,0,29,Resort Hotel,July,HB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+0,153.0,1,0,2,0,0,0,35,Resort Hotel,August,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+4,125.0,1,4,2,0,1,0,53,City Hotel,December,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+4,147.0,1,1,2,0,1,0,17,Resort Hotel,April,HB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+37,298.0,1,4,2,2,3,1,35,Resort Hotel,August,HB,ESP,Online TA,TA/TO,C,C,No Deposit,Transient,240,0
+82,52.4,2,1,2,0,0,0,50,Resort Hotel,December,HB,GBR,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,6,0
+53,70.4,2,3,2,1,0,0,3,City Hotel,January,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,83,1
+194,105.0,1,1,3,0,0,0,13,City Hotel,April,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+15,141.0,2,4,2,0,0,0,24,Resort Hotel,June,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+200,91.93,2,5,2,0,1,0,26,City Hotel,June,BB,GBR,Direct,Direct,A,A,No Deposit,Transient,14,0
+16,180.0,2,0,2,1,0,0,27,City Hotel,July,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+59,120.0,0,4,2,0,1,0,26,City Hotel,June,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+293,102.55,2,5,2,0,0,3,26,Resort Hotel,June,HB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,147,0
+131,81.2,2,5,2,0,0,0,26,Resort Hotel,June,BB,GBR,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,8,0
+332,170.8,0,2,2,0,2,4,35,City Hotel,August,BB,GBR,Online TA,TA/TO,D,F,No Deposit,Transient,9,0
+107,111.3,1,2,2,0,1,0,32,City Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+4,98.0,0,1,2,0,2,0,12,City Hotel,March,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+155,105.3,1,1,2,0,0,0,31,City Hotel,July,BB,ISR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+71,164.0,0,5,2,0,0,0,34,Resort Hotel,August,BB,ESP,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+0,179.0,0,1,2,0,2,0,38,City Hotel,September,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+1,88.0,1,1,2,0,2,1,51,City Hotel,December,BB,NLD,Direct,Direct,A,A,No Deposit,Transient,14,0
+41,110.6,4,7,2,0,0,0,28,Resort Hotel,July,BB,GBR,Online TA,TA/TO,F,F,No Deposit,Transient,241,0
+244,107.1,2,5,2,0,1,0,28,City Hotel,July,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+7,81.0,1,3,2,0,1,0,7,City Hotel,February,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+20,254.0,0,3,2,0,2,0,34,Resort Hotel,August,BB,ITA,Online TA,TA/TO,E,F,No Deposit,Transient,240,0
+125,134.0,1,4,2,0,0,0,34,Resort Hotel,August,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+165,0.0,0,4,1,0,0,0,53,Resort Hotel,December,Undefined,PRT,Groups,TA/TO,A,B,No Deposit,Transient-Party,308,0
+133,90.95,0,5,2,0,0,0,26,City Hotel,June,BB,NLD,Offline TA/TO,TA/TO,D,D,No Deposit,Transient-Party,85,0
+95,125.0,1,2,1,0,1,0,34,Resort Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+62,45.1,2,2,2,0,0,0,22,Resort Hotel,May,BB,GBR,Offline TA/TO,Direct,A,A,No Deposit,Transient,115,0
+72,85.67,0,3,2,0,1,0,44,City Hotel,October,BB,ISR,Groups,TA/TO,A,A,No Deposit,Transient-Party,37,0
+2,80.75,2,2,2,0,2,0,47,City Hotel,November,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+4,99.0,2,5,2,0,2,0,18,Resort Hotel,April,HB,BEL,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,479,0
+136,37.8,3,7,1,0,0,0,47,Resort Hotel,November,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+142,169.0,2,5,2,0,0,0,34,Resort Hotel,August,HB,PRT,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,96,0
+41,69.29,2,5,2,0,1,0,53,City Hotel,December,BB,BRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,220,0
+275,56.7,2,5,2,0,0,0,24,Resort Hotel,June,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,143,0
+205,67.32,2,5,2,0,0,0,20,Resort Hotel,May,BB,PRT,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,40,1
+8,56.0,0,2,1,0,0,1,10,City Hotel,March,BB,ESP,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,159,0
+24,224.0,0,3,2,2,0,0,15,City Hotel,April,BB,ESP,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+0,139.0,0,1,2,0,0,0,35,City Hotel,August,SC,USA,Online TA,TA/TO,A,A,No Deposit,Transient,None,0
+2,192.67,1,2,3,0,0,2,33,City Hotel,August,BB,DZA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+114,193.0,1,1,2,0,1,0,34,City Hotel,August,HB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+83,105.3,0,1,2,0,1,0,30,City Hotel,July,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,8,0
+28,190.0,0,2,2,0,1,0,20,City Hotel,May,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+147,190.0,2,5,3,0,1,0,30,Resort Hotel,July,Undefined,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,196,0
+2,0.0,0,1,1,0,1,0,5,City Hotel,January,BB,PRT,Complementary,Corporate,A,E,No Deposit,Transient-Party,None,0
+10,25.0,1,0,1,0,0,0,47,Resort Hotel,November,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,3,0
+2,166.0,0,1,2,0,1,0,31,City Hotel,August,HB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,509,0
+18,75.0,0,1,2,0,1,0,34,City Hotel,August,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,14,0
+219,76.67,1,2,1,0,0,0,36,City Hotel,September,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,3,0
+28,79.9,2,5,3,0,2,0,21,Resort Hotel,May,BB,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,8,0
+29,68.4,2,5,2,0,1,0,45,Resort Hotel,November,HB,DZA,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,177,0
+123,40.8,1,5,2,0,2,0,7,Resort Hotel,February,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,242,1
+0,30.5,0,1,2,0,0,0,47,Resort Hotel,November,BB,BLR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,127,0
+164,44.1,1,3,1,0,1,2,19,Resort Hotel,May,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient-Party,240,0
+48,125.1,0,2,2,0,2,0,32,City Hotel,August,BB,BEL,Direct,Direct,A,A,No Deposit,Transient,14,0
+54,125.0,2,1,2,2,2,0,17,Resort Hotel,April,BB,ESP,Online TA,TA/TO,C,C,No Deposit,Transient,240,1
+0,30.0,0,1,1,0,0,0,13,Resort Hotel,March,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+19,65.1,2,0,2,0,1,0,38,City Hotel,September,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,7,1
+268,192.68,2,5,2,1,3,1,28,Resort Hotel,July,HB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient-Party,240,0
+19,53.5,2,1,2,0,1,0,14,City Hotel,March,HB,PRT,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,26,0
+221,104.85,2,2,2,0,1,0,30,Resort Hotel,July,BB,CN,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,410,0
+103,62.0,0,2,2,0,0,0,53,Resort Hotel,December,BB,PRT,Direct,Direct,F,F,No Deposit,Transient,250,0
+1,135.0,1,2,2,0,1,0,37,Resort Hotel,September,BB,PRT,Online TA,TA/TO,D,F,No Deposit,Transient,240,0
+184,123.0,2,5,2,0,3,0,34,Resort Hotel,August,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,96,0
+357,99.0,0,2,2,0,0,0,21,City Hotel,May,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+27,107.92,2,2,1,2,0,0,9,City Hotel,February,BB,FIN,Online TA,TA/TO,E,B,No Deposit,Transient,11,0
+193,55.28,2,6,2,0,2,0,22,Resort Hotel,May,BB,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+89,79.5,2,1,2,0,1,0,15,City Hotel,April,SC,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+29,41.0,2,3,1,0,2,1,8,Resort Hotel,February,BB,RUS,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+124,116.49,2,5,2,0,0,0,21,City Hotel,May,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,86,0
+107,89.1,2,1,2,0,1,0,25,City Hotel,June,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,85,1
+206,34.8,6,12,2,0,0,0,51,Resort Hotel,December,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,314,1
+121,97.75,1,1,1,0,1,1,32,City Hotel,August,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,1
+76,257.34,2,8,3,0,0,0,31,Resort Hotel,August,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,196,1
+22,107.73,1,3,2,0,1,0,24,City Hotel,June,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+244,57.0,2,5,2,0,0,0,36,Resort Hotel,September,BB,IRL,Groups,TA/TO,A,A,No Deposit,Transient-Party,96,0
+48,72.0,1,3,2,0,0,0,11,City Hotel,March,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,28,0
+61,79.2,2,1,2,0,0,0,11,City Hotel,March,SC,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+229,114.0,1,4,2,0,1,0,38,Resort Hotel,September,BB,GBR,Online TA,TA/TO,E,I,No Deposit,Transient,240,0
+114,58.0,0,1,1,0,0,0,40,Resort Hotel,September,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+56,124.2,0,1,2,1,0,0,13,City Hotel,March,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+41,140.0,1,3,2,0,0,0,22,City Hotel,June,SC,SWE,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+35,48.0,1,3,2,0,0,1,6,Resort Hotel,February,BB,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+2,100.0,0,1,1,0,1,0,46,City Hotel,November,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+61,183.0,0,1,2,0,0,0,32,Resort Hotel,August,BB,ESP,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+214,81.0,2,9,2,0,1,1,42,Resort Hotel,October,HB,AUT,Groups,Corporate,E,E,No Deposit,Transient,None,0
+2,66.0,0,1,2,0,1,0,4,Resort Hotel,January,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+61,85.8,0,3,1,0,1,0,13,City Hotel,March,SC,AUT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+78,186.0,2,6,2,0,0,0,33,Resort Hotel,August,HB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+2,85.0,1,1,2,0,1,2,13,City Hotel,March,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+36,86.63,1,2,2,0,2,0,36,City Hotel,August,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+82,99.45,2,4,2,0,1,0,15,City Hotel,April,BB,POL,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+83,112.2,0,1,2,0,0,0,40,City Hotel,September,HB,ITA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,26,1
+0,35.0,0,2,1,0,0,0,1,Resort Hotel,January,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+11,95.0,0,1,2,0,0,0,51,City Hotel,December,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,14,1
+53,85.0,0,5,2,0,0,0,14,City Hotel,March,BB,PRT,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,1
+9,93.0,0,2,2,2,0,1,9,Resort Hotel,February,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+29,115.0,0,1,1,0,0,0,30,Resort Hotel,July,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,1
+20,150.0,0,2,2,0,1,1,30,City Hotel,July,BB,CHN,Direct,Direct,A,A,No Deposit,Transient,14,0
+53,105.0,0,1,2,0,3,0,15,Resort Hotel,April,BB,ESP,Online TA,TA/TO,A,E,No Deposit,Transient,240,0
+301,121.5,2,5,2,0,1,0,25,Resort Hotel,June,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,242,1
+22,221.0,0,2,2,2,1,0,20,City Hotel,May,BB,ITA,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+120,133.13,0,4,2,0,0,0,24,Resort Hotel,June,HB,PRT,Online TA,TA/TO,F,F,No Deposit,Transient,241,1
+191,112.5,0,4,2,0,1,0,32,City Hotel,August,SC,RUS,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,43.0,0,3,2,0,0,1,48,Resort Hotel,November,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+1,160.0,0,2,1,0,0,0,18,City Hotel,May,BB,BEL,Online TA,TA/TO,A,E,No Deposit,Transient,9,0
+0,40.0,0,1,1,0,0,0,8,Resort Hotel,February,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+256,100.75,2,3,2,0,0,2,43,City Hotel,October,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient-Party,None,0
+225,91.51,0,3,2,0,1,0,21,City Hotel,May,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+169,66.0,1,3,2,0,0,3,14,Resort Hotel,March,BB,PRT,Groups,Direct,A,C,Refundable,Transient-Party,None,0
+214,108.9,1,2,1,0,0,0,41,City Hotel,October,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+77,42.0,1,5,2,0,1,0,2,Resort Hotel,January,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+157,127.0,0,3,2,0,0,0,19,City Hotel,May,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Contract,9,0
+148,119.7,2,5,2,1,1,1,28,Resort Hotel,July,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,261,0
+67,151.2,0,2,2,0,1,1,9,City Hotel,March,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+2,64.25,2,2,2,0,2,0,1,Resort Hotel,January,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+3,106.0,0,2,2,0,2,0,34,City Hotel,August,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+10,150.0,2,3,2,0,1,0,19,City Hotel,May,SC,COL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+127,126.0,0,2,2,0,0,0,20,City Hotel,May,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+73,88.29,2,5,2,0,1,0,52,City Hotel,December,HB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+94,110.75,1,5,2,0,1,1,14,City Hotel,March,HB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,16,0
+141,162.56,3,6,2,1,0,0,28,Resort Hotel,July,HB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,69,0
+0,58.0,0,1,2,0,0,0,6,Resort Hotel,February,BB,PRT,Direct,Direct,F,F,No Deposit,Transient,None,0
+252,111.6,1,1,2,0,0,0,42,City Hotel,October,BB,CN,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+70,250.0,0,2,2,0,1,0,53,Resort Hotel,December,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+39,120.0,1,2,2,0,2,0,14,City Hotel,April,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+39,107.0,2,5,2,0,0,0,30,Resort Hotel,July,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,196,0
+9,68.0,0,1,2,0,1,0,9,Resort Hotel,February,BB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+11,67.0,1,5,1,0,0,0,35,City Hotel,August,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,14,0
+86,59.16,2,7,2,0,1,0,44,Resort Hotel,October,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+270,95.33,1,2,2,0,2,0,42,Resort Hotel,October,BB,GBR,Online TA,TA/TO,E,G,No Deposit,Transient,240,0
+128,99.0,0,2,2,0,2,0,22,Resort Hotel,June,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,250,0
+113,160.0,2,5,2,0,0,0,29,Resort Hotel,July,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+139,148.5,1,0,2,1,2,0,30,City Hotel,July,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+73,140.0,0,3,2,0,1,0,23,City Hotel,June,SC,BGR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,229.0,0,2,3,0,1,0,22,City Hotel,May,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+77,94.5,2,4,2,0,0,0,30,City Hotel,July,SC,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+142,37.8,1,1,2,0,1,0,2,Resort Hotel,January,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,242,0
+21,150.45,1,3,2,0,0,0,45,City Hotel,November,BB,POL,Online TA,TA/TO,F,F,No Deposit,Contract,9,0
+1,110.0,1,0,3,0,2,0,14,City Hotel,March,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+302,172.8,2,7,2,0,2,0,31,Resort Hotel,August,BB,CN,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+33,84.15,2,2,2,0,1,0,46,City Hotel,November,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+153,97.1,2,5,2,0,1,0,30,Resort Hotel,July,BB,IRL,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,142,0
+154,58.2,2,7,2,0,1,0,21,Resort Hotel,May,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+67,75.54,1,2,2,0,1,0,37,City Hotel,September,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+109,108.0,1,4,2,0,1,0,18,City Hotel,May,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+78,95.0,0,2,2,0,0,1,4,City Hotel,January,BB,RUS,Groups,TA/TO,A,K,No Deposit,Transient-Party,None,0
+85,66.6,0,2,2,0,0,0,4,City Hotel,January,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,83,0
+94,123.12,2,3,2,0,1,1,35,Resort Hotel,August,HB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+207,83.0,2,2,2,0,0,0,40,Resort Hotel,October,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+8,25.0,4,10,1,0,0,0,6,Resort Hotel,February,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,6,1
+29,88.67,2,1,1,0,1,0,15,Resort Hotel,April,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,241,1
+32,120.0,2,4,2,0,0,0,14,City Hotel,April,SC,MAR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+196,122.4,1,1,2,0,0,0,41,City Hotel,October,BB,USA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+8,114.75,0,1,1,0,0,0,22,City Hotel,May,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+60,105.3,0,1,2,0,0,0,29,City Hotel,July,BB,USA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+140,74.8,2,5,2,0,1,0,11,City Hotel,March,SC,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,95.0,0,1,1,0,0,0,22,City Hotel,May,BB,PRT,Online TA,GDS,A,A,No Deposit,Transient,195,0
+25,110.0,2,0,2,0,1,0,38,City Hotel,September,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+251,108.0,1,3,2,0,0,0,26,Resort Hotel,June,HB,CN,Groups,TA/TO,D,D,No Deposit,Transient-Party,96,0
+221,90.0,2,1,3,0,0,1,42,City Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,3,0
+105,107.1,1,1,2,0,1,0,32,City Hotel,August,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+71,69.05,0,2,2,0,0,1,12,City Hotel,March,BB,USA,Online TA,TA/TO,B,B,No Deposit,Transient-Party,9,0
+19,62.0,2,2,2,0,0,0,30,City Hotel,July,BB,ESP,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,0
+202,128.7,2,1,3,0,0,0,43,City Hotel,October,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+348,86.13,4,10,2,0,2,0,23,Resort Hotel,June,HB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,243,0
+0,75.0,1,4,2,0,2,0,33,City Hotel,August,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,1
+112,132.6,1,3,2,0,0,0,24,City Hotel,June,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+66,103.5,0,2,2,0,1,0,29,Resort Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+2,70.0,0,2,1,0,0,0,23,Resort Hotel,June,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+7,170.0,1,3,2,0,1,0,29,City Hotel,July,BB,CHE,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+81,144.0,0,3,2,0,0,0,23,City Hotel,June,BB,NLD,Direct,Direct,A,A,No Deposit,Transient,14,0
+151,157.25,0,4,2,2,3,0,28,Resort Hotel,July,HB,PRT,Direct,Direct,G,G,No Deposit,Transient,None,0
+30,85.5,2,2,2,0,0,0,26,City Hotel,June,BB,DEU,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,16,0
+154,37.8,0,1,2,0,1,0,1,Resort Hotel,January,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+3,40.0,0,1,1,0,0,1,10,Resort Hotel,March,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,330,0
+88,148.4,2,1,2,0,0,0,38,Resort Hotel,September,BB,CHE,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+108,127.8,1,4,2,0,2,0,33,City Hotel,August,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+0,108.0,0,1,2,0,1,0,7,City Hotel,February,SC,PRT,Online TA,TA/TO,A,K,No Deposit,Transient,9,0
+25,208.0,2,2,2,0,2,1,35,Resort Hotel,August,FB,FRA,Direct,Direct,F,F,No Deposit,Transient,250,0
+180,162.33,1,2,2,0,1,2,29,City Hotel,July,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+1,35.0,0,1,1,0,0,0,13,Resort Hotel,March,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+77,162.0,2,2,3,0,1,0,14,City Hotel,April,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+107,119.7,2,1,2,0,1,0,35,City Hotel,August,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+8,130.7,1,2,2,1,0,0,11,City Hotel,March,BB,BEL,Direct,Direct,D,D,No Deposit,Transient,14,0
+85,48.0,2,5,2,0,0,0,17,Resort Hotel,April,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,177,1
+15,84.0,0,4,2,0,0,0,22,Resort Hotel,May,BB,IRL,Online TA,TA/TO,A,A,No Deposit,Transient,175,0
+176,144.0,2,2,2,0,2,0,29,City Hotel,July,BB,LUX,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+1,70.4,0,1,2,0,0,0,9,City Hotel,March,SC,ISR,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+290,73.95,1,3,2,0,0,0,49,City Hotel,December,BB,SVK,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+19,201.0,1,3,2,2,1,0,38,Resort Hotel,September,BB,BRA,Online TA,TA/TO,G,G,No Deposit,Transient,240,0
+5,54.0,1,1,1,0,0,0,23,Resort Hotel,May,BB,Unknown,Corporate,Corporate,A,A,No Deposit,Transient-Party,None,0
+7,119.5,1,3,2,1,1,0,34,City Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,1
+6,109.0,1,0,1,0,0,0,37,Resort Hotel,September,BB,PRT,Direct,Direct,A,C,No Deposit,Transient,None,0
+80,195.0,2,2,2,0,0,1,23,Resort Hotel,June,FB,PRT,Direct,Direct,F,F,No Deposit,Transient,250,0
+195,89.25,1,5,2,0,1,1,37,City Hotel,September,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+1,116.0,0,1,1,0,1,0,11,City Hotel,March,BB,BEL,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+3,88.0,0,2,2,0,3,0,6,City Hotel,February,SC,GBR,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+0,113.0,1,3,1,0,0,0,3,City Hotel,January,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,416,0
+409,107.0,0,4,2,0,1,1,22,City Hotel,May,BB,AUS,Groups,TA/TO,A,A,No Deposit,Transient-Party,229,0
+62,173.25,1,1,2,1,2,0,30,City Hotel,July,HB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+2,88.0,2,3,1,0,0,0,1,City Hotel,January,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+67,135.0,1,5,2,0,2,0,30,Resort Hotel,July,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,None,0
+95,120.0,0,3,2,0,1,0,27,City Hotel,July,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+253,67.37,2,5,1,0,0,3,17,Resort Hotel,April,HB,GBR,Groups,TA/TO,D,E,No Deposit,Transient-Party,273,0
+206,131.4,3,7,2,0,1,0,30,Resort Hotel,July,BB,IRL,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,40,0
+47,89.0,1,0,2,0,0,0,20,Resort Hotel,May,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+1,142.5,2,2,2,0,1,1,35,Resort Hotel,August,HB,PRT,Direct,Direct,A,D,No Deposit,Transient-Party,None,0
+299,144.0,0,4,2,0,1,0,35,Resort Hotel,August,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+40,169.2,1,2,1,0,0,0,46,City Hotel,November,BB,FRA,Online TA,GDS,A,A,No Deposit,Transient,195,0
+159,99.45,1,3,2,0,1,0,32,City Hotel,August,BB,NOR,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+3,152.0,0,1,2,0,3,0,37,City Hotel,September,BB,ESP,Online TA,TA/TO,A,D,No Deposit,Contract,9,0
+159,48.71,4,10,2,0,1,0,9,Resort Hotel,March,BB,CN,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,96,0
+13,88.2,2,0,2,0,0,0,29,Resort Hotel,July,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+157,54.4,2,5,2,0,0,0,12,Resort Hotel,March,HB,DEU,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,177,0
+143,81.0,2,6,2,0,1,0,18,Resort Hotel,April,HB,ROU,Online TA,TA/TO,A,A,No Deposit,Transient,242,0
+165,173.25,1,3,3,0,1,0,15,City Hotel,April,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+46,90.0,1,0,1,0,0,0,22,Resort Hotel,May,BB,USA,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+95,162.0,2,2,2,1,0,0,23,City Hotel,June,BB,ROU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+112,104.85,2,5,2,0,2,0,28,Resort Hotel,July,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,143,0
+29,139.0,1,0,2,0,1,0,33,City Hotel,August,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+195,75.0,2,2,2,0,0,0,14,City Hotel,April,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+256,74.0,1,2,1,0,0,0,38,City Hotel,September,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,4,1
+3,30.0,0,1,1,0,0,0,47,Resort Hotel,November,BB,PRT,Offline TA/TO,TA/TO,A,E,No Deposit,Transient-Party,330,0
+12,108.0,0,1,1,0,1,0,11,City Hotel,March,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+246,107.1,1,0,2,0,1,0,28,City Hotel,July,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+150,76.5,1,2,2,0,1,0,33,City Hotel,August,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+47,167.4,0,2,2,0,0,0,12,City Hotel,March,HB,FRA,Online TA,TA/TO,E,E,No Deposit,Transient,9,1
+119,109.0,0,3,2,0,0,0,41,City Hotel,October,BB,SWE,Groups,TA/TO,A,A,No Deposit,Transient-Party,37,0
+18,201.0,1,2,2,0,1,0,35,Resort Hotel,August,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+4,75.0,1,1,2,0,0,0,33,City Hotel,August,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,27,1
+135,151.2,0,2,3,0,2,1,41,City Hotel,October,BB,IND,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+171,106.13,2,5,2,0,1,0,30,City Hotel,July,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient-Party,9,0
+124,88.76,0,2,2,0,1,1,27,City Hotel,June,BB,PRT,Online TA,TA/TO,B,B,No Deposit,Transient-Party,9,0
+55,58.5,0,2,2,0,0,0,44,Resort Hotel,October,BB,PRT,Direct,Direct,A,C,No Deposit,Transient,250,0
+21,63.0,0,2,2,0,1,0,47,Resort Hotel,November,BB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+21,89.14,2,6,2,0,2,0,49,City Hotel,December,BB,PRT,Online TA,TA/TO,A,K,No Deposit,Transient,9,0
+1,104.0,1,2,1,0,0,1,13,City Hotel,March,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+48,94.0,1,4,2,0,1,0,15,Resort Hotel,April,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+43,74.8,2,2,2,0,0,0,48,City Hotel,November,SC,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+310,160.43,2,5,3,1,0,0,26,Resort Hotel,June,BB,GBR,Online TA,TA/TO,H,H,No Deposit,Transient,240,1
+193,57.6,1,3,2,0,2,0,4,City Hotel,January,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+232,207.0,2,5,2,2,1,0,21,Resort Hotel,May,HB,GBR,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+178,130.5,2,4,2,0,0,0,32,City Hotel,August,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,8,0
+184,96.3,1,0,2,0,1,0,29,City Hotel,July,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+14,140.0,0,1,2,0,0,0,26,Resort Hotel,June,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient-Party,240,0
+99,126.0,1,3,2,0,0,0,26,City Hotel,June,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+205,66.0,0,2,1,0,1,2,36,Resort Hotel,September,BB,PRT,Direct,Direct,A,A,No Deposit,Transient-Party,None,0
+242,96.3,0,2,2,0,1,0,34,City Hotel,August,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+67,137.7,1,1,2,0,0,0,15,City Hotel,April,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+9,90.0,1,0,2,0,0,0,39,Resort Hotel,September,BB,GBR,Groups,Corporate,E,C,No Deposit,Transient-Party,223,0
+237,134.73,1,3,3,0,0,0,42,City Hotel,October,BB,GBR,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+7,88.0,2,0,2,0,1,0,6,City Hotel,February,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+69,108.0,1,2,2,0,0,0,16,City Hotel,April,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+18,139.0,2,2,2,0,1,0,24,City Hotel,June,BB,NLD,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+40,98.82,1,4,2,0,0,0,12,City Hotel,March,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+88,32.4,2,4,2,0,0,0,48,Resort Hotel,November,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+0,98.0,2,0,2,0,2,0,33,City Hotel,August,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+112,0.0,0,2,1,0,0,1,7,Resort Hotel,February,Undefined,ESP,Groups,TA/TO,A,A,No Deposit,Transient-Party,134,0
+36,149.0,2,0,2,0,1,0,15,City Hotel,April,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+5,84.8,0,1,2,0,0,0,53,City Hotel,December,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,83,0
+11,54.0,2,1,1,0,0,1,49,Resort Hotel,December,Undefined,ESP,Groups,TA/TO,A,A,No Deposit,Transient-Party,350,0
+153,230.0,1,3,2,0,2,0,31,Resort Hotel,August,BB,IRL,Online TA,TA/TO,E,E,No Deposit,Transient,242,0
+150,73.71,2,5,2,0,2,0,23,Resort Hotel,June,BB,IRL,Online TA,TA/TO,A,A,No Deposit,Transient-Party,240,0
+215,96.3,1,2,2,0,1,0,33,City Hotel,August,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,0.0,0,1,2,0,0,0,29,City Hotel,July,SC,PRT,Direct,Direct,A,F,No Deposit,Transient,None,1
+4,220.0,2,3,2,0,2,2,28,Resort Hotel,July,BB,PRT,Direct,Direct,E,E,No Deposit,Transient,250,0
+1,78.0,1,1,2,0,1,2,49,Resort Hotel,December,BB,ESP,Direct,Direct,F,F,No Deposit,Transient,250,0
+23,80.76,2,3,2,1,0,0,6,City Hotel,February,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,22,1
+75,62.0,2,2,2,0,0,0,38,City Hotel,September,BB,PRT,Groups,TA/TO,A,B,No Deposit,Transient-Party,1,0
+47,189.0,2,1,3,0,1,0,30,City Hotel,July,BB,POL,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+99,81.0,0,2,1,0,0,1,8,City Hotel,February,BB,PRT,Corporate,TA/TO,A,A,No Deposit,Transient-Party,None,0
+223,68.0,0,5,1,0,0,1,22,Resort Hotel,May,BB,GBR,Groups,Direct,A,A,No Deposit,Transient-Party,None,0
+1,101.0,1,1,2,0,1,0,5,City Hotel,January,BB,SWE,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+219,130.5,2,8,2,0,1,0,25,City Hotel,June,BB,DEU,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+1,95.33,1,2,2,1,4,1,4,Resort Hotel,January,BB,IRL,Direct,Direct,H,H,No Deposit,Transient-Party,250,0
+2,88.0,0,1,2,0,0,1,9,City Hotel,March,SC,PRT,Direct,Direct,A,A,No Deposit,Transient,None,1
+86,75.0,0,2,2,0,0,0,51,City Hotel,December,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
+49,134.5,0,2,2,0,1,0,27,City Hotel,July,SC,ROU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+155,118.75,0,4,2,0,0,0,30,City Hotel,July,SC,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+204,90.1,4,10,2,0,1,0,33,Resort Hotel,August,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,2,0
+12,65.0,0,2,1,0,0,0,50,City Hotel,December,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+178,103.69,0,2,2,0,0,0,36,City Hotel,August,BB,GBR,Online TA,TA/TO,B,B,No Deposit,Transient-Party,9,1
+48,160.0,0,4,2,0,1,2,23,City Hotel,June,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+213,67.5,0,1,1,0,0,2,51,City Hotel,December,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+124,94.5,2,1,2,0,0,0,32,City Hotel,August,HB,ITA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,17,1
+3,36.0,1,2,2,0,0,0,44,Resort Hotel,October,BB,PRT,Groups,Direct,A,A,No Deposit,Transient,None,0
+32,88.0,0,2,2,0,1,0,51,City Hotel,December,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+129,124.2,0,5,2,0,2,0,34,City Hotel,August,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+76,159.3,0,3,2,0,1,0,20,City Hotel,May,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+14,190.23,1,3,2,2,1,0,35,Resort Hotel,August,BB,GBR,Online TA,TA/TO,C,C,No Deposit,Transient,241,0
+102,171.0,2,2,3,0,0,0,18,City Hotel,May,BB,CZE,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+11,0.0,2,2,1,0,0,1,49,City Hotel,December,HB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,0
+19,100.73,1,3,2,0,0,0,23,City Hotel,May,BB,HRV,Online TA,TA/TO,A,K,No Deposit,Transient,9,0
+147,114.3,0,1,2,0,1,0,32,City Hotel,August,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,30.0,0,3,1,0,0,1,9,Resort Hotel,February,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient-Party,None,0
+245,81.8,3,7,2,0,0,0,40,Resort Hotel,September,HB,CN,Groups,TA/TO,A,C,No Deposit,Transient-Party,15,0
+41,91.8,1,3,2,0,0,0,12,City Hotel,March,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,68.85,0,1,1,0,2,1,30,City Hotel,July,BB,FRA,Online TA,TA/TO,D,A,No Deposit,Transient-Party,9,0
+66,295.0,0,3,2,0,0,0,19,City Hotel,May,BB,ISL,Direct,Direct,G,G,No Deposit,Transient,14,0
+246,99.0,1,2,2,0,1,0,38,Resort Hotel,September,BB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,240,1
+64,109.65,2,3,3,0,1,0,42,City Hotel,October,BB,FIN,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+0,165.0,0,1,1,0,0,0,25,City Hotel,June,SC,DNK,Direct,Direct,A,A,No Deposit,Transient,14,0
+48,131.7,2,1,2,1,3,0,28,City Hotel,July,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+5,54.9,0,1,1,0,0,1,43,Resort Hotel,October,BB,ITA,Direct,Direct,A,A,No Deposit,Transient,None,0
+89,129.27,3,6,1,0,1,0,35,Resort Hotel,August,BB,PRT,Online TA,TA/TO,F,F,No Deposit,Transient,241,1
+291,195.3,2,6,2,0,1,0,33,Resort Hotel,August,HB,PRT,Online TA,TA/TO,F,F,No Deposit,Transient,242,1
+103,80.0,0,3,2,0,0,0,19,City Hotel,May,BB,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,154,0
+1,30.0,0,2,1,0,0,1,9,Resort Hotel,February,BB,Unknown,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+29,109.0,1,0,2,0,2,0,23,City Hotel,May,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+135,73.4,2,2,2,0,0,0,13,Resort Hotel,March,FB,ESP,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,6,0
+1,50.0,2,0,2,0,0,0,8,Resort Hotel,February,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,0
+72,48.0,2,2,2,0,0,0,44,Resort Hotel,October,BB,CN,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,96,0
+187,256.57,2,5,2,2,0,0,32,Resort Hotel,August,HB,ESP,Online TA,TA/TO,C,C,No Deposit,Transient,240,1
+81,97.2,1,2,2,0,1,0,11,City Hotel,March,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,8,0
+7,119.0,0,2,2,0,1,0,17,City Hotel,April,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+0,88.56,1,0,1,0,0,1,20,City Hotel,May,SC,USA,Online TA,TA/TO,A,A,No Deposit,Transient,152,0
+20,162.1,2,2,2,0,0,0,40,Resort Hotel,September,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,250,1
+77,68.04,1,2,2,0,1,0,16,City Hotel,April,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,11,0
+5,42.0,0,4,1,0,0,3,18,Resort Hotel,April,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+92,120.58,2,5,2,0,0,0,25,City Hotel,June,BB,IRL,Direct,Direct,A,A,No Deposit,Transient,14,0
+0,0.0,0,0,2,1,2,0,1,City Hotel,January,BB,PRT,Online TA,TA/TO,A,K,No Deposit,Transient,9,0
+5,88.0,0,1,2,0,2,0,7,City Hotel,February,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+65,99.9,0,3,2,0,0,1,26,City Hotel,June,BB,PRT,Online TA,TA/TO,A,B,No Deposit,Transient,9,0
+122,86.0,2,1,1,0,0,1,14,City Hotel,March,HB,PRT,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,26,0
+23,35.0,0,1,1,0,0,0,4,Resort Hotel,January,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+210,115.2,2,5,2,0,0,0,24,Resort Hotel,June,FB,PRT,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,6,1
+250,107.1,2,3,2,0,1,0,31,City Hotel,August,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+130,178.0,2,0,2,0,1,0,28,Resort Hotel,July,BB,CN,Online TA,TA/TO,E,E,No Deposit,Transient,242,0
+14,130.0,2,1,2,0,2,0,36,City Hotel,August,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,8,1
+124,117.0,1,2,2,0,1,0,26,City Hotel,June,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+80,72.07,2,1,2,0,1,0,46,City Hotel,November,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,7,1
+9,130.17,2,4,2,0,2,1,37,City Hotel,September,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+72,33.3,2,5,2,0,0,0,12,Resort Hotel,March,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,115,0
+53,93.6,1,1,2,0,0,0,48,City Hotel,November,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+137,136.34,1,3,3,0,1,2,32,City Hotel,August,BB,UKR,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+149,71.0,2,2,1,0,0,7,4,City Hotel,January,BB,EGY,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,19,0
+101,125.0,1,3,2,0,1,0,33,City Hotel,August,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+71,124.65,2,3,2,0,0,0,22,City Hotel,May,HB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,132,0
+120,153.0,2,2,2,0,0,0,25,City Hotel,June,BB,NOR,Online TA,TA/TO,E,E,No Deposit,Transient,9,1
+31,75.0,2,2,2,0,2,0,14,Resort Hotel,April,BB,POL,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+221,90.95,4,5,2,0,1,0,34,City Hotel,August,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+96,63.27,4,7,1,0,0,0,11,Resort Hotel,March,HB,GBR,Groups,TA/TO,A,A,No Deposit,Transient-Party,None,0
+163,103.11,4,8,2,0,0,0,29,Resort Hotel,July,BB,IRL,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,147,0
+60,230.0,0,2,2,0,2,1,34,Resort Hotel,August,BB,IRL,Online TA,TA/TO,A,C,No Deposit,Transient,240,0
+0,164.0,0,2,2,0,1,0,39,City Hotel,September,BB,ESP,Online TA,TA/TO,A,D,No Deposit,Contract,9,0
+1,45.0,0,1,1,0,1,0,16,Resort Hotel,April,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,330,0
+0,179.0,0,1,2,0,0,0,36,Resort Hotel,September,BB,PRT,Direct,Direct,A,F,No Deposit,Transient,None,0
+1,55.0,1,0,2,0,1,0,5,Resort Hotel,January,BB,NLD,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+7,91.73,2,1,2,0,0,0,19,Resort Hotel,May,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,508,0
+3,140.0,0,1,2,0,1,0,36,City Hotel,September,BB,GBR,Direct,Direct,D,D,No Deposit,Transient,14,0
+143,67.4,2,5,2,0,0,0,21,Resort Hotel,May,HB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,143,0
+93,73.57,2,5,2,0,1,0,18,Resort Hotel,April,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+1,130.94,0,1,2,0,1,0,39,City Hotel,September,BB,IRN,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+50,142.2,0,2,3,0,0,0,36,City Hotel,September,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+5,107.67,2,1,2,1,2,1,47,City Hotel,November,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+20,124.0,0,3,2,0,2,1,39,City Hotel,September,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Contract,9,1
+1,65.0,0,1,1,0,0,0,12,Resort Hotel,March,BB,NLD,Direct,Direct,E,E,No Deposit,Transient,250,0
+181,206.0,1,4,2,0,0,0,30,Resort Hotel,July,HB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+314,89.1,2,5,2,0,2,0,31,City Hotel,August,SC,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+18,85.0,2,1,1,0,0,0,18,Resort Hotel,April,BB,FRA,Direct,Direct,D,D,No Deposit,Transient,250,0
+36,75.88,0,2,2,0,0,0,2,City Hotel,January,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,89,0
+14,195.0,1,2,2,0,2,0,30,Resort Hotel,July,HB,ESP,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+38,61.06,2,5,3,0,2,1,10,Resort Hotel,February,BB,PRT,Offline TA/TO,TA/TO,D,D,No Deposit,Transient,314,0
+54,115.6,2,5,3,0,2,0,7,City Hotel,February,BB,FRA,Online TA,TA/TO,E,E,No Deposit,Transient,9,0
+13,85.0,2,1,2,0,0,0,43,City Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,22,0
+0,68.0,1,0,2,1,0,0,53,Resort Hotel,December,BB,PRT,Direct,Direct,A,C,No Deposit,Transient,None,0
+6,66.0,2,5,2,0,0,1,6,Resort Hotel,February,Undefined,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,464,0
+0,48.0,0,1,2,0,0,0,9,Resort Hotel,February,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+222,59.0,1,1,1,0,0,2,38,Resort Hotel,September,HB,FRA,Groups,TA/TO,A,A,No Deposit,Transient-Party,68,0
+0,134.0,2,1,2,1,2,0,16,City Hotel,April,BB,PRT,Direct,Direct,A,D,No Deposit,Transient,None,1
+316,160.0,0,3,3,0,1,1,22,City Hotel,May,BB,AUT,Groups,TA/TO,D,D,No Deposit,Transient-Party,30,0
+115,94.5,0,2,2,0,1,0,31,City Hotel,July,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+27,63.42,1,3,2,0,0,0,8,City Hotel,February,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+2,67.0,0,1,2,0,1,0,7,Resort Hotel,February,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+120,93.6,1,2,2,0,2,0,11,City Hotel,March,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+227,180.18,2,5,2,2,0,1,34,Resort Hotel,August,HB,PRT,Online TA,TA/TO,C,C,No Deposit,Transient,314,0
+16,149.0,0,1,2,0,1,0,22,City Hotel,June,SC,CHN,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+1,131.0,2,2,1,0,1,0,24,City Hotel,June,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+180,95.13,2,5,3,0,2,1,34,City Hotel,August,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+5,161.0,2,2,2,0,0,0,36,Resort Hotel,August,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+0,85.0,0,1,2,0,0,0,52,City Hotel,December,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+1,89.0,0,1,2,0,0,0,14,City Hotel,March,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+44,86.39,7,18,2,0,0,1,9,City Hotel,February,BB,AGO,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+178,143.7,0,3,3,0,1,1,35,City Hotel,August,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+65,93.6,0,3,2,0,1,0,1,City Hotel,January,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+155,143.1,0,1,2,1,2,1,37,City Hotel,September,BB,DEU,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+0,40.0,0,1,2,0,0,0,11,Resort Hotel,March,BB,PRT,Corporate,Corporate,A,H,No Deposit,Transient,None,0
+33,141.3,1,1,3,0,2,0,27,City Hotel,June,BB,ESP,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+30,67.5,1,0,2,0,0,0,53,City Hotel,December,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,8,1
+29,83.57,0,3,1,0,1,0,16,City Hotel,April,BB,IND,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+100,65.96,1,3,2,0,0,0,17,City Hotel,April,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,79,0
+5,153.0,0,1,2,0,0,0,24,City Hotel,June,BB,PRT,Direct,Direct,A,A,No Deposit,Transient-Party,None,0
+102,109.8,0,2,2,1,1,0,50,City Hotel,December,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+86,180.0,2,4,2,1,2,0,34,Resort Hotel,August,HB,PRT,Direct,Direct,D,D,No Deposit,Transient,None,0
+11,75.0,1,2,2,0,0,0,9,Resort Hotel,February,FB,ESP,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,6,0
+22,165.0,0,2,2,0,2,0,30,Resort Hotel,July,BB,ESP,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+72,116.67,2,4,2,0,1,2,18,Resort Hotel,May,BB,SWE,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+10,58.0,0,1,2,0,0,0,3,Resort Hotel,January,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+11,147.94,2,5,2,0,0,0,35,Resort Hotel,August,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,314,0
+13,186.67,1,2,2,0,2,0,23,City Hotel,June,BB,FRA,Online TA,TA/TO,E,F,No Deposit,Transient,9,0
+0,0.0,0,1,1,0,0,0,37,City Hotel,September,BB,PRT,Complementary,Direct,A,A,No Deposit,Transient,None,0
+20,173.13,1,1,1,0,0,0,11,City Hotel,March,BB,GBR,Groups,TA/TO,A,A,No Deposit,Transient-Party,254,0
+16,162.0,0,2,3,0,1,0,30,City Hotel,July,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+101,47.0,2,5,2,0,0,0,18,Resort Hotel,April,BB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,95,1
+90,126.0,2,0,2,0,0,1,24,City Hotel,June,SC,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+11,83.5,0,1,1,0,0,0,43,City Hotel,October,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,26,0
+94,105.3,0,3,2,0,0,0,16,City Hotel,April,BB,IRL,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+82,139.5,1,2,3,0,0,0,31,City Hotel,July,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+1,25.0,0,5,1,0,0,0,6,Resort Hotel,February,BB,IRL,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,6,0
+222,80.0,1,1,2,0,0,0,38,Resort Hotel,September,HB,FRA,Groups,TA/TO,A,E,No Deposit,Transient,68,0
+76,164.0,1,3,2,0,1,2,35,Resort Hotel,August,BB,POL,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+209,110.0,0,3,2,0,0,0,22,City Hotel,June,BB,PRT,Groups,TA/TO,A,A,Non Refund,Transient,1,1
+0,48.0,0,1,2,0,1,1,51,Resort Hotel,December,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+54,180.0,2,1,2,2,1,0,13,City Hotel,March,BB,GBR,Online TA,TA/TO,F,F,No Deposit,Transient,9,0
+7,150.45,0,1,1,0,0,0,21,City Hotel,May,BB,ESP,Direct,Direct,E,E,No Deposit,Transient,None,0
+2,43.0,1,0,1,0,1,0,8,Resort Hotel,February,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient-Party,240,0
+141,187.0,2,5,2,1,2,1,35,Resort Hotel,August,HB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,None,0
+27,140.71,2,5,2,2,0,0,42,Resort Hotel,October,BB,IRL,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+14,80.09,5,14,1,0,0,0,4,City Hotel,January,BB,AGO,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+23,109.0,2,0,2,0,1,0,18,Resort Hotel,April,BB,IRL,Online TA,TA/TO,D,I,No Deposit,Group,240,0
+43,140.0,2,5,2,0,1,0,24,Resort Hotel,June,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,240,0
+17,123.62,2,2,2,0,1,0,26,Resort Hotel,June,BB,GBR,Online TA,TA/TO,F,F,No Deposit,Transient,241,0
+5,27.0,0,1,1,0,0,0,51,Resort Hotel,December,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+120,66.8,2,2,2,0,1,0,22,Resort Hotel,May,BB,GBR,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,26,0
+2,75.0,0,1,1,0,0,0,50,City Hotel,December,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,63,0
+0,35.0,1,0,1,0,0,0,12,Resort Hotel,March,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+10,164.0,1,4,2,0,0,0,30,Resort Hotel,July,BB,PRT,Direct,Direct,E,E,No Deposit,Transient,None,0
+0,106.65,1,0,1,0,0,1,40,City Hotel,September,SC,POL,Online TA,TA/TO,A,D,No Deposit,Transient,152,0
+232,79.9,4,6,2,0,0,1,36,Resort Hotel,September,HB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,143,0
+49,102.3,2,1,2,0,0,0,15,City Hotel,April,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+12,50.4,0,1,2,0,1,0,44,Resort Hotel,October,BB,PRT,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+101,75.0,2,3,2,0,1,13,18,Resort Hotel,April,HB,BEL,Groups,TA/TO,A,A,No Deposit,Transient-Party,95,0
+1,60.0,0,1,2,0,0,0,48,Resort Hotel,November,BB,IRL,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+3,131.0,1,2,2,0,1,0,18,City Hotel,April,BB,USA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+41,130.0,0,2,2,0,0,0,38,City Hotel,September,BB,PRT,Groups,TA/TO,A,A,No Deposit,Transient-Party,86,1
+0,0.0,0,0,3,0,1,0,41,City Hotel,October,BB,PRT,Online TA,TA/TO,D,K,No Deposit,Transient,9,0
+2,139.0,0,2,1,0,3,0,44,City Hotel,October,SC,USA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+67,102.6,1,1,2,0,0,0,1,City Hotel,January,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+292,90.0,0,2,1,0,0,1,30,City Hotel,July,HB,DEU,Offline TA/TO,TA/TO,A,D,No Deposit,Transient-Party,6,0
+102,108.0,2,1,2,0,0,0,41,City Hotel,October,SC,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+173,98.1,2,1,2,0,1,0,40,City Hotel,October,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,8,0
+60,25.0,2,2,1,0,0,0,12,Resort Hotel,March,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,171,0
+6,61.28,1,5,2,0,1,0,42,Resort Hotel,October,BB,GBR,Online TA,TA/TO,E,E,No Deposit,Transient,241,0
+164,232.25,2,6,2,2,0,0,35,Resort Hotel,August,BB,ROU,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+177,139.02,3,6,2,1,0,1,35,Resort Hotel,August,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,15,0
+26,130.0,0,1,1,0,0,1,20,City Hotel,May,BB,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,474,0
+0,34.4,0,1,2,0,0,0,11,Resort Hotel,March,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,175,0
+128,42.0,0,2,2,0,2,0,8,Resort Hotel,February,BB,ESP,Online TA,TA/TO,A,F,No Deposit,Transient,240,1
+91,75.0,1,2,1,0,0,0,40,City Hotel,September,BB,FRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,3,0
+105,77.44,2,3,2,0,1,1,52,Resort Hotel,December,HB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,314,0
+0,95.0,0,1,1,0,0,0,41,Resort Hotel,October,BB,GBR,Direct,TA/TO,E,E,No Deposit,Transient,None,0
+85,114.4,0,3,3,0,1,0,14,City Hotel,March,BB,DEU,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,16,0
+6,86.0,0,3,1,0,0,1,44,City Hotel,October,HB,ISR,Groups,TA/TO,A,A,No Deposit,Transient-Party,37,0
+2,38.0,0,1,1,0,0,0,47,Resort Hotel,November,BB,PRT,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+1,127.0,2,2,3,0,1,0,7,City Hotel,February,BB,KWT,Online TA,TA/TO,D,E,No Deposit,Transient,9,0
+221,187.0,2,2,2,2,0,0,27,City Hotel,July,BB,DNK,Online TA,TA/TO,F,F,No Deposit,Contract,9,0
+139,151.2,2,1,3,0,0,0,41,City Hotel,October,BB,BRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+3,68.0,2,2,2,0,0,0,11,City Hotel,March,BB,NLD,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,85,0
+119,62.0,2,1,2,0,0,0,8,Resort Hotel,February,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+0,103.0,0,1,1,0,0,1,11,City Hotel,March,BB,IRL,Direct,Direct,A,A,No Deposit,Transient,None,0
+72,93.6,1,2,2,0,1,0,52,City Hotel,December,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+30,170.0,0,3,1,0,0,0,30,City Hotel,July,BB,CN,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+115,162.0,0,3,2,0,0,0,24,City Hotel,June,BB,FRA,Online TA,TA/TO,E,E,No Deposit,Transient,9,0
+2,97.0,0,1,2,0,1,0,26,City Hotel,June,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+99,80.1,0,5,2,0,0,0,29,City Hotel,July,BB,BEL,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,394,0
+13,158.95,0,1,2,0,1,0,30,City Hotel,July,BB,IND,Corporate,Corporate,E,E,No Deposit,Transient,None,0
+283,110.7,1,2,3,0,2,0,52,City Hotel,December,BB,FRA,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+5,101.0,0,1,2,0,1,1,52,Resort Hotel,December,HB,FRA,Direct,Direct,A,A,No Deposit,Transient,None,0
+1,64.0,0,1,2,1,0,1,8,Resort Hotel,February,BB,ARG,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+163,161.1,1,2,2,0,2,0,37,City Hotel,September,HB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+7,119.0,1,3,1,0,0,0,44,City Hotel,October,BB,DEU,Direct,Direct,A,A,No Deposit,Transient,None,0
+74,113.29,2,5,2,2,1,0,13,Resort Hotel,March,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,240,0
+21,128.0,0,1,2,0,1,0,29,City Hotel,July,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+40,55.0,1,2,1,0,0,1,3,Resort Hotel,January,Undefined,PRT,Groups,Direct,A,C,No Deposit,Transient-Party,None,0
+29,110.0,0,2,2,2,0,0,21,Resort Hotel,May,BB,PRT,Direct,Direct,C,C,No Deposit,Transient,250,0
+355,87.31,2,5,2,0,0,0,53,City Hotel,December,BB,JEY,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+181,103.37,2,5,2,0,2,0,33,City Hotel,August,BB,FRA,Direct,Direct,A,A,No Deposit,Transient,14,1
+65,118.8,0,1,2,0,1,0,17,City Hotel,April,BB,BRA,Online TA,TA/TO,D,D,No Deposit,Transient-Party,9,0
+6,112.88,1,3,2,0,0,1,36,City Hotel,August,BB,FRA,Direct,Direct,A,A,No Deposit,Transient,14,0
+0,71.73,1,1,2,0,0,0,44,City Hotel,October,SC,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,152,0
+178,90.09,1,2,2,1,1,0,15,City Hotel,April,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,7,1
+67,144.0,2,4,2,0,3,0,20,City Hotel,May,SC,IRL,Online TA,TA/TO,A,A,No Deposit,Transient-Party,9,0
+198,60.0,1,1,2,0,0,0,40,City Hotel,October,BB,FRA,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,0
+4,178.0,0,3,2,2,2,0,50,City Hotel,December,BB,ESP,Direct,Direct,F,F,No Deposit,Transient,14,0
+0,40.0,0,1,1,0,0,0,8,Resort Hotel,February,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+38,69.7,2,2,2,0,0,0,7,City Hotel,February,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+8,35.0,0,1,1,0,1,0,48,Resort Hotel,November,BB,Unknown,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+38,47.83,2,5,2,0,1,0,6,Resort Hotel,February,BB,IRL,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+121,90.0,1,2,2,0,0,1,26,City Hotel,June,BB,PRT,Offline TA/TO,TA/TO,A,B,Non Refund,Transient,3,1
+66,32.4,1,3,2,0,3,0,47,Resort Hotel,November,BB,IRL,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+87,85.5,1,0,2,0,1,0,27,City Hotel,June,SC,USA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+211,184.95,0,4,2,1,2,1,29,City Hotel,July,BB,CN,Online TA,TA/TO,F,F,No Deposit,Transient,9,0
+122,36.0,1,3,1,0,2,0,43,Resort Hotel,October,BB,ESP,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+105,119.85,2,5,2,0,2,0,24,City Hotel,June,BB,JPN,Online TA,TA/TO,A,A,No Deposit,Transient,8,0
+220,108.45,2,2,2,0,0,0,34,City Hotel,August,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+288,148.11,3,6,2,2,0,0,53,Resort Hotel,December,HB,GBR,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+1,97.0,0,1,2,0,1,0,21,Resort Hotel,May,BB,ESP,Direct,Direct,D,D,No Deposit,Transient,250,0
+335,109.65,1,4,2,0,1,1,1,City Hotel,January,HB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+58,93.0,0,2,3,1,0,0,52,Resort Hotel,December,BB,PRT,Online TA,TA/TO,H,H,No Deposit,Transient,240,0
+210,68.4,4,6,2,0,0,1,22,Resort Hotel,June,BB,GBR,Offline TA/TO,TA/TO,D,D,No Deposit,Contract,40,0
+68,105.3,1,2,2,0,0,0,12,City Hotel,March,BB,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+84,193.0,2,4,2,2,0,0,14,Resort Hotel,April,HB,GBR,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+1,90.0,0,2,1,0,0,0,37,City Hotel,September,BB,FRA,Corporate,Corporate,A,D,No Deposit,Transient-Party,None,0
+261,87.0,0,2,2,0,0,0,41,Resort Hotel,October,HB,DEU,Groups,TA/TO,D,D,No Deposit,Transient-Party,251,0
+2,97.0,0,1,2,0,1,0,8,City Hotel,February,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,119.97,0,2,2,0,0,0,39,City Hotel,September,BB,BRA,Online TA,TA/TO,A,D,No Deposit,Transient,7,0
+30,96.3,0,3,2,0,5,0,42,City Hotel,October,BB,BEL,Online TA,TA/TO,A,A,No Deposit,Contract,9,0
+52,72.43,2,5,2,0,1,0,39,Resort Hotel,September,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,242,0
+69,160.98,0,3,2,0,2,0,53,Resort Hotel,December,BB,PRT,Direct,Direct,D,D,No Deposit,Transient,None,0
+27,127.94,1,3,2,0,0,0,40,City Hotel,September,BB,HUN,Direct,Direct,D,D,No Deposit,Transient,14,0
+39,106.0,0,2,2,0,0,0,6,City Hotel,February,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+171,85.0,1,1,2,0,0,0,15,Resort Hotel,April,HB,PRT,Groups,TA/TO,A,A,Non Refund,Transient-Party,298,1
+1,81.0,0,1,2,0,1,0,6,City Hotel,February,SC,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+45,214.0,0,2,2,0,2,0,35,Resort Hotel,August,BB,USA,Online TA,TA/TO,D,D,No Deposit,Transient,240,0
+41,110.0,0,1,2,0,0,0,36,City Hotel,September,HB,ITA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,39,0
+142,89.1,2,2,1,0,1,0,29,City Hotel,July,SC,DEU,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+227,81.0,2,5,2,0,1,0,28,Resort Hotel,July,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+9,250.0,0,3,3,0,0,0,46,City Hotel,November,BB,JPN,Direct,Direct,G,G,No Deposit,Transient,14,0
+78,130.0,1,0,2,0,1,0,33,City Hotel,August,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+8,88.0,1,1,2,0,0,0,4,City Hotel,January,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+59,62.0,2,2,2,0,0,0,6,City Hotel,February,BB,AUT,Groups,TA/TO,A,A,No Deposit,Transient-Party,1,0
+115,106.0,2,2,2,2,0,0,40,Resort Hotel,October,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+1,162.0,0,2,2,2,0,1,33,City Hotel,August,SC,FRA,Online TA,TA/TO,F,F,No Deposit,Contract,9,0
+72,75.82,2,2,2,0,0,0,27,City Hotel,June,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,89,0
+16,120.0,0,3,1,0,1,0,53,City Hotel,December,SC,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+5,39.0,0,1,1,0,0,0,19,Resort Hotel,May,BB,PRI,Corporate,Corporate,A,D,No Deposit,Transient,None,0
+0,0.0,1,0,2,0,0,0,50,City Hotel,December,BB,PRT,Complementary,Direct,A,A,No Deposit,Transient,None,0
+1,55.0,0,1,1,0,0,1,42,Resort Hotel,October,BB,PRT,Direct,Direct,E,E,No Deposit,Group,None,0
+145,189.0,1,2,3,0,0,0,26,City Hotel,June,HB,BRA,Online TA,TA/TO,E,E,No Deposit,Transient,9,1
+13,65.0,0,2,1,0,2,1,32,City Hotel,August,BB,PRT,Corporate,Corporate,A,A,No Deposit,Transient,None,0
+25,65.0,0,1,1,0,0,1,53,City Hotel,December,BB,BRA,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,220,0
+94,144.0,1,4,2,0,0,0,25,City Hotel,June,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+35,169.0,2,6,2,0,0,1,19,Resort Hotel,May,BB,NLD,Online TA,TA/TO,G,G,No Deposit,Transient,240,0
+24,82.0,2,3,2,0,2,1,43,Resort Hotel,October,BB,BEL,Online TA,TA/TO,E,E,No Deposit,Transient-Party,240,0
+257,83.7,2,5,2,0,0,0,24,Resort Hotel,June,BB,GBR,Offline TA/TO,TA/TO,E,E,No Deposit,Transient,436,0
+53,133.0,0,3,2,0,0,0,18,Resort Hotel,April,HB,FRA,Online TA,TA/TO,E,E,No Deposit,Transient,240,0
+36,155.8,2,3,1,0,0,0,20,City Hotel,May,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,425,1
+6,76.0,0,2,2,0,0,0,19,Resort Hotel,May,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,6,0
+181,98.1,0,1,1,0,1,2,42,City Hotel,October,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+13,201.0,1,0,3,0,1,1,27,Resort Hotel,June,BB,SWE,Online TA,TA/TO,G,G,No Deposit,Transient,240,0
+219,96.3,1,1,2,0,0,0,34,City Hotel,August,BB,ESP,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+261,107.1,0,4,2,0,1,0,27,City Hotel,July,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+3,32.0,1,3,1,0,0,0,50,Resort Hotel,December,BB,PRT,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,146,0
+240,135.0,1,1,2,1,3,1,35,City Hotel,August,BB,DEU,Online TA,TA/TO,A,D,No Deposit,Transient,9,0
+22,0.0,0,1,2,0,2,0,21,City Hotel,May,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+4,93.0,0,1,2,0,0,0,8,City Hotel,February,BB,PRT,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,119.0,0,1,2,0,0,0,21,Resort Hotel,May,BB,FRA,Direct,Direct,A,G,No Deposit,Transient,None,0
+70,121.5,0,2,1,0,0,0,36,City Hotel,August,BB,CN,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+128,99.0,1,5,2,0,0,0,25,City Hotel,June,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+11,89.0,1,2,2,0,1,0,5,City Hotel,January,BB,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+86,174.0,0,3,2,1,0,0,50,City Hotel,December,BB,ESP,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+1,34.0,0,1,2,0,1,1,7,Resort Hotel,February,BB,PRT,Offline TA/TO,TA/TO,A,C,No Deposit,Group,330,0
+7,215.0,0,1,3,0,2,0,20,City Hotel,May,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+31,67.68,0,3,1,0,0,0,50,City Hotel,December,BB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,15,0
+135,82.35,2,5,2,0,0,0,28,Resort Hotel,July,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,149,1
+17,39.0,2,1,1,0,2,4,53,Resort Hotel,December,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+17,282.0,1,1,2,2,0,0,16,City Hotel,April,HB,FRA,Online TA,TA/TO,F,F,No Deposit,Transient,9,1
+51,94.5,0,1,2,0,0,0,29,City Hotel,July,SC,SWE,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,128.0,0,3,2,1,0,1,14,City Hotel,April,BB,BRA,Direct,Direct,A,A,No Deposit,Transient,14,0
+175,99.45,0,4,2,0,0,0,33,City Hotel,August,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+184,77.85,4,10,2,0,0,0,24,Resort Hotel,June,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,40,1
+11,135.0,2,0,2,0,3,1,41,City Hotel,October,SC,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+223,106.85,2,5,2,0,0,0,33,Resort Hotel,August,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Transient,143,0
+44,107.1,1,0,2,0,0,0,15,City Hotel,April,SC,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+4,81.0,0,1,2,0,0,0,23,Resort Hotel,June,BB,BRA,Online TA,TA/TO,A,A,No Deposit,Transient,None,0
+200,124.2,2,5,2,0,0,0,34,Resort Hotel,August,HB,PRT,Offline TA/TO,TA/TO,A,A,No Deposit,Transient-Party,6,1
+60,48.0,2,3,2,0,2,0,51,Resort Hotel,December,BB,GBR,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+2,73.36,1,4,2,0,1,0,1,City Hotel,January,SC,FRA,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+0,48.0,0,1,2,0,0,0,2,Resort Hotel,January,BB,ESP,Online TA,TA/TO,A,D,No Deposit,Transient,240,0
+53,40.81,2,2,2,0,1,0,46,Resort Hotel,November,BB,PRT,Online TA,TA/TO,E,E,No Deposit,Transient,241,1
+52,87.75,2,1,2,0,0,2,2,City Hotel,January,BB,KOR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+17,117.04,2,2,2,0,1,1,41,City Hotel,October,BB,USA,Online TA,TA/TO,A,A,No Deposit,Transient,7,0
+73,119.85,2,3,2,0,1,0,20,City Hotel,May,BB,TUR,Online TA,TA/TO,A,A,No Deposit,Transient,9,0
+37,60.0,0,3,2,0,0,0,45,City Hotel,November,BB,FRA,Offline TA/TO,TA/TO,D,D,No Deposit,Group,28,0
+53,43.0,1,1,1,0,2,0,51,Resort Hotel,December,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,240,1
+262,92.25,4,8,2,0,2,0,28,Resort Hotel,July,BB,PRT,Online TA,TA/TO,D,D,No Deposit,Transient,240,1
+20,131.35,0,4,1,0,1,0,53,City Hotel,December,BB,AUT,Online TA,TA/TO,D,D,No Deposit,Transient,9,0
+361,57.8,2,5,2,0,0,0,36,Resort Hotel,September,BB,GBR,Offline TA/TO,TA/TO,A,A,No Deposit,Contract,40,0
+0,139.0,1,0,2,0,0,0,19,City Hotel,May,BB,PRT,Direct,Direct,A,A,No Deposit,Transient,None,0
+44,195.0,0,4,2,2,1,0,30,Resort Hotel,July,BB,PRT,Online TA,TA/TO,G,G,No Deposit,Transient,240,1
+98,121.5,0,2,3,0,2,4,14,City Hotel,April,BB,CHN,Online TA,TA/TO,D,D,No Deposit,Transient,9,1
+207,31.0,1,3,2,0,0,2,7,Resort Hotel,February,HB,GBR,Groups,TA/TO,A,A,No Deposit,Transient-Party,152,0
+127,297.0,2,5,2,0,4,4,33,Resort Hotel,August,HB,PRT,Direct,TA/TO,E,E,No Deposit,Transient,250,0
+80,95.24,0,3,2,0,1,0,18,City Hotel,April,BB,ITA,Online TA,TA/TO,D,D,No Deposit,Transient,7,0
+67,110.08,0,4,2,0,0,0,18,City Hotel,April,BB,ITA,Online TA,TA/TO,A,A,No Deposit,Transient,9,1
+33,75.0,1,3,2,0,0,0,8,City Hotel,February,BB,FRA,Offline TA/TO,TA/TO,A,D,No Deposit,Transient,28,0
