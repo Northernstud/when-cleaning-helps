@@ -1,6 +1,8 @@
-# raw data and experiment outputs (regenerate with src/load.py and src/run_experiment.py)
+# raw data and intermediate outputs (regenerate with src/load.py and src/run_experiment.py)
 /data/
-/results/
+/results/*
+# the final results are small (~200 KB) and committed, so the notebook and figures reproduce without the 5.5 h run
+!/results/experiments.parquet
 run.log
 
 # python

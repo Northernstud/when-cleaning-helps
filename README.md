@@ -17,7 +17,7 @@ The main finding is that **the same cleaning method can help or hurt depending o
 
 ## Key findings
 
-All numbers are means over 20 seeds. "Wins" counts how many of the 20 seeds a paired comparison went the same way.
+All numbers are means over 20 seeds. "Wins" counts how many of the 20 seeds a paired comparison went the same way. Every number below is recomputed from the saved results in [`notebook/findings.ipynb`](notebook/findings.ipynb).
 
 ### 1. Why data is missing matters more than how much is missing
 
@@ -161,6 +161,13 @@ python -m src.run_experiment
 python -m src.plots
 ```
 
+`results/experiments.parquet` is committed, so step 3 and the [findings notebook](notebook/findings.ipynb) work without running step 2:
+
+```bash
+pip install jupyter
+jupyter notebook notebook/findings.ipynb
+```
+
 Every setting (columns, rates, seeds, strategies, mechanisms, deployment conditions) lives in `config.yaml`.
 
 ## Development
@@ -183,6 +190,8 @@ src/clean.py           cleaning strategies, fit on train, applied to holdout
 src/evaluate.py        recovery and downstream metrics
 src/run_experiment.py  full factorial experiment with per-seed checkpointing
 src/plots.py           all figures
+notebook/findings.ipynb  recomputes every finding, with paired seed-level evidence
+results/experiments.parquet  saved results of the full run (11,520 rows)
 tests/                 unit tests: corruption rates, masks, no input mutation, cleaner behaviour
 tests/data/            2,000-row sample of the processed data used by the tests
 figures/               fig1–fig7 (clean-deployment versions; *_corrupted_holdout for the other condition)
