@@ -1,40 +1,9 @@
-target_column: Nicotine
-
-corruption_rate: 0.2018
-seed: 42
-
 target_column: is_canceled
 
-columns:
-  continuous:
-    - lead_time
-    - adr
-    - stays_in_weekend_nights
-    - stays_in_week_nights
-    - adults
-    - children
-    - total_of_special_requests
-    - booking_changes
-    - arrival_date_week_number
-
-  categorical:
-    - hotel
-    - arrival_date_month
-    - meal
-    - country
-    - market_segment
-    - distribution_channel
-    - reserved_room_type
-    - assigned_room_type
-    - deposit_type
-    - customer_type
-    - agent
-
-  typo_columns:
-    - market_segment
-    - customer_type
-    - arrival_date_month
-    - deposit_type
+# used by the unit tests only (the experiment grid is under `experiment:`)
+# 0.2018 is deliberately not a round number, so the tests also check the rounding of cell counts
+corruption_rate: 0.2018
+seed: 42
 
 columns:
   continuous:
